@@ -1,0 +1,2668 @@
+﻿{
+"knowledge_points": [
+   {"title": "复数", "en": "Complex numbers"},
+   {"title": "复变函数", "en": "Complex functions"},
+   {"title": "解析函数", "en": "Analytic functions"},
+   {"title": "复变函数的积分", "en": "Integration of complex functions"},
+   {"title": "解析函数的幂级数表示法", "en": "Power series representation of analytic functions"},
+   {"title": "解析函数的洛朗展式与孤立奇点", "en": "Laurent series and isolated singularities of analytic functions"},
+   {"title": "留数理论及其应用", "en": "Residue theory and its applications"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "解析延拓和调和函数", "en": "Analytic continuation and harmonic functions"},
+   {"title": "四元数", "en": "Quaternions"},
+   {"title": "八元数", "en": "Octonions"},
+   {"title": "辐角函数", "en": "Argument function"},
+   {"title": "蒙泰尔定理", "en": "Montel's theorem"},
+   {"title": "留数和原函数关系", "en": "Relationship between residues and primitive functions"},
+   {"title": "分歧覆盖定理", "en": "Branch covering theorem"},
+   {"title": "黎曼映射定理", "en": "Riemann mapping theorem"}
+], 
+"relations": [
+   {"source": "复数", "target": "复变函数", "type": "包括", "description": "复数是复变函数的基础"},
+   {"source": "复变函数", "target": "解析函数", "type": "包括", "description": "解析函数是复变函数的一种特殊类型"},
+   {"source": "复变函数", "target": "复变函数的积分", "type": "包括", "description": "复变函数的积分是对复变函数在闭合曲线上的积分"},
+   {"source": "解析函数", "target": "解析函数的幂级数表示法", "type": "包括", "description": "解析函数可以用幂级数表示"},
+   {"source": "解析函数", "target": "解析函数的洛朗展式与孤立奇点", "type": "包括", "description": "解析函数可以用洛朗级数表示，同时存在孤立奇点"},
+   {"source": "解析函数的洛朗展式与孤立奇点", "target": "留数理论及其应用", "type": "包括", "description": "留数理论是研究解析函数的洛朗展式和孤立奇点的理论"},
+   {"source": "解析函数", "target": "共形映射", "type": "包括", "description": "解析函数可以进行共形映射"},
+   {"source": "解析函数", "target": "解析延拓和调和函数", "type": "包括", "description": "解析函数可以进行解析延拓和调和函数的研究"},
+   {"source": "复数", "target": "四元数", "type": "包括", "description": "四元数是复数的扩展"},
+   {"source": "复数", "target": "八元数", "type": "包括", "description": "八元数是复数的扩展"},
+   {"source": "初等多值函数", "target": "辐角函数", "type": "包括", "description": "辐角函数是初等多值函数的一种"},
+   {"source": "第四章", "target": "蒙泰尔定理", "type": "包括", "description": "第四章介绍了蒙泰尔定理"},
+   {"source": "第六章", "target": "留数和原函数关系", "type": "包括", "description": "第六章讨论了留数和原函数的关系"},
+   {"source": "第六章", "target": "分歧覆盖定理", "type": "包括", "description": "第六章介绍了分歧覆盖定理"},
+   {"source": "第七章", "target": "黎曼映射定理", "type": "包括", "description": "第七章介绍了黎曼映射定理"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复变函数", "en": "Complex function"},
+   {"title": "量子力学", "en": "Quantum mechanics"},
+   {"title": "薛定谔方程", "en": "Schrodinger equation"},
+   {"title": "波函数", "en": "Wave function"},
+   {"title": "哈密顿算符", "en": "Hamiltonian operator"},
+   {"title": "牛顿三大定律", "en": "Newton's three laws of motion"},
+   {"title": "麦克斯韦方程", "en": "Maxwell's equations"},
+   {"title": "整函数与亚纯函数理论", "en": "Theory of entire and meromorphic functions"},
+   {"title": "解析函数的边值问题", "en": "Boundary value problems of analytic functions"},
+   {"title": "复变函数逼近论", "en": "Approximation theory of complex functions"},
+   {"title": "黎曼曲面", "en": "Riemann surfaces"},
+   {"title": "单叶解析函数论", "en": "Theory of single-valued analytic functions"},
+   {"title": "多复变函数论", "en": "Theory of several complex variables"},
+   {"title": "广义解析函数论", "en": "Generalized analytic function theory"},
+   {"title": "拟共形映射", "en": "Quasiconformal mapping"},
+   {"title": "复数", "en": "Complex number"},
+   {"title": "复数域", "en": "Complex number field"},
+   {"title": "复平面", "en": "Complex plane"},
+   {"title": "解析函数", "en": "Analytic function"}
+], 
+"relations": [
+   {"source": "复变函数", "target": "量子力学", "type": "相关", "description": "复变函数能够描述量子力学中的薛定谔方程"},
+   {"source": "复变函数", "target": "整函数与亚纯函数理论", "type": "相关", "description": "复变函数理论与整函数与亚纯函数理论有联系"},
+   {"source": "复变函数", "target": "解析函数的边值问题", "type": "相关", "description": "复变函数理论与解析函数的边值问题有联系"},
+   {"source": "复变函数", "target": "复变函数逼近论", "type": "相关", "description": "复变函数理论与复变函数逼近论有联系"},
+   {"source": "复变函数", "target": "黎曼曲面", "type": "相关", "description": "复变函数理论与黎曼曲面有联系"},
+   {"source": "复变函数", "target": "单叶解析函数论", "type": "相关", "description": "复变函数理论与单叶解析函数论有联系"},
+   {"source": "复变函数", "target": "多复变函数论", "type": "相关", "description": "复变函数理论与多复变函数论有联系"},
+   {"source": "复变函数", "target": "广义解析函数论", "type": "相关", "description": "复变函数理论与广义解析函数论有联系"},
+   {"source": "复变函数", "target": "拟共形映射", "type": "相关", "description": "复变函数理论与拟共形映射有联系"},
+   {"source": "复数", "target": "复数域", "type": "属于", "description": "复数是复数域的元素"},
+   {"source": "复数", "target": "复平面", "type": "属于", "description": "复数可以在复平面上表示"},
+   {"source": "复数", "target": "解析函数", "type": "相关", "description": "复数是解析函数的自变量"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复数加法", "en": "Complex number addition"},
+   {"title": "复数减法", "en": "Complex number subtraction"},
+   {"title": "复数乘法", "en": "Complex number multiplication"},
+   {"title": "复数除法", "en": "Complex number division"},
+   {"title": "复数域", "en": "Complex number field"},
+   {"title": "复平面", "en": "Complex plane"}
+], 
+"relations": [
+   {"source": "复数加法", "target": "复数减法", "type": "按实部与实部相加(减)", "description": "复数x1与复数x2相加(减)的法则是结果仍是复数"},
+   {"source": "复数加法", "target": "复数减法", "type": "按虚部与虚部相加(减)", "description": "复数x1与复数x2相加(减)的法则是结果仍是复数"},
+   {"source": "复数加法", "target": "复数减法", "type": "遵守交换律与结合律", "description": "复数的加法遵守交换律与结合律"},
+   {"source": "复数减法", "target": "复数加法", "type": "是加法的逆运算", "description": "减法是加法的逆运算"},
+   {"source": "复数乘法", "target": "复数乘法", "type": "按多项式乘法法则进行", "description": "复数x1与复数x2相乘的法则是结果仍是复数"},
+   {"source": "复数乘法", "target": "复数乘法", "type": "将结果中的i^2换成-1", "description": "复数x1与复数x2相乘的法则是结果仍是复数"},
+   {"source": "复数乘法", "target": "复数乘法", "type": "遵守交换律与结合律", "description": "复数的乘法遵守交换律与结合律"},
+   {"source": "复数乘法", "target": "复数加法", "type": "遵守乘法对于加法的分配律", "description": "复数的乘法遵守乘法对于加法的分配律"},
+   {"source": "复数除法", "target": "复数除法", "type": "将分子、分母同乘分母的共轭复数", "description": "复数x1与复数x2相除的法则是结果仍是复数"},
+   {"source": "复数除法", "target": "复数除法", "type": "进行简化", "description": "复数x1与复数x2相除的法则是结果仍是复数"},
+   {"source": "复数除法", "target": "复数除法", "type": "是乘法的逆运算", "description": "除法是乘法的逆运算"},
+   {"source": "复数域", "target": "复数加法", "type": "引进上述运算后的全体复数", "description": "全体复数就称为复数域"},
+   {"source": "复数域", "target": "复数减法", "type": "引进上述运算后的全体复数", "description": "全体复数就称为复数域"},
+   {"source": "复数域", "target": "复数乘法", "type": "引进上述运算后的全体复数", "description": "全体复数就称为复数域"},
+   {"source": "复数域", "target": "复数除法", "type": "引进上述运算后的全体复数", "description": "全体复数就称为复数域"},
+   {"source": "复数域", "target": "复平面", "type": "引进了复平面之后", "description": "我们在复平面上建立了复数的几何直观"},
+   {"source": "复平面", "target": "复数加法", "type": "复数的加法与向量的加法之间保持一致", "description": "复数的加法与向量的加法之间保持一致"},
+   {"source": "复平面", "target": "复数减法", "type": "复数的减法与向量的减法之间保持一致", "description": "复数的减法与向量的减法之间保持一致"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复平面", "en": "Complex plane"},
+   {"title": "点集", "en": "Point set"},
+   {"title": "邻域", "en": "Neighborhood"},
+   {"title": "聚点", "en": "Cluster point"},
+   {"title": "孤立点", "en": "Isolated point"},
+   {"title": "外点", "en": "Exterior point"},
+   {"title": "闭集", "en": "Closed set"},
+   {"title": "内点", "en": "Interior point"},
+   {"title": "开集", "en": "Open set"},
+   {"title": "边界点", "en": "Boundary point"},
+   {"title": "边界", "en": "Boundary"},
+   {"title": "有界集", "en": "Bounded set"},
+   {"title": "无界集", "en": "Unbounded set"},
+   {"title": "区域", "en": "Domain"},
+   {"title": "闭域", "en": "Closed domain"}
+],
+"relations": [
+   {"source": "点集", "target": "邻域", "type": "包含", "description": "点集包含邻域"},
+   {"source": "点集", "target": "聚点", "type": "包含", "description": "点集包含聚点"},
+   {"source": "点集", "target": "孤立点", "type": "包含", "description": "点集包含孤立点"},
+   {"source": "点集", "target": "外点", "type": "包含", "description": "点集包含外点"},
+   {"source": "点集", "target": "闭集", "type": "包含", "description": "点集包含闭集"},
+   {"source": "闭集", "target": "内点", "type": "包含", "description": "闭集包含内点"},
+   {"source": "点集", "target": "开集", "type": "包含", "description": "点集包含开集"},
+   {"source": "点集", "target": "边界点", "type": "包含", "description": "点集包含边界点"},
+   {"source": "点集", "target": "边界", "type": "包含", "description": "点集包含边界"},
+   {"source": "点集", "target": "有界集", "type": "包含", "description": "点集包含有界集"},
+   {"source": "点集", "target": "无界集", "type": "包含", "description": "点集包含无界集"},
+   {"source": "区域", "target": "开集", "type": "等于", "description": "区域等于开集"},
+   {"source": "区域", "target": "闭域", "type": "加上", "description": "区域加上边界等于闭域"}
+]
+}{
+"knowledge_points": [
+   {"title": "实轴", "en": "real axis"},
+   {"title": "虚轴", "en": "imaginary axis"},
+   {"title": "无界区域", "en": "unbounded region"},
+   {"title": "直径", "en": "diameter"},
+   {"title": "复变函数", "en": "complex function"},
+   {"title": "曲线", "en": "curve"},
+   {"title": "参数方程", "en": "parametric equation"},
+   {"title": "起点", "en": "starting point"},
+   {"title": "终点", "en": "end point"},
+   {"title": "重点", "en": "critical point"},
+   {"title": "简单曲线", "en": "simple curve"},
+   {"title": "简单闭曲线", "en": "simple closed curve"},
+   {"title": "连续弧", "en": "continuous arc"},
+   {"title": "长度", "en": "length"},
+   {"title": "光滑曲线", "en": "smooth curve"},
+   {"title": "切线", "en": "tangent line"},
+   {"title": "逐段光滑曲线", "en": "piecewise smooth curve"},
+   {"title": "可求长曲线", "en": "rectifiable curve"},
+   {"title": "若尔当定理", "en": "Jordan curve theorem"},
+   {"title": "点集", "en": "set of points"}
+],
+"relations": [
+   {"source": "实轴", "target": "无界区域", "type": "是", "description": "以实轴为边界的两个无界区域是右半x平面"},
+   {"source": "虚轴", "target": "无界区域", "type": "是", "description": "以虚轴为边界的两个无界区域是z平面上的两个区域"},
+   {"source": "直径", "target": "有界集", "type": "是", "description": "有界集的直径是有界的"},
+   {"source": "复变函数", "target": "基础几何概念", "type": "具有", "description": "复变函数是基础几何概念之一"},
+   {"source": "曲线", "target": "参数方程", "type": "由", "description": "曲线可以由参数方程表示"},
+   {"source": "参数方程", "target": "曲线", "type": "决定", "description": "参数方程可以决定曲线"},
+   {"source": "参数方程", "target": "起点", "type": "有", "description": "参数方程可以确定曲线的起点"},
+   {"source": "参数方程", "target": "终点", "type": "有", "description": "参数方程可以确定曲线的终点"},
+   {"source": "参数方程", "target": "重点", "type": "有", "description": "参数方程可以确定曲线的重点"},
+   {"source": "参数方程", "target": "简单曲线", "type": "决定", "description": "参数方程可以决定简单曲线"},
+   {"source": "参数方程", "target": "简单闭曲线", "type": "决定", "description": "参数方程可以决定简单闭曲线"},
+   {"source": "连续弧", "target": "可求长曲线", "type": "是", "description": "连续弧是可求长的曲线"},
+   {"source": "长度", "target": "连续弧", "type": "是", "description": "长度是连续弧的属性"},
+   {"source": "简单曲线", "target": "光滑曲线", "type": "是", "description": "简单曲线是光滑曲线"},
+   {"source": "光滑曲线", "target": "切线", "type": "具有", "description": "光滑曲线具有连续转动的切线"},
+   {"source": "逐段光滑曲线", "target": "可求长曲线", "type": "是", "description": "逐段光滑曲线是可求长的曲线"},
+   {"source": "逐段光滑曲线", "target": "简单曲线", "type": "是", "description": "逐段光滑曲线是简单曲线"},
+   {"source": "逐段光滑曲线", "target": "简单闭曲线", "type": "是", "description": "逐段光滑曲线是简单闭曲线"},
+   {"source": "简单曲线", "target": "可求长曲线", "type": "不一定", "description": "简单曲线不一定是可求长的"},
+   {"source": "简单闭曲线", "target": "可求长曲线", "type": "不一定", "description": "简单闭曲线不一定是可求长的"},
+   {"source": "简单曲线", "target": "点集", "type": "是", "description": "简单曲线是点集"},
+   {"source": "若尔当定理", "target": "点集", "type": "将", "description": "若尔当定理将点集分成三个部分"}
+]
+}{
+"knowledge_points": [
+   {"title": "有界区域", "en": "bounded region"},
+   {"title": "无界区域", "en": "unbounded region"},
+   {"title": "简单折线", "en": "simple polyline"},
+   {"title": "交点", "en": "intersection"},
+   {"title": "闭曲线", "en": "closed curve"},
+   {"title": "内部", "en": "interior"},
+   {"title": "外部", "en": "exterior"},
+   {"title": "定理", "en": "theorem"},
+   {"title": "拓扑学", "en": "topology"},
+   {"title": "单连通区域", "en": "simply connected region"},
+   {"title": "多连通区域", "en": "multiply connected region"},
+   {"title": "闭集", "en": "closed set"},
+   {"title": "连续点集", "en": "continuous point set"},
+   {"title": "退化连续点集", "en": "degenerate continuous point set"},
+   {"title": "边界", "en": "boundary"},
+   {"title": "二连通区域", "en": "biconnected region"},
+   {"title": "三连通区域", "en": "triconnected region"},
+   {"title": "圆环形区域", "en": "annular region"},
+   {"title": "上界", "en": "upper bound"},
+   {"title": "下界", "en": "lower bound"},
+   {"title": "正无穷", "en": "positive infinity"},
+   {"title": "负无穷", "en": "negative infinity"}
+], 
+"relations": [
+   {"source": "有界区域", "target": "内部", "type": "是", "description": "有界区域是内部的"},
+   {"source": "无界区域", "target": "外部", "type": "是", "description": "无界区域是外部的"},
+   {"source": "简单折线", "target": "内部", "type": "属于", "description": "简单折线的端点属于内部"},
+   {"source": "简单折线", "target": "外部", "type": "属于", "description": "简单折线的端点属于外部"},
+   {"source": "简单折线", "target": "交点", "type": "与", "description": "简单折线与闭曲线有交点"},
+   {"source": "闭曲线", "target": "内部", "type": "是", "description": "闭曲线的内部是单连通区域"},
+   {"source": "区域", "target": "单连通区域", "type": "是", "description": "区域可以是单连通区域或多连通区域"},
+   {"source": "闭集", "target": "连续点集", "type": "是", "description": "闭集可以是连续点集"},
+   {"source": "闭集", "target": "退化连续点集", "type": "是", "description": "闭集可以是退化连续点集"},
+   {"source": "区域", "target": "边界", "type": "有", "description": "区域有边界"},
+   {"source": "边界", "target": "连续点集", "type": "是", "description": "边界是连续点集"},
+   {"source": "单连通区域", "target": "多连通区域", "type": "相对于", "description": "单连通区域相对于多连通区域"},
+   {"source": "区域", "target": "二连通区域", "type": "是", "description": "区域可以是二连通区域"},
+   {"source": "区域", "target": "三连通区域", "type": "是", "description": "区域可以是三连通区域"},
+   {"source": "圆环形区域", "target": "单连通区域", "type": "不是", "description": "圆环形区域不是单连通区域"},
+   {"source": "上界", "target": "正无穷", "type": "是", "description": "上界是正无穷"},
+   {"source": "下界", "target": "负无穷", "type": "是", "description": "下界是负无穷"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复变函数", "en": "Complex function"},
+   {"title": "单值函数", "en": "Single-valued function"},
+   {"title": "多值函数", "en": "Multi-valued function"},
+   {"title": "定义域", "en": "Domain"},
+   {"title": "值域", "en": "Range"},
+   {"title": "二元实变函数", "en": "Bivariate real function"},
+   {"title": "入变换", "en": "Direct transformation"},
+   {"title": "满变换", "en": "Surjective transformation"},
+   {"title": "反函数", "en": "Inverse function"},
+   {"title": "逆变换", "en": "Inverse transformation"},
+   {"title": "双方单值变换", "en": "Bilateral single-valued transformation"}
+], 
+"relations": [
+   {"source": "复变函数", "target": "单值函数", "type": "定义", "description": "复变函数可以是单值函数"},
+   {"source": "复变函数", "target": "多值函数", "type": "定义", "description": "复变函数可以是多值函数"},
+   {"source": "复变函数", "target": "二元实变函数", "type": "等价", "description": "复变函数等价于二元实变函数"},
+   {"source": "复变函数", "target": "入变换", "type": "确定", "description": "复变函数可以确定一个入变换"},
+   {"source": "复变函数", "target": "满变换", "type": "确定", "description": "复变函数可以确定一个满变换"},
+   {"source": "满变换", "target": "单值函数", "type": "确定", "description": "满变换可以确定一个单值函数"},
+   {"source": "满变换", "target": "多值函数", "type": "确定", "description": "满变换可以确定一个多值函数"},
+   {"source": "满变换", "target": "反函数", "type": "确定", "description": "满变换可以确定一个反函数"},
+   {"source": "反函数", "target": "逆变换", "type": "确定", "description": "反函数可以确定一个逆变换"},
+   {"source": "逆变换", "target": "双方单值变换", "type": "确定", "description": "逆变换可以确定一个双方单值变换"}
+] 
+}{
+"knowledge_points": [
+   {"title": "函数w=z", "en": "Function w=z"},
+   {"title": "实轴的对称映射", "en": "Symmetric mapping about the real axis"},
+   {"title": "函数w=x", "en": "Function w=x"},
+   {"title": "极限", "en": "Limit"},
+   {"title": "连续性", "en": "Continuity"},
+   {"title": "复球面", "en": "Complex sphere"},
+   {"title": "无穷远点", "en": "Infinity point"}
+], 
+"relations": [
+   {"source": "函数w=z", "target": "实轴的对称映射", "type": "是", "description": "将z平面上的点x=a+ib映射成w平面上的点w=a-ib"},
+   {"source": "函数w=x", "target": "极限", "type": "沿", "description": "函数f(z)沿E于zo有极限wo"},
+   {"source": "函数w=x", "target": "连续性", "type": "沿", "description": "函数f(z)沿E于zo连续"},
+   {"source": "极限", "target": "唯一性", "type": "若", "description": "若极限存在,必然惟一"},
+   {"source": "极限", "target": "运算规则", "type": "若", "description": "若f(z),g(x)沿点集E在点xo有极限,则其和、差、积、商沿点集E在点xo仍然有极限"},
+   {"source": "复球面", "target": "复平面的对应关系", "type": "建立", "description": "建立复平面与球面上的点的对应"},
+   {"source": "复球面", "target": "无穷远点", "type": "引入", "description": "引入无穷远点的合理性"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复球面", "en": "Complex sphere"},
+   {"title": "无穷远点", "en": "Infinity point"},
+   {"title": "聚点", "en": "Cluster point"},
+   {"title": "内点", "en": "Interior point"},
+   {"title": "边界点", "en": "Boundary point"},
+   {"title": "简单闭曲线", "en": "Simple closed curve"},
+   {"title": "有界区域", "en": "Bounded region"},
+   {"title": "无界区域", "en": "Unbounded region"},
+   {"title": "单连通区域", "en": "Simply connected region"},
+   {"title": "函数的极限", "en": "Limit of a function"},
+   {"title": "连续性", "en": "Continuity"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "柯西-黎曼方程", "en": "Cauchy-Riemann equations"},
+   {"title": "复变函数的导数", "en": "Derivative of a complex function"},
+   {"title": "微分", "en": "Differential"}
+], 
+"relations": [
+   {"source": "复球面", "target": "无穷远点", "type": "是", "description": "复球面包含无穷远点"},
+   {"source": "复球面", "target": "聚点", "type": "是", "description": "复球面可以有聚点"},
+   {"source": "复球面", "target": "内点", "type": "是", "description": "复球面可以有内点"},
+   {"source": "复球面", "target": "边界点", "type": "是", "description": "复球面可以有边界点"},
+   {"source": "简单闭曲线", "target": "有界区域", "type": "将", "description": "简单闭曲线将复平面分为有界区域和无界区域"},
+   {"source": "简单闭曲线", "target": "无界区域", "type": "将", "description": "简单闭曲线将复平面分为有界区域和无界区域"},
+   {"source": "无界区域", "target": "单连通区域", "type": "可以是", "description": "无界区域可以是单连通区域"},
+   {"source": "函数的极限", "target": "解析函数", "type": "包含", "description": "解析函数可以包含函数的极限"},
+   {"source": "连续性", "target": "解析函数", "type": "包含", "description": "解析函数可以包含连续函数"},
+   {"source": "解析函数", "target": "柯西-黎曼方程", "type": "满足", "description": "解析函数满足柯西-黎曼方程"},
+   {"source": "解析函数", "target": "复变函数的导数", "type": "具有", "description": "解析函数具有复变函数的导数"},
+   {"source": "解析函数", "target": "微分", "type": "具有", "description": "解析函数具有微分"}
+] 
+}{
+"knowledge_points": [
+   {"title": "函数可导", "en": "Function differentiable"},
+   {"title": "复变函数", "en": "Complex function"},
+   {"title": "导数存在性", "en": "Existence of derivative"},
+   {"title": "复变函数微分定义", "en": "Definition of differential for complex function"},
+   {"title": "函数可微", "en": "Function differentiable"},
+   {"title": "连续函数", "en": "Continuous function"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "全纯函数", "en": "Holomorphic function"}
+], 
+"relations": [
+   {"source": "函数可导", "target": "复变函数", "type": "属于","description":"复变函数的可导性质"},
+   {"source": "函数可导", "target": "导数存在性", "type": "需要","description":"函数可导的条件"},
+   {"source": "复变函数", "target": "复变函数微分定义", "type": "使用","description":"复变函数的微分定义"},
+   {"source": "函数可微", "target": "函数可导", "type": "等价","description":"函数可微与函数可导的等价性"},
+   {"source": "函数可微", "target": "连续函数", "type": "包含","description":"函数可微的充分条件"},
+   {"source": "连续函数", "target": "函数可微", "type": "充分条件","description":"连续函数的充分条件"},
+   {"source": "函数可微", "target": "解析函数", "type": "包含","description":"函数可微的充分条件"},
+   {"source": "解析函数", "target": "全纯函数", "type": "等价","description":"解析函数与全纯函数的等价性"}
+] 
+}{
+"knowledge_points": [
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "复平面", "en": "Complex plane"},
+   {"title": "幂级数", "en": "Power series"},
+   {"title": "复变函数", "en": "Complex variable function"},
+   {"title": "导数", "en": "Derivative"},
+   {"title": "复合函数", "en": "Composite function"},
+   {"title": "多项式", "en": "Polynomial"},
+   {"title": "有理分式函数", "en": "Rational function"},
+   {"title": "柯西-黎曼方程", "en": "Cauchy-Riemann equations"}
+], 
+"relations": [
+   {"source": "解析函数", "target": "奇点", "type": "包含", "description": "解析函数可以有奇点"},
+   {"source": "解析函数", "target": "复平面", "type": "具有", "description": "解析函数在复平面上总有解析点"},
+   {"source": "解析函数", "target": "幂级数", "type": "展成", "description": "解析函数可以展成幂级数"},
+   {"source": "解析函数", "target": "导数", "type": "推出", "description": "解析函数在一点解析就可推出其各阶导数也在该点解析"},
+   {"source": "复合函数", "target": "导数", "type": "求导", "description": "复合函数的求导法则"},
+   {"source": "多项式", "target": "导数", "type": "求导", "description": "多项式的导数"},
+   {"source": "有理分式函数", "target": "奇点", "type": "使", "description": "有理分式函数的奇点是使分母为零的点"},
+   {"source": "柯西-黎曼方程", "target": "可微的必要条件", "type": "满足", "description": "柯西-黎曼方程是可微的必要条件"}
+] 
+}{
+"knowledge_points": [
+   {"title": "可微性", "en": "Differentiability"},
+   {"title": "复数", "en": "Complex number"},
+   {"title": "连续性", "en": "Continuity"},
+   {"title": "C.-R.方程", "en": "Cauchy-Riemann equations"},
+   {"title": "解析性", "en": "Analyticity"}
+], 
+"relations": [
+   {"source": "可微性", "target": "复数", "type": "属于","description":"函数f(z)在复数域上可微"},
+   {"source": "可微性", "target": "连续性", "type": "需要","description":"函数f(z)在可微点处连续"},
+   {"source": "可微性", "target": "C.-R.方程", "type": "需要","description":"函数f(z)满足C.-R.方程"},
+   {"source": "解析性", "target": "可微性", "type": "充分且必要","description":"函数f(z)在区域D内解析的充要条件是可微性"},
+   {"source": "解析性", "target": "C.-R.方程", "type": "充分且必要","description":"函数f(z)在区域D内解析的充要条件是满足C.-R.方程"}
+] 
+}{
+"knowledge_points": [
+   {"title": "定理2.5", "en": "Theorem 2.5"},
+   {"title": "例2.10", "en": "Example 2.10"},
+   {"title": "例2.11", "en": "Example 2.11"},
+   {"title": "例2.12", "en": "Example 2.12"},
+   {"title": "定理2.6", "en": "Theorem 2.6"},
+   {"title": "定理2.7", "en": "Theorem 2.7"},
+   {"title": "思考题", "en": "Thinking Questions"}
+],
+"relations": [
+   {"source": "定理2.5", "target": "例2.10", "type": "根据", "description": "根据定理2.5得到例2.10的结论"},
+   {"source": "例2.10", "target": "例2.11", "type": "证明", "description": "例2.10的结论用于证明例2.11"},
+   {"source": "例2.11", "target": "例2.12", "type": "求解", "description": "例2.11的结果用于求解例2.12"},
+   {"source": "例2.12", "target": "定理2.6", "type": "证明", "description": "例2.12的结论用于证明定理2.6"},
+   {"source": "定理2.6", "target": "定理2.7", "type": "说明", "description": "定理2.6的结论用于说明定理2.7"},
+   {"source": "思考题", "target": "定理2.7", "type": "提出", "description": "思考题中提出了关于解析性的问题"}
+] 
+}{
+"knowledge_points": [
+   {"title": "指数函数", "en": "Exponential function"},
+   {"title": "解析", "en": "Analytic"},
+   {"title": "定义", "en": "Definition"},
+   {"title": "性质", "en": "Properties"},
+   {"title": "加法定理", "en": "Addition theorem"},
+   {"title": "周期函数", "en": "Periodic function"},
+   {"title": "基本周期", "en": "Fundamental period"},
+   {"title": "极限", "en": "Limit"},
+   {"title": "欧拉公式", "en": "Euler's formula"},
+   {"title": "记号", "en": "Notation"},
+   {"title": "罗尔定理", "en": "Rolle's theorem"},
+   {"title": "微分中值定理", "en": "Mean value theorem for derivatives"},
+   {"title": "洛必达法则", "en": "L'Hospital's rule"},
+   {"title": "双曲正弦函数", "en": "Hyperbolic sine function"},
+   {"title": "双曲余弦函数", "en": "Hyperbolic cosine function"},
+   {"title": "三角函数", "en": "Trigonometric functions"},
+   {"title": "习题", "en": "Exercises"}
+], 
+"relations": [
+   {"source": "指数函数", "target": "解析", "type": "属于","description":"指数函数是解析函数"},
+   {"source": "指数函数", "target": "定义", "type": "具有","description":"指数函数具有定义2.4中的关系式"},
+   {"source": "指数函数", "target": "性质", "type": "具有","description":"指数函数具有性质(1)-(6)"},
+   {"source": "指数函数", "target": "加法定理", "type": "满足","description":"指数函数满足加法定理"},
+   {"source": "指数函数", "target": "周期函数", "type": "是","description":"指数函数是周期函数"},
+   {"source": "周期函数", "target": "基本周期", "type": "具有","description":"周期函数具有基本周期"},
+   {"source": "指数函数", "target": "极限", "type": "不存在","description":"指数函数的极限不存在"},
+   {"source": "指数函数", "target": "欧拉公式", "type": "是","description":"指数函数是欧拉公式的推广"},
+   {"source": "指数函数", "target": "记号", "type": "是","description":"指数函数是一个记号"},
+   {"source": "指数函数", "target": "罗尔定理", "type": "不满足","description":"指数函数不满足罗尔定理"},
+   {"source": "指数函数", "target": "微分中值定理", "type": "不满足","description":"指数函数不满足微分中值定理"},
+   {"source": "指数函数", "target": "洛必达法则", "type": "成立","description":"洛必达法则在复平面上成立"},
+   {"source": "指数函数", "target": "双曲正弦函数", "type": "以","description":"指数函数以双曲正弦函数为基本周期"},
+   {"source": "指数函数", "target": "双曲余弦函数", "type": "以","description":"指数函数以双曲余弦函数为基本周期"},
+   {"source": "指数函数", "target": "三角函数", "type": "具有","description":"指数函数具有三角函数的性质和关系"},
+   {"source": "指数函数", "target": "习题", "type": "列入","description":"关于指数函数的性质和关系的习题已列入本章习题"}
+] 
+}{
+"knowledge_points": [
+   {"title": "初等函数", "en": "Elementary functions"},
+   {"title": "周期函数", "en": "Periodic functions"},
+   {"title": "反函数", "en": "Inverse functions"},
+   {"title": "多值函数", "en": "Multivalued functions"},
+   {"title": "复变量", "en": "Complex variables"},
+   {"title": "辐角函数", "en": "Argument function"},
+   {"title": "单叶性区域", "en": "Univalent region"},
+   {"title": "辐角改变量", "en": "Change in argument"},
+   {"title": "同伦", "en": "Homotopy"},
+   {"title": "简单闭曲线", "en": "Simple closed curve"},
+   {"title": "初值", "en": "Initial value"},
+   {"title": "终值", "en": "Final value"}
+], 
+"relations": [
+   {"source": "初等函数", "target": "周期函数", "type": "是", "description": "初等函数都是周期函数"},
+   {"source": "初等函数", "target": "反函数", "type": "是", "description": "初等函数的反函数是多值函数"},
+   {"source": "复变量", "target": "初等函数", "type": "具有", "description": "许多复变量的初等函数是多值的"},
+   {"source": "复变量", "target": "多值函数", "type": "具有", "description": "复数域中对多值函数的研究具有特殊重要的意义"},
+   {"source": "辐角函数", "target": "多值函数", "type": "是", "description": "辐角函数是多值函数"},
+   {"source": "辐角函数", "target": "辐角改变量", "type": "具有", "description": "辐角函数具有辐角改变量"},
+   {"source": "辐角函数", "target": "初值", "type": "具有", "description": "辐角函数具有初值"},
+   {"source": "辐角函数", "target": "终值", "type": "具有", "description": "辐角函数具有终值"},
+   {"source": "简单闭曲线", "target": "同伦", "type": "是", "description": "简单闭曲线是同伦的"},
+   {"source": "同伦", "target": "辐角改变量", "type": "具有", "description": "同伦具有辐角改变量"}
+] 
+}{
+"knowledge_points": [
+   {"title": "通信助手", "en": "Communication Assistant"},
+   {"title": "知识概念", "en": "Knowledge Concepts"},
+   {"title": "关系", "en": "Relationships"},
+   {"title": "内容", "en": "Content"},
+   {"title": "提取", "en": "Extraction"},
+   {"title": "无意义", "en": "Meaningless"},
+   {"title": "不相关", "en": "Irrelevant"},
+   {"title": "json", "en": "json"},
+   {"title": "中文", "en": "Chinese"},
+   {"title": "英文", "en": "English"},
+   {"title": "描述", "en": "Description"}
+], 
+"relations": [
+   {"source": "通信助手", "target": "知识概念", "type": "涉及", "description": "通信助手涉及知识概念"},
+   {"source": "通信助手", "target": "关系", "type": "确定", "description": "通信助手确定知识概念之间的关系"},
+   {"source": "内容", "target": "提取", "type": "包含", "description": "内容中包含需要提取的知识概念"},
+   {"source": "内容", "target": "无意义", "type": "包含", "description": "内容中可能包含无意义的内容"},
+   {"source": "内容", "target": "不相关", "type": "包含", "description": "内容中可能包含不相关的内容"},
+   {"source": "json", "target": "中文", "type": "表示", "description": "json中的值通常使用中文表示"},
+   {"source": "json", "target": "英文", "type": "表示", "description": "json中的值通常使用英文表示"}
+] 
+}{
+"knowledge_points": [
+   {"title": "辐角改变量", "en": "Change in argument"},
+   {"title": "简单闭曲线", "en": "Simple closed curve"},
+   {"title": "复平面", "en": "Complex plane"},
+   {"title": "负实轴", "en": "Negative real axis"},
+   {"title": "单连通开区域", "en": "Simply connected open region"},
+   {"title": "起点", "en": "Starting point"},
+   {"title": "终点", "en": "Ending point"},
+   {"title": "单值连续函数", "en": "Single-valued continuous function"},
+   {"title": "初值", "en": "Initial value"},
+   {"title": "整数", "en": "Integer"}
+], 
+"relations": [
+   {"source": "辐角改变量", "target": "简单闭曲线", "type": "可知", "description": "只要能使区域内任一简单闭曲线都不围绕原点x=0,辐角改变量在这个区域内就与曲线的形状无关"},
+   {"source": "复平面", "target": "负实轴", "type": "沿", "description": "将复平面C沿负实轴(包括无穷远点)剪开而成一单连通开区域,记为G"},
+   {"source": "简单闭曲线", "target": "终点", "type": "有", "description": "对G内任取的一简单闭曲线L都有L～0,从而有△;Argx=0"},
+   {"source": "G内的任一简单曲线L", "target": "终点", "type": "将只与", "description": "△,Argx将只与L的起点和终点有关,而与曲线的形状无关"},
+   {"source": "G内固定起点xo", "target": "初值argxo", "type": "固定", "description": "在G内固定起点xo,取定初值argxo"},
+   {"source": "初值argxo", "target": "终点z", "type": "是", "description": "则argxo+:Argx就是终点z的单值连续函数"},
+   {"source": "初值argxo+2π", "target": "终点z", "type": "得另一个", "description": "如果取定初值argxo+2π,则得另一个单值连续函数argx+2π=argzo+2π+△?Arg×"},
+   {"source": "初值argxo+2kπ(k为整数)", "target": "单值连续函数argx+2kπ", "type": "得到一个", "description": "一般来说,如果取初值argxo+2kπ(k为整数),则得到一个单值连续函数argx+2kπ"},
+   {"source": "G内", "target": "Argx", "type": "把", "description": "这样就在G内把Argx分成无穷多个单值连续函数argx+2kπ,x∈G,k∈Z"}
+] 
+}{
+"knowledge_points": [
+   {"title": "根式函数", "en": "Radical function"},
+   {"title": "幂函数", "en": "Power function"},
+   {"title": "反函数", "en": "Inverse function"},
+   {"title": "单叶性区域", "en": "Univalued region"},
+   {"title": "变换", "en": "Transformation"},
+   {"title": "解析", "en": "Analytic"},
+   {"title": "原像", "en": "Preimage"},
+   {"title": "角形", "en": "Angular shape"},
+   {"title": "张度", "en": "Angular span"},
+   {"title": "分法", "en": "Division"},
+   {"title": "充要条件", "en": "Necessary and sufficient condition"},
+   {"title": "相交", "en": "Intersect"},
+   {"title": "填满", "en": "Fill"},
+   {"title": "边界", "en": "Boundary"}
+], 
+"relations": [
+   {"source": "根式函数", "target": "幂函数", "type": "定义", "description": "根式函数w=VZ为幂函数x=w的反函数"},
+   {"source": "幂函数", "target": "变换", "type": "性质", "description": "幂函数的变换(映射)性质及其单叶性区域"},
+   {"source": "幂函数", "target": "单叶性区域", "type": "性质", "description": "幂函数的单叶性区域为函数z=w的解析单值区域"},
+   {"source": "幂函数", "target": "原像", "type": "性质", "description": "幂函数将x平面上的每个不为0的点映射到w平面上的n个原像点"},
+   {"source": "幂函数", "target": "角形", "type": "性质", "description": "幂函数将x平面上的角形映射为w平面上以原点为中心的正n角形"},
+   {"source": "幂函数", "target": "变换", "type": "性质", "description": "幂函数的变换将射线和圆周映射为相应的射线和圆周"},
+   {"source": "变换", "target": "角形", "type": "性质", "description": "变换将w平面上的角形映射为x平面除去原点及负实轴的区域"},
+   {"source": "幂函数", "target": "单叶性区域", "type": "性质", "description": "幂函数的单叶性区域为顶点在原点z=0，张度不超过的角形区域"},
+   {"source": "分法", "target": "单叶性区域", "type": "性质", "description": "分法是单叶性区域的一种划分方式"},
+   {"source": "充要条件", "target": "单叶性区域", "type": "性质", "description": "单叶性区域的充要条件是对于区域内任一点w，满足等式|wz|=|w|，其中z不属于区域"},
+   {"source": "角形", "target": "相交", "type": "性质", "description": "角形之间互不相交"},
+   {"source": "角形", "target": "填满", "type": "性质", "description": "角形填满整个w平面"},
+   {"source": "角形", "target": "边界", "type": "性质", "description": "角形都加上同一端边界"}
+] 
+}{
+"knowledge_points": [
+   {"title": "支点", "en": "Branch point"},
+   {"title": "支割线", "en": "Branch cut"},
+   {"title": "闭曲线C", "en": "Closed curve C"},
+   {"title": "辐角", "en": "Argument"},
+   {"title": "像点", "en": "Image point"},
+   {"title": "简单闭曲线", "en": "Simple closed curve"},
+   {"title": "单值解析分支", "en": "Single-valued analytic branch"},
+   {"title": "充分小邻域", "en": "Sufficiently small neighborhood"},
+   {"title": "圆周T", "en": "Circular path T"},
+   {"title": "顺时针方向", "en": "Clockwise direction"},
+   {"title": "支点", "en": "Branch point"},
+   {"title": "支割线", "en": "Branch cut"},
+   {"title": "左岸", "en": "Left bank"},
+   {"title": "右岸", "en": "Right bank"},
+   {"title": "上岸", "en": "Upper bank"},
+   {"title": "下岸", "en": "Lower bank"},
+   {"title": "主值支", "en": "Principal branch"},
+   {"title": "连续分支", "en": "Continuous branch"}
+], 
+"relations": [
+   {"source": "支点", "target": "支割线", "type": "包含", "description": "支点是支割线的一部分"},
+   {"source": "支割线", "target": "闭曲线C", "type": "分割", "description": "支割线将闭曲线C分割成两部分"},
+   {"source": "闭曲线C", "target": "像点", "type": "包含", "description": "闭曲线C上的点对应于像点"},
+   {"source": "像点", "target": "辐角", "type": "变化", "description": "像点的辐角随着变点的变化而变化"},
+   {"source": "像点", "target": "简单闭曲线", "type": "变化", "description": "像点沿着简单闭曲线变化"},
+   {"source": "像点", "target": "支点", "type": "变化", "description": "像点沿着支点变化"},
+   {"source": "支点", "target": "支割线", "type": "连接", "description": "支点通过支割线连接起来"},
+   {"source": "支割线", "target": "左岸", "type": "分割", "description": "支割线将区域分割成左岸和右岸"},
+   {"source": "支割线", "target": "右岸", "type": "分割", "description": "支割线将区域分割成左岸和右岸"},
+   {"source": "支割线", "target": "上岸", "type": "分割", "description": "支割线将区域分割成上岸和下岸"},
+   {"source": "支割线", "target": "下岸", "type": "分割", "description": "支割线将区域分割成上岸和下岸"},
+   {"source": "支割线", "target": "主值支", "type": "特殊分支", "description": "支割线上的一支是主值支"},
+   {"source": "主值支", "target": "连续分支", "type": "扩充", "description": "主值支可以扩充成连续分支"},
+   {"source": "连续分支", "target": "支割线", "type": "连续", "description": "连续分支在支割线上是连续的"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复对数的定义", "en": "Definition of complex logarithm"},
+   {"title": "对数函数的基本性质", "en": "Basic properties of logarithmic function"},
+   {"title": "复对数是实对数在复数域内的推广", "en": "Complex logarithm as an extension of real logarithm in the complex number field"},
+   {"title": "负数无实对数,且正实数的复对数也是无穷多值的", "en": "Negative numbers have no real logarithm, and the complex logarithm of positive real numbers is also a multi-valued function"},
+   {"title": "公式(2.24)的说明", "en": "Explanation of formula (2.24)"}
+],
+"relations": [
+   {"source": "复对数的定义", "target": "对数函数的基本性质", "type": "包含", "description": "复对数的定义包含了对数函数的基本性质"},
+   {"source": "复对数的定义", "target": "复对数是实对数在复数域内的推广", "type": "推导", "description": "复对数的定义是实对数在复数域内的推广"},
+   {"source": "复对数的定义", "target": "负数无实对数,且正实数的复对数也是无穷多值的", "type": "解释", "description": "复对数的定义解释了负数无实对数,且正实数的复对数也是无穷多值的"},
+   {"source": "对数函数的基本性质", "target": "复对数是实对数在复数域内的推广", "type": "推导", "description": "对数函数的基本性质推导出了复对数是实对数在复数域内的推广"},
+   {"source": "对数函数的基本性质", "target": "负数无实对数,且正实数的复对数也是无穷多值的", "type": "解释", "description": "对数函数的基本性质解释了负数无实对数,且正实数的复对数也是无穷多值的"},
+   {"source": "复对数是实对数在复数域内的推广", "target": "负数无实对数,且正实数的复对数也是无穷多值的", "type": "解释", "description": "复对数是实对数在复数域内的推广解释了负数无实对数,且正实数的复对数也是无穷多值的"},
+   {"source": "复对数的定义", "target": "公式(2.24)的说明", "type": "参考", "description": "公式(2.24)的说明参考了复对数的定义"},
+   {"source": "对数函数的基本性质", "target": "公式(2.24)的说明", "type": "参考", "description": "公式(2.24)的说明参考了对数函数的基本性质"},
+   {"source": "复对数是实对数在复数域内的推广", "target": "公式(2.24)的说明", "type": "参考", "description": "公式(2.24)的说明参考了复对数是实对数在复数域内的推广"},
+   {"source": "负数无实对数,且正实数的复对数也是无穷多值的", "target": "公式(2.24)的说明", "type": "参考", "description": "公式(2.24)的说明参考了负数无实对数,且正实数的复对数也是无穷多值的"}
+] 
+}{
+"knowledge_points": [
+   {"title": "Ln(1-x^n)", "en": "Ln(1-x^n)"},
+   {"title": "支点", "en": "branch point"},
+   {"title": "变点", "en": "moving point"},
+   {"title": "解析分支", "en": "analytic branch"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "单连通区域", "en": "simply connected region"},
+   {"title": "奇点", "en": "singularity"},
+   {"title": "闭曲线", "en": "closed curve"}
+],
+"relations": [
+   {"source": "Ln(1-x^n)", "target": "支点", "type": "的支点为", "description": "Ln(1-x^n)的支点为z=±1及o"},
+   {"source": "Ln(1-x^n)", "target": "解析分支", "type": "能分出", "description": "Ln(1-x^n)能分出无穷多个单值解析分支"},
+   {"source": "变点", "target": "支点", "type": "单绕", "description": "当变点z单绕-1或1一周时,ln(1-x^n)的值就改变2πi(沿正方向)或-2πi(沿负方向)"},
+   {"source": "变点", "target": "支点", "type": "同时绕", "description": "当变点z同时绕-1及1一周时,ln(1-x^n)共改变4πi(沿正方向)或-4πi(沿负方向)"},
+   {"source": "柯西积分定理", "target": "单连通区域", "type": "在", "description": "函数f(z)在x平面上的单连通区域D内解析"},
+   {"source": "柯西积分定理", "target": "闭曲线", "type": "沿", "description": "沿连接起点a及终点b的任何路径C的积分值都相同"},
+   {"source": "柯西积分定理", "target": "奇点", "type": "只以", "description": "被积函数只以z=a为奇点"},
+   {"source": "柯西积分定理", "target": "闭曲线", "type": "在此区域内", "description": "在此区域内积分与路径有关"},
+   {"source": "柯西积分定理", "target": "奇点", "type": "在", "description": "在D内连续的条件下"},
+   {"source": "柯西积分定理", "target": "闭曲线", "type": "沿区域内任何", "description": "沿区域内任何闭曲线积分值为零的条件"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复变函数", "en": "Complex function"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "古尔萨证明", "en": "Goursat's proof"},
+   {"title": "路径无关", "en": "Path independence"},
+   {"title": "三角形", "en": "Triangle"}
+], 
+"relations": [
+   {"source": "复变函数", "target": "解析函数", "type": "定义", "description": "柯西将复变函数f(z)作为复变数x的一元函数来研究"},
+   {"source": "解析函数", "target": "柯西积分定理", "type": "应用", "description": "柯西积分定理的古尔萨证明中使用了解析函数的性质"},
+   {"source": "柯西积分定理", "target": "路径无关", "type": "推论", "description": "根据柯西积分定理的推论3.5，函数f(z)在D内积分与路径无关"},
+   {"source": "柯西积分定理", "target": "古尔萨证明", "type": "证明方法", "description": "古尔萨发表了柯西积分定理的新的证明方法"},
+   {"source": "古尔萨证明", "target": "三角形", "type": "证明步骤", "description": "古尔萨证明中的第一步是以三角形为例进行证明"}
+] 
+}{
+"knowledge_points": [
+   {"title": "闭折线", "en": "Closed polyline"},
+   {"title": "对角线", "en": "Diagonal"},
+   {"title": "多角形", "en": "Polygon"},
+   {"title": "三角形", "en": "Triangle"},
+   {"title": "周线", "en": "Perimeter"},
+   {"title": "积分", "en": "Integral"},
+   {"title": "凸多角形", "en": "Convex polygon"},
+   {"title": "连续", "en": "Continuous"},
+   {"title": "沿着", "en": "Along"},
+   {"title": "区域", "en": "Region"},
+   {"title": "端点", "en": "Endpoint"},
+   {"title": "精确", "en": "Accurate"},
+   {"title": "程度", "en": "Degree"},
+   {"title": "逼近", "en": "Approximation"},
+   {"title": "连续", "en": "Continuous"},
+   {"title": "闭子域", "en": "Closed subdomain"},
+   {"title": "边界", "en": "Boundary"},
+   {"title": "距离", "en": "Distance"},
+   {"title": "假设", "en": "Assumption"},
+   {"title": "函数", "en": "Function"},
+   {"title": "解析", "en": "Analytic"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "不定积分", "en": "Indefinite integral"},
+   {"title": "路径无关", "en": "Path independence"},
+   {"title": "单连通区域", "en": "Simply connected region"},
+   {"title": "变上限积分", "en": "Integral with variable upper limit"},
+   {"title": "定理", "en": "Theorem"},
+   {"title": "解析", "en": "Analytic"},
+   {"title": "导数", "en": "Derivative"},
+   {"title": "连续性", "en": "Continuity"}
+], 
+"relations": [
+   {"source": "闭折线", "target": "对角线", "type": "包含","description":"闭折线可以通过对角线将多角形分成三角形"},
+   {"source": "多角形", "target": "对角线", "type": "包含","description":"多角形可以通过对角线将其分成三角形"},
+   {"source": "凸多角形", "target": "对角线", "type": "包含","description":"凸多角形可以通过对角线将其分成三角形"},
+   {"source": "周线", "target": "闭折线", "type": "包含","description":"周线可以是闭折线"},
+   {"source": "周线", "target": "多角形", "type": "包含","description":"周线可以是多角形的边界"},
+   {"source": "周线", "target": "凸多角形", "type": "包含","description":"周线可以是凸多角形的边界"},
+   {"source": "积分", "target": "路径无关", "type": "解决","description":"柯西积分定理解决了积分与路径无关的问题"},
+   {"source": "积分", "target": "变上限积分", "type": "定义","description":"积分可以定义为变上限积分"},
+   {"source": "函数", "target": "连续", "type": "具有","description":"函数可以具有连续性"},
+   {"source": "区域", "target": "闭子域", "type": "包含","description":"区域可以包含闭子域"},
+   {"source": "区域", "target": "边界", "type": "相交","description":"区域的边界与区域相交"},
+   {"source": "区域", "target": "连续", "type": "限制","description":"区域上的函数连续性可以限制在区域内"},
+   {"source": "端点", "target": "闭折线", "type": "位于","description":"闭折线的端点可以位于闭折线上"},
+   {"source": "端点", "target": "闭子域", "type": "位于","description":"闭子域的端点可以位于闭子域上"},
+   {"source": "程度", "target": "精确", "type": "逼近","description":"程度可以逼近到精确的程度"},
+   {"source": "程度", "target": "任何", "type": "逼近","description":"程度可以逼近到任何精确的程度"},
+   {"source": "逼近", "target": "精确", "type": "到达","description":"逼近可以到达精确的程度"},
+   {"source": "逼近", "target": "程度", "type": "任意","description":"逼近可以到达任意的程度"},
+   {"source": "连续", "target": "函数", "type": "具有","description":"连续可以具有函数的性质"},
+   {"source": "连续", "target": "区域", "type": "具有","description":"连续可以具有区域的性质"},
+   {"source": "连续", "target": "闭子域", "type": "具有","description":"连续可以具有闭子域的性质"},
+   {"source": "连续", "target": "函数", "type": "限制","description":"连续性可以限制在函数上"},
+   {"source": "连续", "target": "区域", "type": "限制","description":"连续性可以限制在区域上"},
+   {"source": "连续", "target": "闭子域", "type": "限制","description":"连续性可以限制在闭子域上"},
+   {"source": "距离", "target": "边界", "type": "定义","description":"距离可以定义为边界与点集之间的最小距离"},
+   {"source": "假设", "target": "函数", "type": "连续","description":"假设函数在区域上连续"},
+   {"source": "假设", "target": "函数", "type": "解析","description":"假设函数在区域上解析"},
+   {"source": "假设", "target": "函数", "type": "连续","description":"假设函数在区域上连续"},
+   {"source": "假设", "target": "函数", "type": "解析","description":"假设函数在区域上解析"},
+   {"source": "柯西积分定理", "target": "积分", "type": "解决","description":"柯西积分定理解决了积分与路径无关的问题"},
+   {"source": "柯西积分定理", "target": "函数", "type": "解析","description":"柯西积分定理适用于解析函数"},
+   {"source": "不定积分", "target": "积分", "type": "相关","description":"不定积分与积分有关"},
+   {"source": "路径无关", "target": "积分", "type": "相关","description":"路径无关与积分有关"},
+   {"source": "单连通区域", "target": "函数", "type": "解析","description":"单连通区域内的函数可以解析"},
+   {"source": "单连通区域", "target": "积分", "type": "路径无关","description":"单连通区域内的积分与路径无关"},
+   {"source": "变上限积分", "target": "函数", "type": "解析","description":"变上限积分适用于解析函数"},
+   {"source": "变上限积分", "target": "导数", "type": "相关","description":"变上限积分与导数有关"},
+   {"source": "定理", "target": "函数", "type": "解析","description":"定理适用于解析函数"},
+   {"source": "定理", "target": "导数", "type": "相关","description":"定理与导数有关"}
+] 
+}{
+"knowledge_points": [
+   {"title": "函数连续", "en": "continuous function"},
+   {"title": "不定积分", "en": "indefinite integral"},
+   {"title": "原函数", "en": "primitive function"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "闭域", "en": "closed domain"},
+   {"title": "解析", "en": "analytic"},
+   {"title": "单连通区域", "en": "simply connected region"},
+   {"title": "复周线", "en": "complex contour"},
+   {"title": "有界多连通区域", "en": "bounded multiply connected region"}
+],
+"relations": [
+   {"source": "函数连续", "target": "不定积分", "type": "是", "description": "连续函数的不定积分是原函数"},
+   {"source": "原函数", "target": "函数连续", "type": "具有", "description": "原函数是连续函数"},
+   {"source": "柯西积分定理", "target": "闭域", "type": "在", "description": "柯西积分定理适用于闭域"},
+   {"source": "柯西积分定理", "target": "解析", "type": "要求", "description": "柯西积分定理要求函数在区域内解析"},
+   {"source": "柯西积分定理", "target": "单连通区域", "type": "适用于", "description": "柯西积分定理适用于单连通区域"},
+   {"source": "柯西积分定理", "target": "复周线", "type": "推广到", "description": "柯西积分定理可以推广到复周线"},
+   {"source": "柯西积分定理", "target": "有界多连通区域", "type": "推广到", "description": "柯西积分定理可以推广到有界多连通区域"}
+]
+}{
+"knowledge_points": [
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "边界值", "en": "Boundary value"},
+   {"title": "积分公式", "en": "Integral formula"},
+   {"title": "复周线", "en": "Complex contour"},
+   {"title": "连续", "en": "Continuous"},
+   {"title": "局部性质", "en": "Local properties"},
+   {"title": "柯西积分", "en": "Cauchy integral"},
+   {"title": "平均值定理", "en": "Mean value theorem"},
+   {"title": "最大模原理", "en": "Maximum modulus principle"},
+   {"title": "零点", "en": "Zero point"},
+   {"title": "无穷可微性", "en": "Infinite differentiability"}
+], 
+"relations": [
+   {"source": "柯西积分定理", "target": "解析函数", "type": "是", "description": "解析函数的积分表达式"},
+   {"source": "柯西积分定理", "target": "边界值", "type": "用", "description": "表示解析函数内部值的积分公式"},
+   {"source": "柯西积分定理", "target": "复周线", "type": "是", "description": "定理中的边界"},
+   {"source": "柯西积分定理", "target": "连续", "type": "在", "description": "D上连续"},
+   {"source": "柯西积分定理", "target": "局部性质", "type": "研究", "description": "解析函数的重要工具"},
+   {"source": "柯西积分定理", "target": "柯西积分", "type": "是", "description": "解析函数的积分表达式"},
+   {"source": "柯西积分定理", "target": "平均值定理", "type": "是", "description": "特殊情形下的解析函数的性质"},
+   {"source": "柯西积分定理", "target": "最大模原理", "type": "用", "description": "证明解析函数的性质"},
+   {"source": "柯西积分定理", "target": "解析函数", "type": "在", "description": "圆内解析"},
+   {"source": "柯西积分定理", "target": "边界值", "type": "在", "description": "圆周上连续"},
+   {"source": "柯西积分定理", "target": "柯西积分", "type": "是", "description": "解析函数的积分表达式"},
+   {"source": "柯西积分定理", "target": "平均值定理", "type": "是", "description": "特殊情形下的解析函数的性质"},
+   {"source": "柯西积分定理", "target": "最大模原理", "type": "用", "description": "证明解析函数的性质"},
+   {"source": "柯西积分定理", "target": "零点", "type": "有", "description": "解析函数在圆内至少有一个零点"},
+   {"source": "解析函数", "target": "无穷可微性", "type": "具有", "description": "可以无限次求导"}
+] 
+}{
+"knowledge_points": [
+   {"title": "公式(3.19)", "en": "Formula (3.19)"},
+   {"title": "公式(3.16)", "en": "Formula (3.16)"},
+   {"title": "差数", "en": "Difference quotient"},
+   {"title": "周线C", "en": "Curve C"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "古尔萨证明", "en": "Goursat's proof"},
+   {"title": "数学归纳法", "en": "Mathematical induction"},
+   {"title": "极限", "en": "Limit"},
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "周线积分", "en": "Curve integral"},
+   {"title": "例3.17", "en": "Example 3.17"},
+   {"title": "例3.18", "en": "Example 3.18"},
+   {"title": "定理3.14", "en": "Theorem 3.14"},
+   {"title": "定理3.10", "en": "Theorem 3.10"},
+   {"title": "定理3.13", "en": "Theorem 3.13"},
+   {"title": "定理2.5", "en": "Theorem 2.5"}
+], 
+"relations": [
+   {"source": "公式(3.19)", "target": "n=1", "type": "证明", "description": "证明公式(3.19)成立"},
+   {"source": "公式(3.16)", "target": "△z≠0", "type": "按照", "description": "按照公式(3.16)的条件"},
+   {"source": "差数", "target": "|△z|", "type": "在", "description": "差数在|△z|充分小时"},
+   {"source": "周线C", "target": "|f(ξ)|≤M", "type": "设", "description": "设沿周线C,|f(ξ)|≤M"},
+   {"source": "周线C", "target": "d", "type": "设", "description": "设d表示x与C上点5间的最短距离"},
+   {"source": "周线C", "target": "ξ∈C", "type": "当", "description": "当ξ∈C时"},
+   {"source": "周线C", "target": "5-xl≥d>0", "type": "于是", "description": "于是,当ξ∈C时,5-xl≥d>0"},
+   {"source": "周线C", "target": "l", "type": "其中", "description": "其中l为C之长度"},
+   {"source": "周线C", "target": "e", "type": "为使上式不超过任给正数e", "description": "为使上式不超过任给正数e"},
+   {"source": "公式(3.19)", "target": "n=k", "type": "设", "description": "设n=k时公式(3.20)成立"},
+   {"source": "公式(3.19)", "target": "n=k+1", "type": "证明", "description": "证明n=k+1时,(3.20)也成立"},
+   {"source": "公式(3.19)", "target": "△z→0", "type": "在", "description": "在△z→0时"},
+   {"source": "公式(3.20)", "target": "△z→0", "type": "在", "description": "在△z→0时"},
+   {"source": "公式(3.20)'", "target": "(3.20)", "type": "可改写成", "description": "公式(3.20)可改写成(3.20)'"},
+   {"source": "公式(3.20)'", "target": "周线积分", "type": "应用", "description": "应用(3.20)'可以计算一些周线积分"},
+   {"source": "公式(3.20)", "target": "奇点", "type": "在", "description": "在(3.20)中,5=x是被积函数f(ξ)在C内部的惟一奇点"},
+   {"source": "例3.17", "target": "积分", "type": "计算", "description": "计算积分"},
+   {"source": "例3.18", "target": "积分", "type": "计算", "description": "计算积分"},
+   {"source": "例3.18", "target": "奇点", "type": "函数在C内部的", "description": "函数在C内部x=±i处不解析"},
+   {"source": "例3.18", "target": "区域", "type": "在由C,Ci,C?围成的", "description": "在由C,Ci,C?围成的区域内解析"},
+   {"source": "定理3.14", "target": "函数f(z)", "type": "设", "description": "设函数f(z)在x平面上的区域D内解析"},
+   {"source": "定理3.14", "target": "各阶导数", "type": "具有", "description": "f(z)在D内具有各阶导数"},
+   {"source": "定理3.14", "target": "解析", "type": "在D内", "description": "f(z)在D内解析"},
+   {"source": "定理3.10", "target": "解析函数的无穷可微性", "type": "借助", "description": "借助解析函数的无穷可微性"},
+   {"source": "定理3.13", "target": "各阶导数", "type": "在", "description": "将定理3.13应用于以x为圆心的充分小的圆"},
+   {"source": "定理2.5", "target": "函数f(z)", "type": "函数f(z)=u(x,y)+i?(x,y)在区域D内解析的充要条件是"}
+] 
+}{
+"knowledge_points": [
+   {"title": "C.-R.方程", "en": "C.-R. equation"},
+   {"title": "定理2.5", "en": "Theorem 2.5"},
+   {"title": "定理2.1", "en": "Theorem 2.1"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "无穷可微性", "en": "Infinitely differentiable"},
+   {"title": "连续", "en": "Continuous"},
+   {"title": "柯西不等式", "en": "Cauchy's inequality"},
+   {"title": "刘维尔定理", "en": "Liouville's theorem"},
+   {"title": "整函数", "en": "Entire function"},
+   {"title": "有界整函数", "en": "Bounded entire function"},
+   {"title": "常数", "en": "Constant"},
+   {"title": "代数学基本定理", "en": "Fundamental theorem of algebra"},
+   {"title": "莫雷拉定理", "en": "Morera's theorem"},
+   {"title": "单连通区域", "en": "Simply connected domain"}
+], 
+"relations": [
+   {"source": "C.-R.方程", "target": "定理2.5", "type": "证充分性", "description": "证明C.-R.方程的充分性"},
+   {"source": "定理2.1", "target": "C.-R.方程", "type": "必要性条件", "description": "由定理2.1得出C.-R.方程的必要性"},
+   {"source": "解析函数", "target": "无穷可微性", "type": "必然具备", "description": "解析函数必然具备无穷可微性"},
+   {"source": "解析函数", "target": "连续", "type": "必然具备", "description": "解析函数必然具备连续性"},
+   {"source": "柯西不等式", "target": "刘维尔定理", "type": "应用", "description": "利用柯西不等式可以得到刘维尔定理"},
+   {"source": "整函数", "target": "柯西不等式", "type": "应用", "description": "柯西不等式适用于整函数"},
+   {"source": "有界整函数", "target": "刘维尔定理", "type": "应用", "description": "利用刘维尔定理可以证明有界整函数必为常数"},
+   {"source": "代数学基本定理", "target": "有界整函数", "type": "应用", "description": "代数学基本定理可以用来证明有界整函数必有零点"},
+   {"source": "莫雷拉定理", "target": "柯西积分定理", "type": "逆定理", "description": "莫雷拉定理是柯西积分定理的逆定理"},
+   {"source": "连续", "target": "解析", "type": "必要条件", "description": "连续是解析的必要条件"}
+] 
+}{
+"knowledge_points": [
+   {"title": "定理3.17", "en": "Theorem 3.17"},
+   {"title": "连续", "en": "Continuity"},
+   {"title": "解析", "en": "Analytic"},
+   {"title": "柯西积分定理3.3", "en": "Cauchy's Integral Theorem 3.3"},
+   {"title": "柯西型积分", "en": "Cauchy-type Integral"},
+   {"title": "调和函数", "en": "Harmonic Function"},
+   {"title": "共轭调和函数", "en": "Conjugate Harmonic Function"},
+   {"title": "C.-R.方程", "en": "C.-R. Equation"},
+   {"title": "全微分", "en": "Total Differential"}
+], 
+"relations": [
+   {"source": "定理3.17", "target": "连续", "type": "充要条件是", "description": "函数f(z)在区域G内解析的充要条件是f(x)在G内连续."},
+   {"source": "定理3.17", "target": "柯西积分定理3.3", "type": "导出", "description": "证必要性可由柯西积分定理3.3导出."},
+   {"source": "定理3.17", "target": "定理3.16", "type": "应用", "description": "至于充分性,我们可在G内任一点xo的一个邻域K:15-xol<p内来应用定理3.16."},
+   {"source": "柯西型积分", "target": "柯西积分", "type": "特例", "description": "显然柯西积分为柯西型积分的特例,但柯西型积分就不一定为柯西积分."},
+   {"source": "定理3.13'", "target": "柯西型积分", "type": "定义函数", "description": "若函数f(ξ)沿简单逐段光滑曲线C(不必闭合)连续,则由柯西型积分所定义的函数F(z),在x平面上C外任一区域D内解析."},
+   {"source": "定义3.5", "target": "调和函数", "type": "定义", "description": "如果二元实变函数H(x,y)在区域D内有二阶连续偏导数,且满足拉普拉斯方程△H=0,则称H(x,y)为区域D内的调和函数."},
+   {"source": "定理3.18", "target": "共轭调和函数", "type": "共轭", "description": "若f(x)=u(x,y)+iv(x,y)必为u(x,y)的共轭调和函数."},
+   {"source": "定理3.19", "target": "解析函数", "type": "存在", "description": "设u(x,y)是在单连通区域D内的调和函数,则存在由(3.23)所确定的函数v(x,y),使u+iv=f(x)是D内的解析函数."}
+] 
+}{
+"knowledge_points": [
+   {"title": "公式(3.22)", "en": "Formula (3.22)"},
+   {"title": "公式(3.23)", "en": "Formula (3.23)"},
+   {"title": "共轭调和函数", "en": "Conjugate harmonic function"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "二元调和函数", "en": "Bivariate harmonic function"},
+   {"title": "C.-R.方程", "en": "Cauchy-Riemann equations"},
+   {"title": "平面向量场", "en": "Plane vector field"},
+   {"title": "定常向量场", "en": "Steady vector field"},
+   {"title": "平行于一个平面的定常向量场", "en": "Steady vector field parallel to a plane"},
+   {"title": "平面向量场与解析函数的关系", "en": "Relationship between plane vector field and analytic function"},
+   {"title": "流体力学", "en": "Fluid mechanics"},
+   {"title": "不可压缩性", "en": "Incompressibility"}
+], 
+"relations": [
+   {"source": "公式(3.22)", "target": "公式(3.23)", "type": "推导", "description": "推导公式(3.23)从公式(3.22)"},
+   {"source": "共轭调和函数", "target": "解析函数", "type": "等价定理", "description": "解析函数的实部是共轭调和函数"},
+   {"source": "解析函数", "target": "共轭调和函数", "type": "等价定理", "description": "共轭调和函数是解析函数的虚部"},
+   {"source": "解析函数", "target": "调和函数", "type": "联系", "description": "解析函数的任意阶导数是调和函数"},
+   {"source": "平面向量场", "target": "解析函数", "type": "应用", "description": "利用解析函数的性质推导平面向量场的性质"},
+   {"source": "平面向量场", "target": "流体力学", "type": "应用", "description": "平面向量场在流体力学中有应用"},
+   {"source": "流体力学", "target": "不可压缩性", "type": "特性", "description": "流体力学中假设流体具有不可压缩性"}
+] 
+}{
+"knowledge_points": [
+   {"title": "流体", "en": "Fluid"},
+   {"title": "流速", "en": "Flow velocity"},
+   {"title": "流量", "en": "Flow rate"},
+   {"title": "单位时间", "en": "Unit time"},
+   {"title": "有向曲线", "en": "Directed curve"},
+   {"title": "流体层", "en": "Fluid layer"},
+   {"title": "质量", "en": "Mass"},
+   {"title": "厚度", "en": "Thickness"},
+   {"title": "密度", "en": "Density"},
+   {"title": "流体力学", "en": "Fluid mechanics"},
+   {"title": "环量", "en": "Circulation"},
+   {"title": "复积分", "en": "Complex integral"},
+   {"title": "复速度", "en": "Complex velocity"},
+   {"title": "无源、漏的无旋流动", "en": "Source-free and leak-free irrotational flow"},
+   {"title": "无旋流动", "en": "Irrotational flow"},
+   {"title": "复势", "en": "Complex potential"},
+   {"title": "势函数", "en": "Potential function"},
+   {"title": "势线", "en": "Equipotential line"},
+   {"title": "流函数", "en": "Stream function"},
+   {"title": "流线", "en": "Streamline"}
+],
+"relations": [
+   {"source": "流速", "target": "流量", "type": "定义", "description": "流速是单位时间内流过单位面积的流量"},
+   {"source": "流速", "target": "流体层", "type": "描述", "description": "流速是流体层中的速度"},
+   {"source": "流速", "target": "密度", "type": "影响", "description": "流速与流体的密度有关"},
+   {"source": "流量", "target": "质量", "type": "定义", "description": "流量是单位时间内流过某一区域的质量"},
+   {"source": "流量", "target": "厚度", "type": "影响", "description": "流量与流体层的厚度有关"},
+   {"source": "流量", "target": "密度", "type": "影响", "description": "流量与流体的密度有关"},
+   {"source": "流体力学", "target": "流量", "type": "研究对象", "description": "流体力学研究流体的流量"},
+   {"source": "流体力学", "target": "环量", "type": "研究对象", "description": "流体力学研究流体的环量"},
+   {"source": "无源、漏的无旋流动", "target": "流量", "type": "特征", "description": "无源、漏的无旋流动的流量为零"},
+   {"source": "无源、漏的无旋流动", "target": "无旋流动", "type": "定义", "description": "无源、漏的无旋流动是无旋的流动"},
+   {"source": "复势", "target": "复速度", "type": "定义", "description": "复势是对应于流动的复速度的解析函数"},
+   {"source": "复势", "target": "势函数", "type": "定义", "description": "复势的实部是流动的势函数"},
+   {"source": "复势", "target": "势线", "type": "定义", "description": "复势的实部的等值线是势线"},
+   {"source": "复势", "target": "流函数", "type": "定义", "description": "复势的虚部是流动的流函数"},
+   {"source": "复势", "target": "流线", "type": "定义", "description": "复势的虚部的等值线是流线"}
+]
+}{
+"knowledge_points": [
+   {"title": "流线", "en": "Streamline"},
+   {"title": "微分方程", "en": "Differential equation"},
+   {"title": "调和函数", "en": "Harmonic function"},
+   {"title": "积分曲线", "en": "Integral curve"},
+   {"title": "势线", "en": "Equipotential line"},
+   {"title": "复势", "en": "Complex potential"},
+   {"title": "复速度", "en": "Complex velocity"},
+   {"title": "流动", "en": "Flow"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "幂级数表示法", "en": "Power series representation"}
+], 
+"relations": [
+   {"source": "流线", "target": "势线", "type": "正交", "description": "流线与势线在流速不为零的点处互相正交"},
+   {"source": "复势", "target": "复速度", "type": "求导数", "description": "由复势求复速度只用到求导数"},
+   {"source": "复势", "target": "流线", "type": "求流线", "description": "由复势容易求流线"},
+   {"source": "复势", "target": "势线", "type": "求势线", "description": "由复势容易求势线"},
+   {"source": "复势", "target": "流动", "type": "刻画流动", "description": "用复势刻画流动比用复速度方便"},
+   {"source": "解析函数", "target": "幂级数表示法", "type": "表示", "description": "解析函数可以用幂级数表示法表示"}
+] 
+}{
+"knowledge_points": [
+   {"title": "级数", "en": "Series"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "幂级数", "en": "Power series"},
+   {"title": "复数项级数", "en": "Series with complex terms"},
+   {"title": "收敛", "en": "Convergence"},
+   {"title": "发散", "en": "Divergence"},
+   {"title": "柯西收敛准则", "en": "Cauchy convergence criterion"},
+   {"title": "充分条件", "en": "Sufficient condition"},
+   {"title": "有界", "en": "Bounded"}
+], 
+"relations": [
+   {"source": "级数", "target": "解析函数", "type": "是", "description": "级数是研究解析函数的工具"},
+   {"source": "级数", "target": "幂级数", "type": "是", "description": "级数可以表示为幂级数"},
+   {"source": "级数", "target": "收敛", "type": "有", "description": "级数可以收敛"},
+   {"source": "级数", "target": "发散", "type": "有", "description": "级数可以发散"},
+   {"source": "复数项级数", "target": "级数", "type": "是", "description": "复数项级数是一种级数"},
+   {"source": "复数项级数", "target": "收敛", "type": "有", "description": "复数项级数可以收敛"},
+   {"source": "复数项级数", "target": "发散", "type": "有", "description": "复数项级数可以发散"},
+   {"source": "柯西收敛准则", "target": "级数", "type": "是", "description": "柯西收敛准则是判断级数收敛的方法"},
+   {"source": "柯西收敛准则", "target": "收敛", "type": "有", "description": "柯西收敛准则可以判断级数是否收敛"},
+   {"source": "充分条件", "target": "收敛", "type": "是", "description": "充分条件可以判断级数是否收敛"},
+   {"source": "有界", "target": "级数", "type": "是", "description": "收敛级数的各项是有界的"}
+] 
+}{
+"knowledge_points": [
+   {"title": "绝对收敛的复级数", "en": "Absolutely convergent complex series"},
+   {"title": "一致收敛的复函数项级数", "en": "Uniformly convergent complex function series"},
+   {"title": "和函数", "en": "Sum function"},
+   {"title": "级数的一致收敛准则", "en": "Uniform convergence criterion for series"},
+   {"title": "级数的柯西一致收敛准则", "en": "Cauchy uniform convergence criterion for series"},
+   {"title": "优级数准则", "en": "Superior series criterion"}
+], 
+"relations": [
+   {"source": "绝对收敛的复级数", "target": "任意重排次序", "type": "包含","description":"不改变绝对收敛性和和"},
+   {"source": "一致收敛的复函数项级数", "target": "和函数", "type": "包含","description":"级数的和函数"},
+   {"source": "一致收敛的复函数项级数", "target": "级数的一致收敛准则", "type": "满足","description":"一致收敛的条件"},
+   {"source": "一致收敛的复函数项级数", "target": "级数的柯西一致收敛准则", "type": "满足","description":"一致收敛的条件"},
+   {"source": "级数的柯西一致收敛准则", "target": "级数的一致收敛准则", "type": "等价","description":"两个准则的等价性"},
+   {"source": "级数的一致收敛准则", "target": "级数的柯西一致收敛准则", "type": "等价","description":"两个准则的等价性"},
+   {"source": "级数的一致收敛准则", "target": "优级数准则", "type": "充分条件","description":"一致收敛的充分条件"},
+   {"source": "优级数准则", "target": "一致收敛的复函数项级数", "type": "满足","description":"一致收敛的条件"}
+] 
+}{
+"knowledge_points": [
+   {"title": "级数", "en": "Series"},
+   {"title": "闭圆", "en": "Closed circle"},
+   {"title": "一致收敛", "en": "Uniform convergence"},
+   {"title": "连续", "en": "Continuous"},
+   {"title": "逐项积分", "en": "Term-by-term integration"},
+   {"title": "区域", "en": "Domain"},
+   {"title": "内闭一致收敛", "en": "Uniformly convergent on a closed set"},
+   {"title": "圆", "en": "Circle"},
+   {"title": "充要条件", "en": "Necessary and sufficient condition"},
+   {"title": "解析函数项级数", "en": "Analytic function series"},
+   {"title": "魏尔斯特拉斯定理", "en": "Weierstrass theorem"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "莫雷拉定理", "en": "Morera's theorem"},
+   {"title": "柯西高阶导数公式", "en": "Cauchy's higher-order derivative formula"}
+], 
+"relations": [
+   {"source": "级数", "target": "闭圆", "type": "在", "description": "级数在闭圆上一致收敛"},
+   {"source": "级数", "target": "连续", "type": "在", "description": "级数的各项在点集E上连续，则和函数也在E上连续"},
+   {"source": "级数", "target": "逐项积分", "type": "可以", "description": "级数的各项在曲线C上连续，并且在C上一致收敛于f(z)，则沿C可以逐项积分"},
+   {"source": "函数项级数", "target": "内闭一致收敛", "type": "在", "description": "函数项级数在区域D内任一有界闭集上一致收敛，则称此级数在D内内闭一致收敛"},
+   {"source": "级数", "target": "内闭一致收敛", "type": "在", "description": "级数(4.2)在圆K:|x-a|<R内内闭一致收敛的充要条件为:对任意正数p,只要p<R,级数(4.2)在闭圆K:|x-a|≤p上一致收敛"},
+   {"source": "级数", "target": "内闭一致收敛", "type": "在", "description": "几何级数1+z+x?+…+g"+…,当|x|<1时,此级数收敛但不一致收敛，但由例4.2知它在单位圆|x|<1内是内闭一致收敛的"},
+   {"source": "解析函数项级数", "target": "解析", "type": "在", "description": "(1)函数f,(x)(n=1,2,…)在区域D内解析。(2在D内内闭一致收敛于函数f(z):则(1)函数f(z)在区域D内解析"},
+   {"source": "解析函数项级数", "target": "解析", "type": "在", "description": "(2)设x为D内任一点,则必有p>0,使闭圆K:|x-zol≤p全含于D内,K的边界是圆周T:|x-xol=p.故由定理3.13有在P上由条件(2)知级数是一致收敛的.于是由定理4.7得到两端同乘就得到所要证明的"}
+] 
+}{
+"knowledge_points": [
+   {"title": "蒙泰尔定理", "en": "Montel's theorem"},
+   {"title": "复函数序列", "en": "sequence of complex functions"},
+   {"title": "区域D", "en": "domain D"},
+   {"title": "解析", "en": "analytic"},
+   {"title": "内闭一致有界", "en": "uniformly bounded on a closed set"},
+   {"title": "子序列", "en": "subsequence"},
+   {"title": "内闭一致收敛", "en": "uniformly convergent on a closed set"},
+   {"title": "极限函数", "en": "limit function"},
+   {"title": "引理", "en": "lemma"},
+   {"title": "稠密子集", "en": "dense subset"},
+   {"title": "幂级数", "en": "power series"},
+   {"title": "等度连续", "en": "equicontinuous"},
+   {"title": "正方形网格", "en": "square grid"},
+   {"title": "稠密", "en": "dense"},
+   {"title": "有理点", "en": "rational point"},
+   {"title": "可列集", "en": "countable set"}
+],
+"relations": [
+   {"source": "复函数序列", "target": "区域D", "type": "在", "description": "解析"},
+   {"source": "复函数序列", "target": "内闭一致有界", "type": "在", "description": "区域D内"},
+   {"source": "复函数序列", "target": "子序列", "type": "存在", "description": "在区域D内内闭一致收敛的子序列"},
+   {"source": "子序列", "target": "极限函数", "type": "的", "description": "在区域D内解析"},
+   {"source": "引理", "target": "复函数序列", "type": "设", "description": "在区域D内解析、内闭一致有界、在D的一个稠密子集Ω上收敛"},
+   {"source": "引理", "target": "子序列", "type": "在", "description": "区域D内内闭一致收敛"},
+   {"source": "幂级数", "target": "复函数序列", "type": "称为", "description": "满足引理条件的序列"},
+   {"source": "正方形网格", "target": "有界闭集", "type": "的", "description": "边平行于坐标轴的"},
+   {"source": "有界闭集", "target": "正方形网格", "type": "含有", "description": "有限个点"},
+   {"source": "稠密子集", "target": "区域D", "type": "是", "description": "稠密的"},
+   {"source": "稠密子集", "target": "可列集", "type": "是", "description": "可列的"},
+   {"source": "子序列", "target": "复函数序列", "type": "有", "description": "收敛的子序列"},
+   {"source": "子序列", "target": "复函数序列", "type": "有", "description": "收敛的子序列"},
+   {"source": "子序列", "target": "复函数序列", "type": "有", "description": "收敛的子序列"}
+]
+}{
+"knowledge_points": [
+   {"title": "幂级数", "en": "Power series"},
+   {"title": "敛散性", "en": "Convergence and divergence"},
+   {"title": "阿贝尔定理", "en": "Abel's theorem"},
+   {"title": "收敛范围", "en": "Convergence range"},
+   {"title": "绝对收敛", "en": "Absolute convergence"},
+   {"title": "内闭一致收敛", "en": "Uniform convergence on a closed set"},
+   {"title": "发散", "en": "Divergence"},
+   {"title": "收敛半径", "en": "Radius of convergence"},
+   {"title": "收敛圆", "en": "Convergence circle"},
+   {"title": "收敛圆周", "en": "Convergence boundary"},
+   {"title": "柯西-阿达马公式", "en": "Cauchy-Hadamard formula"}
+],
+"relations": [
+   {"source": "幂级数", "target": "敛散性", "type": "包含", "description": "幂级数是解析函数项级数，其敛散性是重要的"},
+   {"source": "幂级数", "target": "阿贝尔定理", "type": "应用", "description": "阿贝尔定理用于判断幂级数的收敛范围"},
+   {"source": "幂级数", "target": "绝对收敛", "type": "结果", "description": "幂级数在收敛范围内绝对收敛"},
+   {"source": "幂级数", "target": "内闭一致收敛", "type": "结果", "description": "幂级数在收敛范围内内闭一致收敛"},
+   {"source": "幂级数", "target": "发散", "type": "结果", "description": "幂级数在收敛圆周外部发散"},
+   {"source": "幂级数", "target": "收敛半径", "type": "属性", "description": "收敛半径是幂级数的一个重要属性"},
+   {"source": "幂级数", "target": "收敛圆", "type": "属性", "description": "收敛圆是幂级数的一个重要属性"},
+   {"source": "幂级数", "target": "收敛圆周", "type": "属性", "description": "收敛圆周是幂级数的一个重要属性"},
+   {"source": "收敛半径", "target": "求法", "type": "方法", "description": "柯西-阿达马公式用于求解幂级数的收敛半径"}
+]
+}{
+"knowledge_points": [
+   {"title": "定理4.14", "en": "Theorem 4.14"},
+   {"title": "幂级数的和函数f(z)", "en": "Sum function of power series f(z)"},
+   {"title": "收敛圆K", "en": "Convergence circle K"},
+   {"title": "解析", "en": "Analytic"},
+   {"title": "幂级数", "en": "Power series"},
+   {"title": "逐项求导", "en": "Term-by-term differentiation"},
+   {"title": "阿贝尔定理", "en": "Abel's theorem"},
+   {"title": "闭一致收敛", "en": "Uniformly convergent"},
+   {"title": "魏尔斯特拉斯定理", "en": "Weierstrass theorem"},
+   {"title": "逐项积分", "en": "Term-by-term integration"},
+   {"title": "泰勒展式", "en": "Taylor series"},
+   {"title": "区域D", "en": "Region D"},
+   {"title": "柯西积分公式", "en": "Cauchy's integral formula"},
+   {"title": "熟知的公式", "en": "Well-known formula"},
+   {"title": "圆周F", "en": "Circular F"},
+   {"title": "逐项积分定理", "en": "Term-by-term integration theorem"},
+   {"title": "系数c", "en": "Coefficient c"}
+], 
+"relations": [
+   {"source": "定理4.14", "target": "幂级数的和函数f(z)", "type": "包含", "description": "定理4.14说明幂级数的和函数f(z)在收敛圆内解析"},
+   {"source": "定理4.14", "target": "收敛圆K", "type": "描述", "description": "定理4.14中提到幂级数的和函数f(z)在其收敛圆K内解析"},
+   {"source": "幂级数的和函数f(z)", "target": "解析", "type": "具有", "description": "幂级数的和函数f(z)具有解析性质"},
+   {"source": "幂级数", "target": "逐项求导", "type": "具有", "description": "幂级数可以逐项求导至任意阶"},
+   {"source": "幂级数", "target": "逐项积分", "type": "具有", "description": "幂级数可以沿K内曲线C逐项积分"},
+   {"source": "定理4.14", "target": "阿贝尔定理", "type": "引用", "description": "定理4.14的证明中引用了阿贝尔定理"},
+   {"source": "阿贝尔定理", "target": "幂级数", "type": "具有", "description": "阿贝尔定理说明幂级数在其收敛圆内闭一致收敛于f(z)"},
+   {"source": "幂级数", "target": "魏尔斯特拉斯定理", "type": "具有", "description": "幂级数满足魏尔斯特拉斯定理的条件"},
+   {"source": "定理4.14", "target": "逐项求导", "type": "描述", "description": "定理4.14中提到幂级数(4.6)可以逐项求导至任意阶"},
+   {"source": "定理4.14", "target": "逐项积分", "type": "描述", "description": "定理4.14中提到级数(4.6)可沿K内曲线C逐项积分"},
+   {"source": "定理4.14", "target": "泰勒展式", "type": "描述", "description": "定理4.14中提到任意一个具有非零收敛半径的幂级数在其收敛圆内能展成幂级数"},
+   {"source": "泰勒展式", "target": "定理4.15", "type": "引用", "description": "泰勒展式的证明中引用了定理4.15"},
+   {"source": "定理4.15", "target": "区域D", "type": "描述", "description": "定理4.15中提到f(z)在区域D内解析"},
+   {"source": "定理4.15", "target": "圆周F", "type": "描述", "description": "定理4.15中提到存在一个圆周F使得点x含在F的内部"},
+   {"source": "定理4.15", "target": "柯西积分公式", "type": "引用", "description": "定理4.15的证明中引用了柯西积分公式"},
+   {"source": "柯西积分公式", "target": "逐项积分定理", "type": "引用", "description": "柯西积分公式的证明中引用了逐项积分定理"},
+   {"source": "逐项积分定理", "target": "系数c", "type": "描述", "description": "逐项积分定理说明展式中的系数c由公式(4.10)给出"}
+] 
+}{
+"knowledge_points": [
+   {"title": "定理4.16", "en": "Theorem 4.16"},
+   {"title": "函数解析的充要条件", "en": "Necessary and sufficient condition for function to be analytic"},
+   {"title": "泰勒级数", "en": "Taylor series"},
+   {"title": "柯西不等式", "en": "Cauchy's inequality"},
+   {"title": "幂级数的和函数", "en": "Sum function of power series"},
+   {"title": "收敛圆周", "en": "Convergence circle"},
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "确定收敛半径的方法", "en": "Method to determine the convergence radius"},
+   {"title": "实数域", "en": "Real number field"},
+   {"title": "无穷阶可微函数", "en": "Infinitely differentiable function"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "等价刻画", "en": "Equivalent characterization"},
+   {"title": "绝对收敛", "en": "Absolutely convergent"},
+   {"title": "加法", "en": "Addition"},
+   {"title": "减法", "en": "Subtraction"},
+   {"title": "乘法", "en": "Multiplication"},
+   {"title": "除法", "en": "Division"},
+   {"title": "待定系数法", "en": "Method of undetermined coefficients"}
+], 
+"relations": [
+   {"source": "定理4.16", "target": "函数解析的充要条件", "type": "包含", "description": "函数f(z)在区域D内解析的充要条件为:f(x)在D内任一点a的邻域内可展成x-a的幂级数,即泰勒级数"},
+   {"source": "定理4.16", "target": "柯西不等式", "type": "应用", "description": "由第三章的柯西不等式知,若f(z)在|x-a|<R内解析,则其泰勒系数c,满足柯西不等式"},
+   {"source": "幂级数的和函数", "target": "收敛圆周", "type": "存在于", "description": "幂级数的和函数在其收敛圆周上的状况"},
+   {"source": "幂级数的和函数", "target": "奇点", "type": "存在于", "description": "幂级数的和函数在收敛圆周上至少有一个奇点"},
+   {"source": "确定收敛半径的方法", "target": "奇点", "type": "应用", "description": "设f(z)在点a解析,b是f(z)的奇点中距a最近的一个奇点,则|b-a|=R即为f(z)在点a的邻域内的幂级数展式的收敛半径"},
+   {"source": "实数域", "target": "幂级数的和函数", "type": "不适用于", "description": "幂级数的理论只有在复数域内才弄得完全明白"},
+   {"source": "等价刻画", "target": "解析函数", "type": "包括", "description": "区域D内解析的函数的种种等价刻画(包括定义2.2)"},
+   {"source": "绝对收敛", "target": "幂级数的和函数", "type": "性质", "description": "幂级数在它的收敛圆内绝对收敛"},
+   {"source": "加法", "target": "幂级数的和函数", "type": "操作", "description": "两个幂级数在收敛半径较小的那个圆域内可作加法"},
+   {"source": "减法", "target": "幂级数的和函数", "type": "操作", "description": "两个幂级数在收敛半径较小的那个圆域内可作减法"},
+   {"source": "乘法", "target": "幂级数的和函数", "type": "操作", "description": "两个幂级数在收敛半径较小的那个圆域内可作乘法"},
+   {"source": "除法", "target": "幂级数的和函数", "type": "操作", "description": "通过乘法及待定系数法来解决除法"}
+] 
+}{
+"knowledge_points": [
+   {"title": "泰勒展开方法", "en": "Taylor expansion method"},
+   {"title": "初等函数", "en": "Elementary functions"},
+   {"title": "泰勒系数", "en": "Taylor coefficients"},
+   {"title": "多值函数", "en": "Multivalued function"},
+   {"title": "Ln(1+x)", "en": "Ln(1+x)"},
+   {"title": "主值支", "en": "Principal branch"},
+   {"title": "幂级数", "en": "Power series"},
+   {"title": "复合函数求导法则", "en": "Chain rule for derivative of composite functions"},
+   {"title": "幂函数", "en": "Power function"},
+   {"title": "(1+z)°", "en": "(1+z)°"},
+   {"title": "系数公式", "en": "Coefficient formula"},
+   {"title": "积分形式", "en": "Integral form"},
+   {"title": "待定系数法", "en": "Method of undetermined coefficients"}
+], 
+"relations": [
+   {"source": "泰勒展开方法", "target": "初等函数", "type": "属于", "description": "泰勒展开方法是初等函数的一种计算方法"},
+   {"source": "泰勒展开方法", "target": "泰勒系数", "type": "计算", "description": "泰勒展开方法可以用来计算泰勒系数"},
+   {"source": "泰勒展开方法", "target": "多值函数", "type": "适用于", "description": "泰勒展开方法适用于多值函数的展开"},
+   {"source": "多值函数", "target": "Ln(1+x)", "type": "具有", "description": "Ln(1+x)是一个多值函数"},
+   {"source": "多值函数", "target": "幂级数", "type": "展开成", "description": "多值函数可以展开成幂级数"},
+   {"source": "Ln(1+x)", "target": "主值支", "type": "取", "description": "Ln(1+x)可以取主值支"},
+   {"source": "主值支", "target": "泰勒系数", "type": "计算", "description": "主值支的泰勒系数可以计算"},
+   {"source": "幂函数", "target": "(1+z)°", "type": "具有", "description": "幂函数(1+z)°具有支点-1"},
+   {"source": "幂函数", "target": "幂级数", "type": "展开成", "description": "幂函数可以展开成幂级数"},
+   {"source": "(1+z)°", "target": "主值支", "type": "取", "description": "(1+z)°可以取主值支"},
+   {"source": "主值支", "target": "泰勒系数", "type": "计算", "description": "主值支的泰勒系数可以计算"},
+   {"source": "幂级数", "target": "收敛范围", "type": "在", "description": "幂级数在收敛范围内收敛"},
+   {"source": "系数公式", "target": "积分形式", "type": "具有", "description": "系数公式具有积分形式"},
+   {"source": "待定系数法", "target": "系数公式", "type": "利用", "description": "待定系数法可以利用系数公式"},
+   {"source": "待定系数法", "target": "展式的前五项", "type": "求出", "description": "待定系数法可以求出展式的前五项"},
+   {"source": "待定系数法", "target": "收敛范围", "type": "指出", "description": "待定系数法可以指出展式的收敛范围"}
+] 
+}{
+"knowledge_points": [
+   {"title": "单叶解析函数", "en": "Analytic function"},
+   {"title": "单位圆", "en": "Unit circle"},
+   {"title": "展式", "en": "Expansion"},
+   {"title": "标准化条件", "en": "Normalization condition"},
+   {"title": "复常数", "en": "Complex constant"},
+   {"title": "根", "en": "Root"},
+   {"title": "常系数线性微分方程", "en": "Linear differential equation with constant coefficients"},
+   {"title": "特征多项式", "en": "Characteristic polynomial"},
+   {"title": "解析函数零点的孤立性", "en": "Isolation of zeros of analytic functions"},
+   {"title": "阶", "en": "Order"},
+   {"title": "单零点", "en": "Simple zero"},
+   {"title": "惟一性定理", "en": "Uniqueness theorem"},
+   {"title": "复变函数", "en": "Complex function"},
+   {"title": "连续函数", "en": "Continuous function"},
+   {"title": "柯西积分公式", "en": "Cauchy's integral formula"}
+], 
+"relations": [
+   {"source": "单叶解析函数", "target": "展式", "type": "规范成", "description": "将单位圆内解析的函数f(z)规范成展式f(z)=x+aiz?+…,|x|<1"},
+   {"source": "单叶解析函数", "target": "标准化条件", "type": "满足", "description": "满足标准化条件f(0)=0,f'(0)=1"},
+   {"source": "单叶解析函数", "target": "复常数", "type": "为", "description": "其中a为复常数"},
+   {"source": "根", "target": "常系数线性微分方程", "type": "转化为", "description": "在解常系数线性微分方程时，将求根问题转化为求特征多项式的根的问题"},
+   {"source": "解析函数零点的孤立性", "target": "阶", "type": "为", "description": "m阶零点a的阶为m"},
+   {"source": "解析函数零点的孤立性", "target": "单零点", "type": "为", "description": "m=1时，a为单零点"},
+   {"source": "解析函数零点的孤立性", "target": "解析函数零点的孤立性及惟一性定理", "type": "属于", "description": "这个问题是属于值的分布论中的问题"},
+   {"source": "解析函数零点的孤立性及惟一性定理", "target": "解析函数零点的孤立性", "type": "属于", "description": "这一节，我们只从函数f(z)的根的分布情况来研究f(z)=0的问题"},
+   {"source": "解析函数零点的孤立性及惟一性定理", "target": "解析函数零点的孤立性及惟一性定理", "type": "是", "description": "解析函数零点的孤立性及惟一性定理是解析函数论中最基本的定理"},
+   {"source": "解析函数零点的孤立性及惟一性定理", "target": "解析函数零点的孤立性及惟一性定理", "type": "反映", "description": "它们都反映解函数的特性"},
+   {"source": "解析函数零点的孤立性及惟一性定理", "target": "柯西积分公式", "type": "补充", "description": "柯西积分公式使我们知道，从解析函数在边界C上的值可以推得它在C的内部的一切值"}
+] 
+}{
+"knowledge_points": [
+   {"title": "证令f(z)=f?(x)-f?(z)", "en": "Let f(z)=f?(x)-f?(z)"},
+   {"title": "f(z)在D内恒为零", "en": "f(z) is constantly zero in D"},
+   {"title": "f(z)在D内解析", "en": "f(z) is analytic in D"},
+   {"title": "D本身就是以a为心的圆", "en": "D itself is a circle centered at a"},
+   {"title": "D就是整个z平面", "en": "D is the entire z-plane"},
+   {"title": "推论4.20", "en": "Corollary 4.20"},
+   {"title": "圆链法", "en": "Circular chain method"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "古尔萨证明", "en": "Goursat's proof"},
+   {"title": "圆K:|x-ao|<R", "en": "Circle K: |x-ao|<R"},
+   {"title": "圆K::|x-a?|<R", "en": "Circle K:: |x-a?|<R"},
+   {"title": "推论4.22", "en": "Corollary 4.22"},
+   {"title": "区域D内解析的函数", "en": "Analytic function in region D"},
+   {"title": "区域D内恒等", "en": "Constant in region D"},
+   {"title": "例4.17", "en": "Example 4.17"},
+   {"title": "函数f(z)", "en": "Function f(z)"},
+   {"title": "函数g(z)", "en": "Function g(z)"},
+   {"title": "在D内,f(z)·g(z)=0", "en": "In D, f(z)·g(z)=0"},
+   {"title": "推论4.23", "en": "Corollary 4.23"},
+   {"title": "实轴", "en": "Real axis"},
+   {"title": "sin?x+cos?z=1", "en": "sin?x+cos?z=1"},
+   {"title": "sin2×=2sinzcosx", "en": "sin2×=2sinzcosx"},
+   {"title": "注(1)", "en": "Note (1)"},
+   {"title": "注(2)", "en": "Note (2)"},
+   {"title": "例4.18", "en": "Example 4.18"},
+   {"title": "|x|<1", "en": "|x|<1"},
+   {"title": "展开Ln(1+z)的主值支成z的幂级数", "en": "Expand the principal branch of Ln(1+z) as a power series of z"},
+   {"title": "主值支ln(1+x)", "en": "Principal branch ln(1+x)"},
+   {"title": "数学分析中内收敛于一个解析函数g(z)", "en": "Converges to an analytic function g(z) in mathematical analysis"},
+   {"title": "根据惟一性定理(推论4.22)", "en": "According to the uniqueness theorem (Corollary 4.22)"},
+   {"title": "圆|x|<1内,g(z)=1n(1+x)", "en": "In the circle |x|<1, g(z)=1n(1+x)"},
+   {"title": "In(1+z)在|x|<1内的幂级数展式", "en": "Power series expansion of In(1+z) in |x|<1"}
+], 
+"relations": [
+   {"source": "证令f(z)=f?(x)-f?(z)", "target": "f(z)在D内恒为零", "type": "证明", "description": "证明f(z)在D内恒为零"},
+   {"source": "证令f(z)=f?(x)-f?(z)", "target": "f(z)在D内解析", "type": "假设", "description": "假设f(z)在D内解析"},
+   {"source": "f(z)在D内解析", "target": "D本身就是以a为心的圆", "type": "条件", "description": "如果D本身就是以a为心的圆"},
+   {"source": "f(z)在D内解析", "target": "D就是整个z平面", "type": "条件", "description": "如果D就是整个z平面"},
+   {"source": "D本身就是以a为心的圆", "target": "推论4.20", "type": "由", "description": "由推论4.20即知f(z)=0"},
+   {"source": "D就是整个z平面", "target": "推论4.20", "type": "由", "description": "由推论4.20即知f(z)=0"},
+   {"source": "推论4.20", "target": "圆K:|x-ao|<R", "type": "在", "description": "在圆K:|x-ao|<R内f(z)=0"},
+   {"source": "圆K:|x-ao|<R", "target": "推论4.20", "type": "重复应用", "description": "在圆K::|x-a?|<R又重复应用推论4.20"},
+   {"source": "推论4.20", "target": "圆K::|x-a?|<R", "type": "在", "description": "在圆K::|x-a?|<R内f(z)=0"},
+   {"source": "推论4.20", "target": "f(b)=0", "type": "得", "description": "得到f(b)=0"},
+   {"source": "f(b)=0", "target": "D内f(z)=0", "type": "因此", "description": "因为b是D内任意的点,故证明了在D内f(z)=0"},
+   {"source": "推论4.22", "target": "区域D内解析的函数", "type": "设", "description": "设在区域D内解析的函数f?(z)及f?(z)在D内的某一子区域(或一小段弧)上相等"},
+   {"source": "区域D内解析的函数", "target": "区域D内恒等", "type": "则", "description": "则它们必在区域D内恒等"},
+   {"source": "例4.17", "target": "函数f(z)", "type": "设", "description": "设函数f(z)及g(z)在区域D内解析"},
+   {"source": "例4.17", "target": "函数g(z)", "type": "设", "description": "设函数f(z)及g(z)在区域D内解析"},
+   {"source": "例4.17", "target": "在D内,f(z)·g(z)=0", "type": "在", "description": "在D内,f(z)·g(z)=0"},
+   {"source": "在D内,f(z)·g(z)=0", "target": "f(z)=0", "type": "则", "description": "则在D内f(z)=0"},
+   {"source": "在D内,f(z)·g(z)=0", "target": "g(z)=0", "type": "或", "description": "或在D内g(z)=0"},
+   {"source": "推论4.23", "target": "实轴", "type": "一切在", "description": "一切在实轴上成立的恒等式"},
+   {"source": "实轴", "target": "推论4.23", "type": "在", "description": "在x平面上也成立"},
+   {"source": "实轴", "target": "sin?x+cos?z=1", "type": "例如", "description": "例如sin?x+cos?z=1"},
+   {"source": "实轴", "target": "sin2×=2sinzcosx", "type": "例如", "description": "例如sin2×=2sinzcosx"},
+   {"source": "注(1)", "target": "推论4.20", "type": "推论4.20显然包含在", "description": "推论4.20显然包含在定理4.21中"},
+   {"source": "注(1)", "target": "推论4.22", "type": "因此它们和", "description": "因此它们和推论4.22、推论4.23在引用时都称为解析函数的惟一性定理"},
+   {"source": "注(1)", "target": "推论4.23", "type": "因此它们和", "description": "因此它们和推论4.22、推论4.23在引用时都称为解析函数的惟一性定理"},
+   {"source": "注(2)", "target": "惟一性定理", "type": "惟一性定理揭示了", "description": "惟一性定理揭示了解析函数一个非常深刻的性质,函数在区域D内的局部值确定了函数在区域D内整体的值,即局部与整体之间有着十分紧密的内在联系"},
+   {"source": "例4.18", "target": "|x|<1", "type": "应用", "description": "应用惟一性定理,在|x|<1内展开Ln(1+z)的主值支成z的幂级数"},
+   {"source": "例4.18", "target": "主值支ln(1+x)", "type": "展开", "description": "展开Ln(1+z)的主值支成z的幂级数"},
+   {"source": "主值支ln(1+x)", "target": "|x|<1", "type": "在", "description": "在|x|<1内解析"},
+   {"source": "主值支ln(1+x)", "target": "数学分析中内收敛于一个解析函数g(z)", "type": "在", "description": "在数学分析中内收敛于一个解析函数g(z)"},
+   {"source": "数学分析中内收敛于一个解析函数g(z)", "target": "根据惟一性定理(推论4.22)", "type": "因此", "description": "因此根据惟一性定理(推论4.22),在圆|x|<1内,g(z)=1n(1+x)"},
+   {"source": "根据惟一性定理(推论4.22)", "target": "圆|x|<1内,g(z)=1n(1+x)", "type": "故得", "description": "故得In(1+z)在|x|<1内的幂级数展式为这与(4.13)一致"},
+   {"source": "例4.18", "target": "In(1+z)在|x|<1内的幂级数展式", "type": "展开为", "description": "展开为这与(4.13)一致"},
+   {"source": "例4.18", "target": "In(1+z)", "type": "展开", "description": "展开Ln(1+z)的主值支成z的幂级数"}
+] 
+}{
+"knowledge_points": [
+   {"title": "最大模原理", "en": "Maximum Modulus Principle"},
+   {"title": "解析函数", "en": "Analytic Function"},
+   {"title": "区域", "en": "Domain"},
+   {"title": "模", "en": "Modulus"},
+   {"title": "常数", "en": "Constant"},
+   {"title": "平均值定理", "en": "Mean Value Theorem"},
+   {"title": "圆心", "en": "Center of Circle"},
+   {"title": "周界", "en": "Boundary"},
+   {"title": "连续性", "en": "Continuity"},
+   {"title": "惟一性定理", "en": "Uniqueness Theorem"},
+   {"title": "无界区域", "en": "Unbounded Domain"},
+   {"title": "闭包", "en": "Closure"},
+   {"title": "无穷远点", "en": "Infinity Point"},
+   {"title": "增长性", "en": "Growth"},
+   {"title": "林德勒夫定理", "en": "Lindelof's Theorem"},
+   {"title": "弗拉格门定理", "en": "Phragmén's Theorem"},
+   {"title": "洛朗展式", "en": "Laurent Series"},
+   {"title": "孤立奇点", "en": "Isolated Singularity"},
+   {"title": "贝塞尔函数", "en": "Bessel Function"},
+   {"title": "圆环", "en": "Annulus"},
+   {"title": "级数表示", "en": "Series Representation"},
+   {"title": "双边幂级数", "en": "Bilateral Power Series"}
+], 
+"relations": [
+   {"source": "解析函数", "target": "最大模原理", "type": "应用", "description": "解析函数在区域内的模不能达到最大值，除非函数恒等于常数。"},
+   {"source": "最大模原理", "target": "平均值定理", "type": "推导", "description": "通过平均值定理可以推导出最大模原理。"},
+   {"source": "平均值定理", "target": "圆心", "type": "应用", "description": "平均值定理可以应用于以圆心为中心的圆。"},
+   {"source": "最大模原理", "target": "惟一性定理", "type": "推导", "description": "最大模原理可以推导出解析函数的惟一性定理。"},
+   {"source": "最大模原理", "target": "无界区域", "type": "例外", "description": "最大模原理不一定成立于无界区域。"},
+   {"source": "无界区域", "target": "林德勒夫定理", "type": "推广", "description": "需要对解析函数在无穷远点邻域内的增长性加上条件，才能推广最大模原理到无界区域。"},
+   {"source": "无界区域", "target": "弗拉格门定理", "type": "推广", "description": "需要对解析函数在无穷远点邻域内的增长性加上条件，才能推广最大模原理到无界区域。"},
+   {"source": "洛朗展式", "target": "孤立奇点", "type": "应用", "description": "洛朗展式用于表示解析函数在孤立奇点邻域内的级数表示。"},
+   {"source": "洛朗展式", "target": "贝塞尔函数", "type": "例子", "description": "贝塞尔函数是一种不能用泰勒级数表示的特殊函数，可以用洛朗展式表示。"},
+   {"source": "洛朗展式", "target": "圆环", "type": "应用", "description": "洛朗展式用于表示解析函数在圆环内的级数表示。"}
+] 
+}{
+"knowledge_points": [
+   {"title": "双边幂级数", "en": "Bilateral power series"},
+   {"title": "收敛圆环", "en": "Convergence annulus"},
+   {"title": "绝对收敛", "en": "Absolute convergence"},
+   {"title": "内闭一致收敛", "en": "Uniform convergence on the interior"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "可逐项求导", "en": "Term-by-term differentiation"},
+   {"title": "逐项积分", "en": "Term-by-term integration"},
+   {"title": "洛朗展式", "en": "Laurent series"},
+   {"title": "洛朗定理", "en": "Laurent's theorem"},
+   {"title": "泰勒定理", "en": "Taylor's theorem"},
+   {"title": "柯西积分公式", "en": "Cauchy's integral formula"},
+   {"title": "惟一性", "en": "Uniqueness"},
+   {"title": "洛朗系数", "en": "Laurent coefficients"},
+   {"title": "洛朗级数", "en": "Laurent series"},
+   {"title": "泰勒级数", "en": "Taylor series"}
+], 
+"relations": [
+   {"source": "双边幂级数", "target": "收敛圆环", "type": "定义", "description": "双边幂级数的收敛圆环是指其收敛的半径和内半径分别为r和R的圆环"},
+   {"source": "收敛圆环", "target": "绝对收敛", "type": "推论", "description": "在收敛圆环内的双边幂级数绝对收敛"},
+   {"source": "收敛圆环", "target": "内闭一致收敛", "type": "推论", "description": "在收敛圆环内的双边幂级数内闭一致收敛于f(z)=fi(z)+f?(z)"},
+   {"source": "解析函数", "target": "收敛圆环", "type": "定义", "description": "解析函数在其收敛圆环内解析"},
+   {"source": "解析函数", "target": "可逐项求导", "type": "推论", "description": "解析函数在其收敛圆环内可逐项求导p次(p=1,2,...)"},
+   {"source": "解析函数", "target": "逐项积分", "type": "推论", "description": "解析函数在其收敛圆环内可沿曲线C逐项积分"},
+   {"source": "洛朗展式", "target": "双边幂级数", "type": "定理", "description": "洛朗展式是双边幂级数在其收敛圆环内的表示"},
+   {"source": "洛朗展式", "target": "洛朗定理", "type": "定理", "description": "洛朗展式是在圆环内解析的函数必可展成双边幂级数"},
+   {"source": "洛朗展式", "target": "洛朗系数", "type": "定义", "description": "洛朗展式中的(5.5)称为洛朗系数"},
+   {"source": "洛朗展式", "target": "洛朗级数", "type": "定义", "description": "洛朗展式等号右边的级数称为洛朗级数"},
+   {"source": "洛朗定理", "target": "泰勒定理", "type": "对应", "description": "洛朗定理对应于泰勒定理"},
+   {"source": "洛朗级数", "target": "泰勒级数", "type": "关系", "description": "洛朗级数与泰勒级数有关系"}
+] 
+}{
+"knowledge_points": [
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "解析区域", "en": "Analytic region"},
+   {"title": "展式", "en": "Expansion"},
+   {"title": "部分分式", "en": "Partial fraction"},
+   {"title": "泰勒展式", "en": "Taylor series"},
+   {"title": "洛朗级数", "en": "Laurent series"},
+   {"title": "洛朗展式", "en": "Laurent expansion"},
+   {"title": "孤立奇点", "en": "Isolated singularity"},
+   {"title": "单值性孤立奇点", "en": "Single-valued isolated singularity"},
+   {"title": "多值性孤立奇点", "en": "Multi-valued isolated singularity"},
+   {"title": "支点", "en": "Branch point"},
+   {"title": "展开方法", "en": "Expansion method"},
+   {"title": "直接展开法", "en": "Direct expansion method"},
+   {"title": "间接展开法", "en": "Indirect expansion method"},
+   {"title": "洛朗系数", "en": "Laurent coefficient"}
+],
+"relations": [
+   {"source": "函数", "target": "奇点", "type": "在", "description": "函数在奇点处可能发生特殊情况"},
+   {"source": "函数", "target": "解析区域", "type": "被分成", "description": "函数的解析区域是由奇点决定的"},
+   {"source": "解析区域", "target": "f(z)", "type": "内求", "description": "在解析区域内求函数的展式"},
+   {"source": "函数", "target": "部分分式", "type": "分解成", "description": "将函数分解成部分分式可以方便求解展式"},
+   {"source": "圆|x|<1", "target": "f(z)", "type": "内求", "description": "在圆|x|<1内求函数的展式"},
+   {"source": "圆环1<|z|<2", "target": "f(z)", "type": "内求", "description": "在圆环1<|z|<2内求函数的展式"},
+   {"source": "圆环2<|x|<+o", "target": "f(z)", "type": "内求", "description": "在圆环2<|x|<+o内求函数的展式"},
+   {"source": "函数", "target": "洛朗级数", "type": "展开成", "description": "函数可以展开成洛朗级数"},
+   {"source": "函数", "target": "孤立奇点", "type": "有", "description": "函数可能有孤立奇点"},
+   {"source": "孤立奇点", "target": "洛朗展式", "type": "在", "description": "孤立奇点的邻域内可以展开成洛朗展式"},
+   {"source": "函数", "target": "洛朗展式", "type": "求", "description": "可以通过已知的幂级数展式求得洛朗展式"},
+   {"source": "函数", "target": "展开方法", "type": "根据", "description": "根据展开方法选择合适的方法求解展式"},
+   {"source": "展开方法", "target": "直接展开法", "type": "利用", "description": "可以利用直接展开法计算洛朗系数"},
+   {"source": "展开方法", "target": "间接展开法", "type": "利用", "description": "可以利用间接展开法计算洛朗展式"},
+   {"source": "洛朗展式", "target": "洛朗系数", "type": "计算", "description": "洛朗展式的计算需要计算洛朗系数"}
+]
+}{
+"knowledge_points": [
+   {"title": "孤立奇点", "en": "Isolated singularity"},
+   {"title": "可去奇点", "en": "Removable singularity"},
+   {"title": "极点", "en": "Pole"},
+   {"title": "本质奇点", "en": "Essential singularity"}
+], 
+"relations": [
+   {"source": "孤立奇点", "target": "可去奇点", "type": "是", "description": "如果f(z)在点a的主要部分为零，则称a为f(z)的可去奇点"},
+   {"source": "孤立奇点", "target": "极点", "type": "是", "description": "如果f(z)在点a的主要部分为有限多项，则称a为f(z)的m阶极点"},
+   {"source": "孤立奇点", "target": "本质奇点", "type": "是", "description": "如果f(z)在点a的主要部分有无限多项，则称a为f(x)的本质奇点"},
+   {"source": "可去奇点", "target": "孤立奇点", "type": "是", "description": "可去奇点是孤立奇点的一种类型"},
+   {"source": "极点", "target": "孤立奇点", "type": "是", "description": "极点是孤立奇点的一种类型"},
+   {"source": "本质奇点", "target": "孤立奇点", "type": "是", "description": "本质奇点是孤立奇点的一种类型"}
+] 
+}{
+"knowledge_points": [
+   {"title": "函数f(z)", "en": "function f(z)"},
+   {"title": "点a", "en": "point a"},
+   {"title": "孤立奇点", "en": "isolated singularity"},
+   {"title": "主要部分", "en": "principal part"},
+   {"title": "去心邻域", "en": "punctured neighborhood"},
+   {"title": "解析", "en": "analytic"},
+   {"title": "m阶极点", "en": "mth order pole"},
+   {"title": "m阶零点", "en": "mth order zero"},
+   {"title": "可去奇点", "en": "removable singularity"},
+   {"title": "泰勒展式", "en": "Taylor series"},
+   {"title": "充要条件", "en": "necessary and sufficient condition"},
+   {"title": "阶", "en": "order"},
+   {"title": "本质奇点", "en": "essential singularity"}
+], 
+"relations": [
+   {"source": "函数f(z)", "target": "点a", "type": "以", "description": "以点a为孤立奇点"},
+   {"source": "函数f(z)", "target": "主要部分", "type": "在", "description": "在点a的主要部分为"},
+   {"source": "函数f(z)", "target": "去心邻域", "type": "在", "description": "在点a的某去心邻域内能表示成"},
+   {"source": "函数f(z)", "target": "解析", "type": "在", "description": "在点a的邻域内解析"},
+   {"source": "函数f(z)", "target": "m阶极点", "type": "是", "description": "是m阶极点的特征"},
+   {"source": "函数f(z)", "target": "m阶零点", "type": "是", "description": "是m阶零点的特征"},
+   {"source": "函数f(z)", "target": "可去奇点", "type": "是", "description": "是可去奇点的特征"},
+   {"source": "函数f(z)", "target": "泰勒展式", "type": "是", "description": "是f(x)在点a的主要部分"},
+   {"source": "函数f(z)", "target": "极点", "type": "是", "description": "是函数f(z)的孤立奇点"},
+   {"source": "函数f(z)", "target": "零点", "type": "是", "description": "是函数f(z)的孤立奇点"},
+   {"source": "函数f(z)", "target": "极点", "type": "是", "description": "是函数f(z)的极点"},
+   {"source": "函数f(z)", "target": "零点", "type": "是", "description": "是函数f(z)的零点"},
+   {"source": "函数f(z)", "target": "本质奇点", "type": "是", "description": "是函数f(z)的本质奇点"},
+   {"source": "点a", "target": "极点", "type": "是", "description": "是函数f(z)的极点"},
+   {"source": "点a", "target": "零点", "type": "是", "description": "是函数f(z)的零点"},
+   {"source": "点a", "target": "本质奇点", "type": "是", "description": "是函数f(z)的本质奇点"},
+   {"source": "函数f(z)", "target": "充要条件", "type": "是", "description": "是函数f(z)为极点的充要条件"},
+   {"source": "函数f(z)", "target": "充要条件", "type": "是", "description": "是函数f(z)为零点的充要条件"},
+   {"source": "函数f(z)", "target": "阶", "type": "是", "description": "是函数f(z)的阶"},
+   {"source": "函数f(z)", "target": "阶", "type": "是", "description": "是函数f(z)的阶"},
+   {"source": "函数f(z)", "target": "本质奇点", "type": "是", "description": "是函数f(z)的本质奇点"},
+   {"source": "函数f(z)", "target": "本质奇点", "type": "是", "description": "是函数f(z)的本质奇点"}
+] 
+}{
+"knowledge_points": [
+   {"title": "魏尔斯特拉斯定理", "en": "Weierstrass' theorem"},
+   {"title": "本质奇点", "en": "essential singularity"},
+   {"title": "解析函数", "en": "analytic function"},
+   {"title": "无穷远点", "en": "infinity point"},
+   {"title": "孤立奇点", "en": "isolated singularity"},
+   {"title": "可去奇点", "en": "removable singularity"},
+   {"title": "极点", "en": "pole"},
+   {"title": "洛朗级数", "en": "Laurent series"}
+], 
+"relations": [
+   {"source": "魏尔斯特拉斯定理", "target": "本质奇点", "type": "描述出", "description": "解析函数在本质奇点邻域内的特性"},
+   {"source": "魏尔斯特拉斯定理", "target": "解析函数", "type": "是", "description": "定理适用于解析函数"},
+   {"source": "魏尔斯特拉斯定理", "target": "无穷远点", "type": "适用于", "description": "定理适用于无穷远点"},
+   {"source": "魏尔斯特拉斯定理", "target": "可去奇点", "type": "适用于", "description": "定理适用于可去奇点"},
+   {"source": "魏尔斯特拉斯定理", "target": "极点", "type": "适用于", "description": "定理适用于极点"},
+   {"source": "魏尔斯特拉斯定理", "target": "洛朗级数", "type": "推出", "description": "定理的证明中使用了洛朗级数"},
+   {"source": "解析函数", "target": "无穷远点", "type": "具有", "description": "解析函数可以在无穷远点解析"},
+   {"source": "无穷远点", "target": "孤立奇点", "type": "是", "description": "无穷远点是孤立奇点"},
+   {"source": "孤立奇点", "target": "可去奇点", "type": "可以是", "description": "孤立奇点可以是可去奇点"},
+   {"source": "孤立奇点", "target": "极点", "type": "可以是", "description": "孤立奇点可以是极点"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复变函数引论", "en": "Introduction to Complex Variables"},
+   {"title": "肖特基", "en": "Schottky"},
+   {"title": "单复变函数", "en": "Single Complex Variable"},
+   {"title": "洛朗展式", "en": "Laurent series"},
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "可去奇点", "en": "Removable singularity"},
+   {"title": "本质奇点", "en": "Essential singularity"},
+   {"title": "极点", "en": "Pole"},
+   {"title": "阶", "en": "Order"},
+   {"title": "多值解析函数", "en": "Multivalued analytic function"}
+], 
+"relations": [
+   {"source": "复变函数引论", "target": "肖特基", "type": "载有证明", "description": "第八章§4载有肖特基的证明"},
+   {"source": "单复变函数", "target": "洛朗展式", "type": "包含", "description": "第十二章讨论洛朗展式"},
+   {"source": "洛朗展式", "target": "奇点", "type": "展开", "description": "洛朗展式在奇点附近展开"},
+   {"source": "洛朗展式", "target": "可去奇点", "type": "展开", "description": "洛朗展式在可去奇点附近展开"},
+   {"source": "洛朗展式", "target": "本质奇点", "type": "展开", "description": "洛朗展式在本质奇点附近展开"},
+   {"source": "奇点", "target": "可去奇点", "type": "充要条件", "description": "定理5.3'说明可去奇点的充要条件"},
+   {"source": "奇点", "target": "本质奇点", "type": "充要条件", "description": "定理5.6'说明本质奇点的充要条件"},
+   {"source": "奇点", "target": "极点", "type": "类型", "description": "函数的奇点可以是极点"},
+   {"source": "极点", "target": "阶", "type": "指示", "description": "极点可以有不同的阶"},
+   {"source": "多值解析函数", "target": "洛朗级数", "type": "展开", "description": "将多值解析函数在无穷远点的某去心邻域内展成洛朗级数"}
+] 
+}{
+"knowledge_points": [
+   {"title": "解析点", "en": "Analytic point"},
+   {"title": "可去奇点", "en": "Removable singularity"},
+   {"title": "极点", "en": "Pole"},
+   {"title": "聚点", "en": "Cluster point"},
+   {"title": "非孤立奇点", "en": "Non-isolated singularity"},
+   {"title": "整函数", "en": "Entire function"},
+   {"title": "超越整函数", "en": "Transcendental entire function"},
+   {"title": "亚纯函数", "en": "Meromorphic function"},
+   {"title": "有理函数", "en": "Rational function"}
+], 
+"relations": [
+   {"source": "解析点", "target": "可去奇点", "type": "是", "description": "解析函数在该点处的奇点可以被去除"},
+   {"source": "解析点", "target": "极点", "type": "是", "description": "解析函数在该点处的奇点是极点"},
+   {"source": "极点", "target": "聚点", "type": "是", "description": "极点的集合是聚点"},
+   {"source": "极点", "target": "非孤立奇点", "type": "是", "description": "极点是非孤立奇点"},
+   {"source": "整函数", "target": "可去奇点", "type": "是", "description": "整函数只有可去奇点"},
+   {"source": "整函数", "target": "极点", "type": "是", "description": "整函数可以有极点"},
+   {"source": "整函数", "target": "超越整函数", "type": "是", "description": "整函数可以是超越整函数"},
+   {"source": "亚纯函数", "target": "极点", "type": "是", "description": "亚纯函数可以有极点"},
+   {"source": "亚纯函数", "target": "可去奇点", "type": "是", "description": "亚纯函数可以有可去奇点"},
+   {"source": "亚纯函数", "target": "非孤立奇点", "type": "是", "description": "亚纯函数可以有非孤立奇点"},
+   {"source": "有理函数", "target": "极点", "type": "是", "description": "有理函数可以有极点"},
+   {"source": "有理函数", "target": "可去奇点", "type": "是", "description": "有理函数可以有可去奇点"}
+] 
+}{
+"knowledge_points": [
+   {"title": "单叶整函数", "en": "single-valued entire function"},
+   {"title": "常数", "en": "constant"},
+   {"title": "超越整函数", "en": "transcendental entire function"},
+   {"title": "本质奇点", "en": "essential singularity"},
+   {"title": "皮卡大定理", "en": "Picard's theorem"},
+   {"title": "多项式", "en": "polynomial"},
+   {"title": "复势", "en": "complex potential"},
+   {"title": "源", "en": "source"},
+   {"title": "漏", "en": "sink"},
+   {"title": "流线", "en": "streamline"},
+   {"title": "阶极点", "en": "pole of order"},
+   {"title": "可去奇点", "en": "removable singularity"},
+   {"title": "阶零点", "en": "zero of order"},
+   {"title": "重源", "en": "double source"},
+   {"title": "偶极子", "en": "dipole"}
+], 
+"relations": [
+   {"source": "f(z)", "target": "单叶整函数", "type": "是", "description": "充要条件"},
+   {"source": "f(z)", "target": "ax+b(a≠0)", "type": "是", "description": "单叶整函数"},
+   {"source": "f(z)", "target": "常数", "type": "与", "description": "单叶性矛盾"},
+   {"source": "f(z)", "target": "超越整函数", "type": "与", "description": "单叶性矛盾"},
+   {"source": "f(z)", "target": "本质奇点", "type": "与", "description": "单叶性矛盾"},
+   {"source": "f(z)", "target": "皮卡大定理", "type": "与", "description": "单叶性矛盾"},
+   {"source": "f(z)", "target": "多项式", "type": "与", "description": "单叶性矛盾"},
+   {"source": "复势", "target": "无源、漏的无旋流动", "type": "对应", "description": "解析函数"},
+   {"source": "复势", "target": "多值", "type": "可能是", "description": "解析函数"},
+   {"source": "复势", "target": "源", "type": "具有", "description": "流体力学意义"},
+   {"source": "复势", "target": "漏", "type": "具有", "description": "流体力学意义"},
+   {"source": "复势", "target": "阶极点", "type": "一阶", "description": "极点"},
+   {"source": "复势", "target": "可去奇点", "type": "一阶", "description": "零点"},
+   {"source": "复势", "target": "源", "type": "重源", "description": "强度相同"},
+   {"source": "复势", "target": "漏", "type": "重源", "description": "强度相同"}
+] 
+}{
+"knowledge_points": [
+   {"title": "平面电场", "en": "Plane electric field"},
+   {"title": "电通", "en": "Electric flux"},
+   {"title": "电位", "en": "Electric potential"},
+   {"title": "调和函数", "en": "Harmonic function"},
+   {"title": "拉普拉斯方程", "en": "Laplace's equation"},
+   {"title": "电力线", "en": "Electric field lines"},
+   {"title": "等位线", "en": "Equipotential lines"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "实部", "en": "Real part"},
+   {"title": "虚部", "en": "Imaginary part"},
+   {"title": "复电位", "en": "Complex potential"},
+   {"title": "静电场", "en": "Electrostatic field"},
+   {"title": "留数理论", "en": "Residue theory"},
+   {"title": "留数", "en": "Residue"}
+],
+"relations": [
+   {"source": "平面电场", "target": "电通", "type": "包含", "description": "电通是平面电场的一个重要概念"},
+   {"source": "平面电场", "target": "电位", "type": "包含", "description": "电位是平面电场的一个重要概念"},
+   {"source": "电通", "target": "调和函数", "type": "满足", "description": "电通是调和函数"},
+   {"source": "电位", "target": "调和函数", "type": "满足", "description": "电位是调和函数"},
+   {"source": "电力线", "target": "等位线", "type": "正交", "description": "电力线和等位线互相正交"},
+   {"source": "电通", "target": "解析函数", "type": "实部", "description": "电通可以看作解析函数的实部"},
+   {"source": "电位", "target": "解析函数", "type": "虚部", "description": "电位可以看作解析函数的虚部"},
+   {"source": "复电位", "target": "电场", "type": "表示", "description": "复电位表示电场"},
+   {"source": "解析函数", "target": "电场", "type": "研究", "description": "解析函数可以用于研究电场"},
+   {"source": "解析函数", "target": "电位", "type": "联系", "description": "解析函数将电场的电位和电通联系起来"},
+   {"source": "解析函数", "target": "简化", "type": "简化", "description": "解析函数可以简化电场问题的研究"},
+   {"source": "留数理论", "target": "留数", "type": "应用", "description": "留数理论是研究留数的理论"},
+   {"source": "留数", "target": "洛朗级数", "type": "计算", "description": "留数可以利用洛朗级数公式进行计算"}
+]
+}{"knowledge_points": [
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "柯西积分公式", "en": "Cauchy's integral formula"},
+   {"title": "柯西留数定理", "en": "Cauchy's residue theorem"},
+   {"title": "留数", "en": "residue"},
+   {"title": "复平面", "en": "complex plane"},
+   {"title": "单连通区域", "en": "simply connected region"},
+   {"title": "解析函数", "en": "analytic function"}
+], 
+"relations": [
+   {"source": "柯西积分定理", "target": "柯西积分公式", "type": "特殊情形", "description": "柯西积分定理是柯西积分公式的特殊情形"},
+   {"source": "柯西积分定理", "target": "柯西留数定理", "type": "特殊情形", "description": "柯西积分定理是柯西留数定理的特殊情形"},
+   {"source": "柯西留数定理", "target": "留数", "type": "计算", "description": "留数定理把计算周线积分的整体问题,化为计算各孤立奇点处留数的局部问题"},
+   {"source": "复平面", "target": "单连通区域", "type": "包含关系", "description": "单连通区域是复平面上的一个连通区域"},
+   {"source": "单连通区域", "target": "解析函数", "type": "定义", "description": "解析函数是在单连通区域上解析的函数"}
+] 
+}{
+"knowledge_points": [
+   {"title": "复平面", "en": "Complex plane"},
+   {"title": "二连通区域", "en": "Simply connected domain"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "闭曲线", "en": "Closed curve"},
+   {"title": "外边界", "en": "Outer boundary"},
+   {"title": "内边界", "en": "Inner boundary"},
+   {"title": "连通区域", "en": "Connected domain"}
+], 
+"relations": [
+   {"source": "D?", "target": "D2", "type": "是", "description": "D?是D2的子集"},
+   {"source": "f(z)", "target": "F(z)", "type": "存在", "description": "存在D2上的解析函数F(z)，使得F'(z)=f(z)"},
+   {"source": "f(z)", "target": "g(z)", "type": "是", "description": "f(z)是g(z)的导函数"},
+   {"source": "g(z)", "target": "G(z)", "type": "存在", "description": "存在D?上的解析函数G(z)，使得G'(z)=g(z)"},
+   {"source": "2?CC", "target": "22", "type": "是", "description": "2?CC是22的子集"},
+   {"source": "f(z)", "target": "g(z)", "type": "是", "description": "f(z)是g(z)的导函数"},
+   {"source": "g(z)", "target": "G(z)", "type": "存在", "description": "存在Ω2上的解析函数G(z)，使得G'(z)=g(z)"},
+   {"source": "Dn+1", "target": "D?{ai,az,…,a}", "type": "是", "description": "Dn+1是D?\{ai,az,…,a}的子集"},
+   {"source": "f(z)", "target": "F(z)", "type": "存在", "description": "存在D+1上的解析函数F(z)，使得F'(z)=f(z)"},
+   {"source": "f(z)", "target": "g(z)", "type": "是", "description": "f(z)是g(z)的导函数"},
+   {"source": "g(z)", "target": "G(z)", "type": "存在", "description": "存在D.+1上的解析函数G(z)，使得G'(z)=g(z)"},
+   {"source": "2+1CC", "target": "γ", "type": "是", "description": "2+1CC是γ的子集"},
+   {"source": "f(z)", "target": "g(z)", "type": "是", "description": "f(z)是g(z)的导函数"},
+   {"source": "g(z)", "target": "G(z)", "type": "存在", "description": "存在Ω+1上的解析函数G(z)，使得G'(z)=g(z)"}
+] 
+}{
+"knowledge_points": [
+   {"title": "留数定理", "en": "Residue theorem"},
+   {"title": "洛朗展式", "en": "Laurent series"},
+   {"title": "极点", "en": "Pole"},
+   {"title": "积分", "en": "Integration"},
+   {"title": "阶数", "en": "Order"},
+   {"title": "定理", "en": "Theorem"},
+   {"title": "推论", "en": "Corollary"},
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "幂级数", "en": "Power series"},
+   {"title": "零点", "en": "Zero"},
+   {"title": "本质奇点", "en": "Essential singularity"},
+   {"title": "无穷远点", "en": "Infinity point"}
+], 
+"relations": [
+   {"source": "留数定理", "target": "求留数的方法", "type": "包含", "description": "应用留数定理求周线积分需要掌握求留数的方法"},
+   {"source": "求留数的方法", "target": "洛朗展式", "type": "使用", "description": "计算在孤立奇点处的留数时，可以使用洛朗展式"},
+   {"source": "洛朗展式", "target": "留数定理", "type": "使用", "description": "应用洛朗展式求留数是一般方法"},
+   {"source": "留数定理", "target": "极点", "type": "使用", "description": "留数定理可以用来求极点处的留数"},
+   {"source": "定理", "target": "极点", "type": "定义", "description": "定理6.2给出了求n阶极点处留数的公式"},
+   {"source": "定理", "target": "留数定理", "type": "使用", "description": "定理6.2可以用来应用留数定理求周线积分"},
+   {"source": "定理", "target": "阶数", "type": "定义", "description": "定理6.2中的n阶极点指的是极点的阶数"},
+   {"source": "定理", "target": "留数定理", "type": "使用", "description": "定理6.2可以用来应用留数定理求周线积分"},
+   {"source": "推论", "target": "极点", "type": "使用", "description": "推论6.3和推论6.4可以用来求极点处的留数"},
+   {"source": "留数定理", "target": "积分", "type": "使用", "description": "留数定理可以用来计算积分"},
+   {"source": "定理", "target": "积分", "type": "使用", "description": "定理6.2可以用来计算积分"},
+   {"source": "定理", "target": "极点", "type": "使用", "description": "定理6.2可以用来计算极点处的留数"},
+   {"source": "定理", "target": "留数定理", "type": "使用", "description": "定理6.2可以用来应用留数定理求周线积分"},
+   {"source": "定理", "target": "积分", "type": "使用", "description": "定理6.5可以用来计算积分"},
+   {"source": "定理", "target": "极点", "type": "使用", "description": "定理6.5可以用来计算极点处的留数"},
+   {"source": "定理", "target": "留数定理", "type": "使用", "description": "定理6.5可以用来应用留数定理求周线积分"},
+   {"source": "定理", "target": "积分", "type": "使用", "description": "定理6.6可以用来计算积分"},
+   {"source": "定理", "target": "留数定理", "type": "使用", "description": "定理6.6可以用来应用留数定理求周线积分"},
+   {"source": "奇点", "target": "留数", "type": "定义", "description": "奇点的留数是指函数在该点的洛朗展式中的系数反号"},
+   {"source": "无穷远点", "target": "留数", "type": "定义", "description": "无穷远点的留数是指函数在无穷远点的洛朗展式中的系数反号"},
+   {"source": "定理", "target": "无穷远点", "type": "定义", "description": "定理6.6给出了函数在无穷远点的留数的总和为零"}
+] 
+}{
+"knowledge_points": [
+   {"title": "留数定理", "en": "Residue theorem"},
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "洛朗展式", "en": "Laurent series"},
+   {"title": "复变函数", "en": "Complex function"},
+   {"title": "周线积分", "en": "Contour integral"},
+   {"title": "实积分", "en": "Definite integral"},
+   {"title": "反常积分", "en": "Improper integral"},
+   {"title": "辅助曲线", "en": "Auxiliary curve"},
+   {"title": "柯西主值", "en": "Cauchy principal value"}
+], 
+"relations": [
+   {"source": "留数定理", "target": "奇点", "type": "包含", "description": "留数定理用于计算奇点处的留数"},
+   {"source": "留数定理", "target": "周线积分", "type": "应用", "description": "留数定理可以将实积分转化为复变函数的周线积分"},
+   {"source": "留数定理", "target": "反常积分", "type": "应用", "description": "留数定理可以用于计算反常积分的柯西主值"},
+   {"source": "洛朗展式", "target": "奇点", "type": "包含", "description": "洛朗展式用于计算奇点处的系数"},
+   {"source": "复变函数", "target": "周线积分", "type": "包含", "description": "复变函数的周线积分是计算实积分的关键"},
+   {"source": "复变函数", "target": "奇点", "type": "包含", "description": "复变函数可以有奇点"},
+   {"source": "实积分", "target": "反常积分", "type": "包含", "description": "反常积分是实积分的一种特殊情况"},
+   {"source": "辅助曲线", "target": "周线积分", "type": "构成", "description": "辅助曲线和实积分一起构成周线积分"},
+   {"source": "辅助曲线", "target": "反常积分", "type": "构成", "description": "辅助曲线和实积分一起构成反常积分"},
+   {"source": "柯西主值", "target": "反常积分", "type": "应用", "description": "柯西主值用于计算反常积分"}
+] 
+}{
+"knowledge_points": [
+   {"title": "反常积分", "en": "Improper integral"},
+   {"title": "引理6.1", "en": "Lemma 6.1"},
+   {"title": "辅助曲线T", "en": "Auxiliary curve T"},
+   {"title": "引理6.2", "en": "Lemma 6.2"},
+   {"title": "若尔当引理", "en": "Jordan's lemma"},
+   {"title": "定理6.7", "en": "Theorem 6.7"},
+   {"title": "计算型积分", "en": "Computational integral"},
+   {"title": "引理6.3", "en": "Lemma 6.3"},
+   {"title": "杂例", "en": "Miscellaneous examples"},
+   {"title": "留数", "en": "Residue"}
+],
+"relations": [
+   {"source": "引理6.1", "target": "辅助曲线T", "type": "适用于", "description": "用于估计辅助曲线T上的积分"},
+   {"source": "引理6.2", "target": "若尔当引理", "type": "类似于", "description": "用于估计沿半圆周的积分"},
+   {"source": "定理6.7", "target": "计算型积分", "type": "用于", "description": "用于计算有理分式的积分"},
+   {"source": "引理6.3", "target": "辅助曲线S", "type": "适用于", "description": "用于估计辅助曲线S上的积分"},
+   {"source": "杂例", "target": "留数", "type": "关键在于", "description": "利用留数计算定积分"}
+]
+}{
+"knowledge_points": [
+   {"title": "被积函数", "en": "Integrand"},
+   {"title": "辅助函数", "en": "Auxiliary function"},
+   {"title": "多值解析函数", "en": "Multivalued analytic function"},
+   {"title": "割开平面", "en": "Cutting the plane"},
+   {"title": "单值解析分支", "en": "Single-valued analytic branch"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "柯西留数定理", "en": "Cauchy's residue theorem"},
+   {"title": "积分", "en": "Integral"}
+], 
+"relations": [
+   {"source": "被积函数", "target": "多值解析函数", "type": "是", "description": "被积函数是多值解析函数的情形"},
+   {"source": "多值解析函数", "target": "割开平面", "type": "需要", "description": "多值解析函数需要适当割开平面"},
+   {"source": "割开平面", "target": "单值解析分支", "type": "以便", "description": "割开平面以便分出单值解析分支"},
+   {"source": "单值解析分支", "target": "应用", "type": "能", "description": "单值解析分支能应用柯西积分定理或柯西留数定理"},
+   {"source": "柯西积分定理", "target": "求出", "type": "来", "description": "柯西积分定理来求出给定的积分的值"},
+   {"source": "柯西留数定理", "target": "求出", "type": "来", "description": "柯西留数定理来求出给定的积分的值"},
+   {"source": "积分", "target": "计算", "type": "是", "description": "积分是计算给定的积分的值"}
+] 
+}{
+"knowledge_points": [
+   {"title": "辅助函数f(z)", "en": "Auxiliary function f(z)"},
+   {"title": "支点", "en": "Branch point"},
+   {"title": "支割线", "en": "Branch cut"},
+   {"title": "值解析分支", "en": "Analytic branch of values"},
+   {"title": "复周线", "en": "Complex contour"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"}
+], 
+"relations": [
+   {"source": "辅助函数f(z)", "target": "支点", "type": "是", "description": "f(z)的支点是1和-1"},
+   {"source": "辅助函数f(z)", "target": "支割线", "type": "在", "description": "f(z)的支割线是[-1,1]"},
+   {"source": "辅助函数f(z)", "target": "值解析分支", "type": "可以分出", "description": "f(z)在支割线的外部可以分出三个值解析分支"},
+   {"source": "值解析分支", "target": "支割线", "type": "在", "description": "值解析分支在支割线的外部"},
+   {"source": "复周线", "target": "辅助函数f(z)", "type": "表示", "description": "复周线表示辅助函数f(z)"},
+   {"source": "复周线", "target": "辐角", "type": "增加", "description": "沿复周线一周，辐角增加2π"},
+   {"source": "柯西积分定理", "target": "积分趋于零", "type": "当", "description": "按柯西积分定理，当积分路径趋于零时，积分趋于零"}
+] 
+}{
+"knowledge_points": [
+   {"title": "辅助函数", "en": "Auxiliary function"},
+   {"title": "多值函数", "en": "Multivalued function"},
+   {"title": "支点", "en": "Branch point"},
+   {"title": "支割线", "en": "Branch cut"},
+   {"title": "单值解析分支", "en": "Single-valued analytic branch"},
+   {"title": "一阶极点", "en": "First-order pole"},
+   {"title": "可去奇点", "en": "Removable singularity"},
+   {"title": "圆心", "en": "Center of the circle"},
+   {"title": "圆周", "en": "Circular path"},
+   {"title": "留数定理", "en": "Residue theorem"},
+   {"title": "扩充平面", "en": "Extended plane"},
+   {"title": "孤立奇点", "en": "Isolated singularity"},
+   {"title": "外解析", "en": "Analyticity outside"},
+   {"title": "连续到边界", "en": "Continuity to the boundary"}
+], 
+"relations": [
+   {"source": "辅助函数", "target": "多值函数", "type": "是", "description": "辅助函数是多值函数"},
+   {"source": "多值函数", "target": "支点", "type": "具有", "description": "多值函数具有支点"},
+   {"source": "支点", "target": "支割线", "type": "由", "description": "支点由支割线分割"},
+   {"source": "多值函数", "target": "单值解析分支", "type": "能分出", "description": "多值函数能分出单值解析分支"},
+   {"source": "单值解析分支", "target": "一阶极点", "type": "具有", "description": "单值解析分支具有一阶极点"},
+   {"source": "单值解析分支", "target": "可去奇点", "type": "具有", "description": "单值解析分支具有可去奇点"},
+   {"source": "圆心", "target": "圆周", "type": "以", "description": "圆心以圆周为路径"},
+   {"source": "圆周", "target": "半径", "type": "具有", "description": "圆周具有半径"},
+   {"source": "圆周", "target": "大于", "type": "在", "description": "圆周大于某个值"},
+   {"source": "圆周", "target": "小于", "type": "在", "description": "圆周小于某个值"},
+   {"source": "圆心", "target": "小圆周", "type": "以", "description": "圆心以小圆周为路径"},
+   {"source": "小圆周", "target": "半径", "type": "具有", "description": "小圆周具有半径"},
+   {"source": "半径", "target": "在", "type": "之间", "description": "半径在两个值之间"},
+   {"source": "辅助函数", "target": "洛朗展式", "type": "的", "description": "辅助函数的洛朗展式"},
+   {"source": "洛朗展式", "target": "从", "type": "开始", "description": "洛朗展式从某个项开始"},
+   {"source": "留数定理", "target": "含点的区域", "type": "的", "description": "留数定理的含点的区域"},
+   {"source": "含点的区域", "target": "边界", "type": "是", "description": "含点的区域的边界"},
+   {"source": "函数", "target": "除去", "type": "有限个", "description": "函数除去有限个点"},
+   {"source": "函数", "target": "孤立奇点", "type": "具有", "description": "函数具有孤立奇点"},
+   {"source": "函数", "target": "外解析", "type": "且", "description": "函数外解析"},
+   {"source": "函数", "target": "连续到", "type": "边界", "description": "函数连续到边界"}
+] 
+}{
+"knowledge_points": [
+   {"title": "引理6.3", "en": "Lemma 6.3"},
+   {"title": "小圆周", "en": "Small circle"},
+   {"title": "积分", "en": "Integral"},
+   {"title": "辐角", "en": "Argument"},
+   {"title": "连续改变量", "en": "Continuous change"},
+   {"title": "分支", "en": "Branch"},
+   {"title": "函数值", "en": "Function value"},
+   {"title": "逆时针方向", "en": "Counterclockwise direction"},
+   {"title": "顺时针方向", "en": "Clockwise direction"},
+   {"title": "对数留数", "en": "Logarithmic residue"},
+   {"title": "留数理论", "en": "Residue theory"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "零点", "en": "Zero"},
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "极点", "en": "Pole"},
+   {"title": "定理6.9", "en": "Theorem 6.9"},
+   {"title": "周线", "en": "Closed curve"},
+   {"title": "亚纯函数", "en": "Meromorphic function"},
+   {"title": "零点个数", "en": "Number of zeros"},
+   {"title": "极点个数", "en": "Number of poles"},
+   {"title": "留数定理", "en": "Residue theorem"},
+   {"title": "辐角原理", "en": "Argument principle"}
+],
+"relations": [
+   {"source": "引理6.3", "target": "小圆周", "type": "涉及", "description": "根据引理6.3，f(z)沿两个小圆周的积分均为零"},
+   {"source": "小圆周", "target": "积分", "type": "涉及", "description": "小圆周上的积分为零"},
+   {"source": "分支", "target": "辐角", "type": "涉及", "description": "考察√z?(1-x)的辐角的连续改变量"},
+   {"source": "函数值", "target": "分支", "type": "涉及", "description": "已知所选分支在小圆周γ上起点x(>1)的函数值为√x?(x-1)?e"},
+   {"source": "函数值", "target": "逆时针方向", "type": "涉及", "description": "从而沿逆时针方向转回上岸的点x(0<x<1)的值为√x?(1-x)e"},
+   {"source": "函数值", "target": "顺时针方向", "type": "涉及", "description": "沿顺时针方向转至下岸的点x(0<x<1)的值为√x?(1-x)5e"},
+   {"source": "对数留数", "target": "留数理论", "type": "应用", "description": "对数留数是留数理论的重要应用之一"},
+   {"source": "对数留数", "target": "辐角原理", "type": "应用", "description": "对数留数可以用来计算解析函数零点个数"},
+   {"source": "零点", "target": "奇点", "type": "可能是", "description": "函数的零点和奇点都可能是函数的奇点"},
+   {"source": "引理6.4", "target": "零点", "type": "涉及", "description": "引理6.4给出了零点和极点的性质"},
+   {"source": "引理6.4", "target": "极点", "type": "涉及", "description": "引理6.4给出了零点和极点的性质"},
+   {"source": "定理6.9", "target": "周线", "type": "涉及", "description": "定理6.9讨论了周线上的函数性质"},
+   {"source": "定理6.9", "target": "亚纯函数", "type": "涉及", "description": "定理6.9中的函数是亚纯函数"},
+   {"source": "定理6.9", "target": "零点个数", "type": "涉及", "description": "定理6.9给出了计算零点个数的方法"},
+   {"source": "定理6.9", "target": "极点个数", "type": "涉及", "description": "定理6.9给出了计算极点个数的方法"},
+   {"source": "留数定理", "target": "辐角原理", "type": "涉及", "description": "留数定理和辐角原理可以用来计算函数的对数留数"},
+   {"source": "辐角原理", "target": "函数的对数留数", "type": "应用", "description": "辐角原理可以用来计算函数的对数留数"}
+]
+}{
+"knowledge_points": [
+   {"title": "f(x)", "en": "f(x)"},
+   {"title": "C", "en": "C"},
+   {"title": "辐角原理", "en": "Principle of Argument"},
+   {"title": "解析", "en": "analytic"},
+   {"title": "零点", "en": "zero point"},
+   {"title": "一阶零点", "en": "first-order zero point"},
+   {"title": "二阶零点", "en": "second-order zero point"},
+   {"title": "N(f,C)", "en": "N(f,C)"},
+   {"title": "△cargf(x)", "en": "△cargf(x)"},
+   {"title": "定理6.9", "en": "Theorem 6.9"},
+   {"title": "边界", "en": "boundary"},
+   {"title": "连续", "en": "continuous"},
+   {"title": "极点", "en": "pole"},
+   {"title": "多项式", "en": "polynomial"},
+   {"title": "左半平面", "en": "left half-plane"},
+   {"title": "Rex<0", "en": "Rex<0"},
+   {"title": "△,(-+)argP(iy)", "en": "△,(-+)argP(iy)"},
+   {"title": "虚轴", "en": "imaginary axis"},
+   {"title": "充要条件", "en": "necessary and sufficient condition"},
+   {"title": "转圈", "en": "circle"},
+   {"title": "周线", "en": "closed curve"},
+   {"title": "右半圆", "en": "right half-circle"},
+   {"title": "有向线段", "en": "directed line segment"},
+   {"title": "充要条件", "en": "necessary and sufficient condition"},
+   {"title": "稳定性", "en": "stability"},
+   {"title": "常系数线性微分方程", "en": "constant coefficient linear differential equation"},
+   {"title": "特征多项式", "en": "characteristic polynomial"},
+   {"title": "鲁歇定理", "en": "Rouché's theorem"},
+   {"title": "|f(x)|", "en": "|f(x)|"},
+   {"title": "lq(z)", "en": "lq(z)"}
+],
+"relations": [
+   {"source": "f(x)", "target": "C", "type": "在", "description": "f(x)在C上解析"},
+   {"source": "f(x)", "target": "C", "type": "在", "description": "f(x)在C的内部只有一阶零点x=1及二阶零点x=2"},
+   {"source": "N(f,C)", "target": "f(x)", "type": "=", "description": "N(f,C)=1+2=3"},
+   {"source": "△cargf(x)", "target": "△carg(x-1)+△carg(x-2)+△carg(x-4)", "type": "=", "description": "△cargf(x)=△carg(x-1)+△carg(x-2)+△carg(x-4)"},
+   {"source": "△cargf(x)", "target": "△carg(z-1)+2△carg(z-2)", "type": "=", "description": "△cargf(x)=△carg(z-1)+2△carg(z-2)"},
+   {"source": "6.28", "target": "成立", "type": "是", "description": "(6.28)成立"},
+   {"source": "定理6.9", "target": "辐角原理", "type": "是", "description": "辐角原理(6.27)(特别是当f(z)在C内部解析时,(6.28))仍成立"},
+   {"source": "边界C", "target": "极限C'→C", "type": "过渡到", "description": "过渡到极限C'→C"},
+   {"source": "函数f(z)", "target": "连续性", "type": "利用", "description": "利用函数f(z)的连续性即得"},
+   {"source": "n次多项式P(z)", "target": "虚轴", "type": "在", "description": "n次多项式P(z)在虚轴上没有零点"},
+   {"source": "△,(-+)argP(iy)", "target": "nπ", "type": "=", "description": "△,(-+)argP(iy)=nπ"},
+   {"source": "点x", "target": "左半平面Rex<0", "type": "沿", "description": "点x自下而上沿虚轴从-走向+的过程中"},
+   {"source": "P(x)", "target": "原点", "type": "绕", "description": "P(x)绕原点转圈"},
+   {"source": "N(P,Cg)", "target": "0", "type": "=", "description": "N(P,Cg)=0对任意R均成立"},
+   {"source": "argP(x)", "target": "lim△rgargargP(iy)", "type": "=", "description": "argP(x)=lim△rgargargP(iy)"},
+   {"source": "△rgargP(z)", "target": "△rgargaox"[1+g(z)]=Argargaoz"+Argarg[1+g(x)]", "type": "=", "description": "△rgargP(z)=△rgargaox"[1+g(z)]=Argargaoz"+Argarg[1+g(x)]"},
+   {"source": "R→+o", "target": "g(z)", "type": "沿", "description": "在R→+o时g(z)沿Pk一致趋于零"},
+   {"source": "Argargaox", "target": "A,[-]argaoR"ei=nπ", "type": "=", "description": "Argargaox"=A,[-]argaoR"ei=nπ"},
+   {"source": "6.29", "target": "△,(-1+w)argP(iy)=nπ", "type": "是", "description": "(6.29)就是我们所要证明的△,(-1+w)argP(iy)=nπ"},
+   {"source": "自动控制中", "target": "稳定性", "type": "归结为", "description": "稳定性归结为,要求常系数线性微分方程解的稳定性"},
+   {"source": "常系数线性微分方程", "target": "特征多项式", "type": "的", "description": "特征多项式P(z)=aox"+a?x"-1+…+a,"},
+   {"source": "特征多项式P(z)", "target": "根", "type": "全在", "description": "特征多项式P(z)的根全在左半平面"},
+   {"source": "鲁歇定理", "target": "辐角原理", "type": "是", "description": "鲁歇定理是辐角原理的一个推论"},
+   {"source": "C", "target": "f(z)", "type": "在", "description": "在C的内部均解析,且连续到C"},
+   {"source": "C", "target": "|f(x)|", "type": "上", "description": "在C上,|f(x)|>lq(z)|"}
+]
+}{
+"knowledge_points": [
+   {"title": "多项式", "en": "polynomial"},
+   {"title": "条件", "en": "condition"},
+   {"title": "零点", "en": "zero point"},
+   {"title": "单位圆", "en": "unit circle"},
+   {"title": "鲁歇定理", "en": "Rouché's theorem"},
+   {"title": "方程", "en": "equation"},
+   {"title": "根", "en": "root"},
+   {"title": "代数学基本定理", "en": "fundamental theorem of algebra"},
+   {"title": "单叶解析", "en": "holomorphic and injective"}
+], 
+"relations": [
+   {"source": "多项式", "target": "条件", "type": "符合", "description": "多项式符合条件"},
+   {"source": "多项式", "target": "零点", "type": "有", "description": "多项式有零点"},
+   {"source": "多项式", "target": "单位圆", "type": "在", "description": "多项式在单位圆内"},
+   {"source": "单位圆", "target": "零点", "type": "有", "description": "单位圆内有零点"},
+   {"source": "鲁歇定理", "target": "方程", "type": "应用", "description": "鲁歇定理应用于方程"},
+   {"source": "方程", "target": "根", "type": "有", "description": "方程有根"},
+   {"source": "方程", "target": "单位圆", "type": "在", "description": "方程在单位圆内"},
+   {"source": "方程", "target": "根", "type": "有", "description": "方程有根"},
+   {"source": "方程", "target": "圆周", "type": "在", "description": "方程在圆周上"},
+   {"source": "代数学基本定理", "target": "方程", "type": "证明", "description": "代数学基本定理证明方程"},
+   {"source": "函数", "target": "区域", "type": "在", "description": "函数在区域内"},
+   {"source": "函数", "target": "解析", "type": "单叶", "description": "函数单叶解析"},
+   {"source": "区域", "target": "函数", "type": "内", "description": "函数在区域内"},
+   {"source": "区域", "target": "函数", "type": "内", "description": "函数在区域内"},
+   {"source": "函数", "target": "函数", "type": "不等于", "description": "函数不等于函数"}
+] 
+}{
+"knowledge_points": [
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "单连通区域", "en": "Simply connected domain"},
+   {"title": "闭曲线", "en": "Closed curve"},
+   {"title": "分歧覆盖定理", "en": "Branch covering theorem"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "保角", "en": "Conformal"},
+   {"title": "柯西理论", "en": "Cauchy's theory"}
+],
+"relations": [
+   {"source": "解析函数", "target": "单连通区域", "type": "是", "description": "解析函数是单连通区域的"},
+   {"source": "单连通区域", "target": "闭曲线", "type": "包围", "description": "闭曲线包围单连通区域"},
+   {"source": "解析函数", "target": "保角", "type": "具有", "description": "解析函数具有保角的特性"},
+   {"source": "解析函数", "target": "柯西理论", "type": "涉及", "description": "解析函数涉及柯西理论"},
+   {"source": "解析函数", "target": "共形映射", "type": "构成", "description": "解析函数构成共形映射"},
+   {"source": "分歧覆盖定理", "target": "解析函数", "type": "适用于", "description": "分歧覆盖定理适用于解析函数"}
+]
+}{
+"knowledge_points": [
+   {"title": "解析变换的保域性", "en": "Analytic transformation and the preservation of domains"},
+   {"title": "保域定理", "en": "Preservation of domains theorem"},
+   {"title": "内点", "en": "Interior point"},
+   {"title": "解析函数零点的孤立性", "en": "Isolation of zeros of analytic functions"},
+   {"title": "鲁歇定理", "en": "Rouché's theorem"},
+   {"title": "折线", "en": "Polygonal line"},
+   {"title": "柯西积分定理", "en": "Cauchy's integral theorem"},
+   {"title": "古尔萨证明", "en": "Goursat's proof"},
+   {"title": "推论7.2", "en": "Corollary 7.2"},
+   {"title": "单叶解析", "en": "Univalent analytic"},
+   {"title": "扩充平面", "en": "Extended plane"},
+   {"title": "局部单叶性", "en": "Local univalence"},
+   {"title": "解析变换的保角性", "en": "Analytic transformation and the preservation of angles"},
+   {"title": "导数的几何意义", "en": "Geometric interpretation of derivatives"}
+], 
+"relations": [
+   {"source": "解析变换的保域性", "target": "保域定理", "type": "包含", "description": "保域定理是解析变换的保域性的一个定理"},
+   {"source": "保域定理", "target": "内点", "type": "包含", "description": "保域定理说明D的像G中的每一点都是内点"},
+   {"source": "保域定理", "target": "解析函数零点的孤立性", "type": "使用", "description": "保域定理使用了解析函数零点的孤立性"},
+   {"source": "解析函数零点的孤立性", "target": "鲁歇定理", "type": "使用", "description": "解析函数零点的孤立性是鲁歇定理的基础"},
+   {"source": "保域定理", "target": "柯西积分定理", "type": "使用", "description": "保域定理使用了柯西积分定理"},
+   {"source": "柯西积分定理", "target": "古尔萨证明", "type": "使用", "description": "柯西积分定理的证明中使用了古尔萨证明"},
+   {"source": "保域定理", "target": "折线", "type": "使用", "description": "保域定理使用了折线连接两点的方法"},
+   {"source": "推论7.2", "target": "单叶解析", "type": "包含", "description": "推论7.2说明单叶解析函数的性质"},
+   {"source": "推论7.2", "target": "解析变换的保域性", "type": "包含", "description": "推论7.2是解析变换的保域性的一个推论"},
+   {"source": "解析变换的保域性", "target": "扩充平面", "type": "包含", "description": "解析变换的保域性可以推广到扩充平面"},
+   {"source": "解析变换的保域性", "target": "局部单叶性", "type": "包含", "description": "解析变换的保域性可以推导出局部单叶性"},
+   {"source": "解析变换的保角性", "target": "导数的几何意义", "type": "包含", "description": "解析变换的保角性涉及到导数的几何意义"}
+] 
+}{
+"knowledge_points": [
+   {"title": "切线", "en": "Tangent line"},
+   {"title": "切向量", "en": "Tangent vector"},
+   {"title": "倾角", "en": "Angle of inclination"},
+   {"title": "变换", "en": "Transformation"},
+   {"title": "像曲线", "en": "Image curve"},
+   {"title": "参数方程", "en": "Parametric equation"},
+   {"title": "光滑", "en": "Smooth"},
+   {"title": "旋转角", "en": "Rotation angle"},
+   {"title": "导数", "en": "Derivative"},
+   {"title": "辐角", "en": "Argument"},
+   {"title": "伸缩率", "en": "Scaling rate"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "放大", "en": "Enlarge"},
+   {"title": "缩小", "en": "Shrink"},
+   {"title": "夹角", "en": "Angle between curves"}
+],
+"relations": [
+   {"source": "切线", "target": "切向量", "type": "是", "description": "切线的倾角为切向量"},
+   {"source": "变换", "target": "像曲线", "type": "经过", "description": "变换后得到像曲线"},
+   {"source": "像曲线", "target": "参数方程", "type": "应为", "description": "像曲线的参数方程"},
+   {"source": "变换", "target": "光滑", "type": "是", "description": "变换在某点的邻域内是光滑的"},
+   {"source": "变换", "target": "切线", "type": "有", "description": "变换后的像曲线也有切线"},
+   {"source": "旋转角", "target": "变换", "type": "是", "description": "变换在某点的旋转角"},
+   {"source": "辐角", "target": "变换", "type": "是", "description": "变换在某点的辐角"},
+   {"source": "伸缩率", "target": "变换", "type": "是", "description": "变换在某点的伸缩率"},
+   {"source": "解析函数", "target": "旋转角不变性", "type": "具有", "description": "解析函数在导数不为零的地方具有旋转角不变性"},
+   {"source": "解析函数", "target": "伸缩率不变性", "type": "具有", "description": "解析函数在导数不为零的地方具有伸缩率不变性"},
+   {"source": "变换", "target": "放大", "type": "将", "description": "变换将某部分放大"},
+   {"source": "变换", "target": "缩小", "type": "将", "description": "变换将某部分缩小"},
+   {"source": "夹角", "target": "切线", "type": "在", "description": "两条曲线在某点的切线倾角为夹角"},
+   {"source": "夹角", "target": "像曲线", "type": "在", "description": "两条曲线在像点的切线倾角为夹角"}
+]
+}{
+"knowledge_points": [
+   {"title": "伸缩率不变性", "en": "Invariance of scaling"},
+   {"title": "保角变换", "en": "Conformal transformation"},
+   {"title": "解析", "en": "Analytic"},
+   {"title": "单叶解析", "en": "Analytic and one-to-one"},
+   {"title": "共形", "en": "Conformal"},
+   {"title": "C.-R.方程", "en": "Cauchy-Riemann equations"}
+], 
+"relations": [
+   {"source": "伸缩率不变性", "target": "保角变换", "type": "具有", "description": "伸缩率不变性是保角变换的一个特性"},
+   {"source": "保角变换", "target": "保角变换", "type": "过", "description": "过zo的任意两曲线的夹角在变换w=f(z)下保持大小和方向"},
+   {"source": "解析", "target": "保角变换", "type": "在", "description": "解析函数在导数不为零的点处是保角的"},
+   {"source": "单叶解析", "target": "保角变换", "type": "在", "description": "单叶解析函数在区域D内是保角的"},
+   {"source": "单叶解析", "target": "共形", "type": "在", "description": "单叶解析函数在区域D内是共形的"},
+   {"source": "解析", "target": "共形", "type": "在", "description": "解析函数在区域D内是共形的"},
+   {"source": "单叶解析", "target": "共形", "type": "将", "description": "单叶解析函数将区域D共形映射成区域G"},
+   {"source": "反函数", "target": "单叶解析", "type": "在", "description": "反函数在区域G内是单叶解析的"},
+   {"source": "反函数", "target": "共形", "type": "在", "description": "反函数在区域G内是共形的"},
+   {"source": "C.-R.方程", "target": "解析", "type": "满足", "description": "满足C.-R.方程的函数是解析函数"}
+] 
+}{
+"knowledge_points": [
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "区域", "en": "Region"},
+   {"title": "函数", "en": "Function"},
+   {"title": "单叶解析", "en": "Analytic and single-valued"},
+   {"title": "复合", "en": "Composition"},
+   {"title": "分式线性变换", "en": "Fractional linear transformation"},
+   {"title": "保域", "en": "Preserve the domain"},
+   {"title": "默比乌斯变换", "en": "Mobius transformation"},
+   {"title": "(I)型变换", "en": "(I) type transformation"},
+   {"title": "(Ⅱ)型变换", "en": "(Ⅱ) type transformation"}
+],
+"relations": [
+   {"source": "共形映射", "target": "区域", "type": "包含", "description": "共形映射将一个区域映射成另一个区域"},
+   {"source": "函数", "target": "单叶解析", "type": "具有", "description": "函数在区域内是解析且单值的"},
+   {"source": "共形映射", "target": "函数", "type": "映射成", "description": "共形映射将一个区域映射成另一个区域的函数"},
+   {"source": "复合", "target": "共形映射", "type": "得到", "description": "多个共形映射的复合仍然是一个共形映射"},
+   {"source": "分式线性变换", "target": "保域", "type": "具有", "description": "分式线性变换在扩充z平面上是保域的"},
+   {"source": "分式线性变换", "target": "默比乌斯变换", "type": "别称", "description": "分式线性变换也被称为默比乌斯变换"},
+   {"source": "分式线性变换", "target": "(I)型变换", "type": "可分解为", "description": "分式线性变换可以分解为(I)型变换"},
+   {"source": "分式线性变换", "target": "(Ⅱ)型变换", "type": "可分解为", "description": "分式线性变换可以分解为(Ⅱ)型变换"}
+]
+}{
+"knowledge_points": [
+   {"title": "变换", "en": "Transformation"},
+   {"title": "旋转", "en": "Rotation"},
+   {"title": "伸缩", "en": "Scaling"},
+   {"title": "平移", "en": "Translation"},
+   {"title": "相似变换", "en": "Similarity transformation"},
+   {"title": "反演变换", "en": "Inversion transformation"},
+   {"title": "关于单位圆周的对称变换", "en": "Symmetry transformation about the unit circle"},
+   {"title": "关于实轴的对称变换", "en": "Symmetry transformation about the real axis"},
+   {"title": "不动点", "en": "Fixed point"},
+   {"title": "分式线性变换", "en": "Fractional linear transformation"},
+   {"title": "共形性", "en": "Conformality"}
+], 
+"relations": [
+   {"source": "变换", "target": "旋转", "type": "分解为", "description": "将变换分解为旋转、伸缩和平移"},
+   {"source": "变换", "target": "伸缩", "type": "分解为", "description": "将变换分解为旋转、伸缩和平移"},
+   {"source": "变换", "target": "平移", "type": "分解为", "description": "将变换分解为旋转、伸缩和平移"},
+   {"source": "相似变换", "target": "不改变图形方向", "type": "是", "description": "相似变换不改变图形方向"},
+   {"source": "反演变换", "target": "关于单位圆周的对称变换", "type": "分解为", "description": "反演变换分解为关于单位圆周的对称变换和关于实轴的对称变换"},
+   {"source": "反演变换", "target": "关于实轴的对称变换", "type": "分解为", "description": "反演变换分解为关于单位圆周的对称变换和关于实轴的对称变换"},
+   {"source": "分式线性变换", "target": "不动点", "type": "满足", "description": "不动点满足分式线性变换的方程"},
+   {"source": "分式线性变换", "target": "复合", "type": "是", "description": "分式线性变换的复合仍然是分式线性变换"},
+   {"source": "分式线性变换", "target": "共形性", "type": "具有", "description": "分式线性变换在扩充z平面上是共形的"}
+] 
+}{
+"knowledge_points": [
+   {"title": "分式线性变换", "en": "Fractional linear transformation"},
+   {"title": "交比", "en": "Cross ratio"},
+   {"title": "扩充平面", "en": "Extended plane"},
+   {"title": "圆周", "en": "Circle"},
+   {"title": "直线", "en": "Line"},
+   {"title": "保圆周性", "en": "Preservation of circles"},
+   {"title": "保对称点性", "en": "Preservation of symmetric points"}
+], 
+"relations": [
+   {"source": "分式线性变换", "target": "交比", "type": "定义", "description": "定义7.4中给出了交比的定义"},
+   {"source": "分式线性变换", "target": "扩充平面", "type": "定理", "description": "定理7.9说明分式线性变换在扩充平面上的三个相异点可以唯一确定一个分式线性变换"},
+   {"source": "分式线性变换", "target": "圆周", "type": "定理", "description": "定理7.10说明分式线性变换可以将平面上的圆周变为圆周或直线"},
+   {"source": "分式线性变换", "target": "保圆周性", "type": "描述", "description": "分式线性变换可以保持圆周的形状不变"},
+   {"source": "分式线性变换", "target": "保对称点性", "type": "描述", "description": "分式线性变换可以保持对称点的性质不变"}
+] 
+}{
+"knowledge_points": [
+   {"title": "定理7.11", "en": "Theorem 7.11"},
+   {"title": "圆周", "en": "circle"},
+   {"title": "对称", "en": "symmetry"},
+   {"title": "直线", "en": "line"},
+   {"title": "定理7.12", "en": "Theorem 7.12"},
+   {"title": "分式线性变换", "en": "fractional linear transformation"},
+   {"title": "扩充z平面", "en": "extended z-plane"},
+   {"title": "扩充w平面", "en": "extended w-plane"},
+   {"title": "保对称点性", "en": "preservation of symmetric points"},
+   {"title": "应用", "en": "application"},
+   {"title": "上半z平面", "en": "upper half z-plane"},
+   {"title": "上半w平面", "en": "upper half w-plane"},
+   {"title": "实轴", "en": "real axis"},
+   {"title": "下半平面", "en": "lower half plane"},
+   {"title": "单位圆", "en": "unit circle"}
+], 
+"relations": [
+   {"source": "定理7.11", "target": "圆周", "type": "关于", "description": "关于圆周的对称"},
+   {"source": "定理7.11", "target": "直线", "type": "关于", "description": "关于直线的对称"},
+   {"source": "定理7.12", "target": "分式线性变换", "type": "是", "description": "分式线性变换的性质"},
+   {"source": "分式线性变换", "target": "扩充z平面", "type": "在", "description": "分式线性变换在扩充z平面上的应用"},
+   {"source": "分式线性变换", "target": "扩充w平面", "type": "在", "description": "分式线性变换在扩充w平面上的应用"},
+   {"source": "分式线性变换", "target": "保对称点性", "type": "具有", "description": "分式线性变换具有保对称点性"},
+   {"source": "应用", "target": "上半z平面", "type": "在", "description": "分式线性变换在上半z平面上的应用"},
+   {"source": "应用", "target": "上半w平面", "type": "在", "description": "分式线性变换在上半w平面上的应用"},
+   {"source": "应用", "target": "下半平面", "type": "在", "description": "分式线性变换在下半平面上的应用"},
+   {"source": "应用", "target": "单位圆", "type": "在", "description": "分式线性变换在单位圆上的应用"}
+] 
+}{
+"knowledge_points": [
+   {"title": "变换", "en": "Transformation"},
+   {"title": "实参数β", "en": "Real parameter β"},
+   {"title": "实轴", "en": "Real axis"},
+   {"title": "单位圆周", "en": "Unit circle"},
+   {"title": "对应关系", "en": "Correspondence"},
+   {"title": "旋转角", "en": "Rotation angle"},
+   {"title": "同心圆周族", "en": "Family of concentric circles"},
+   {"title": "原像", "en": "Pre-image"},
+   {"title": "保对称性", "en": "Preservation of symmetry"},
+   {"title": "直径", "en": "Diameter"},
+   {"title": "半圆弧", "en": "Semicircular arc"},
+   {"title": "分式线性变换", "en": "Fractional linear transformation"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "对称点", "en": "Symmetric point"},
+   {"title": "边界点", "en": "Boundary point"},
+   {"title": "惟一性条件", "en": "Uniqueness condition"},
+   {"title": "上半平面", "en": "Upper half-plane"},
+   {"title": "下半平面", "en": "Lower half-plane"},
+   {"title": "幂函数", "en": "Power function"},
+   {"title": "根式函数", "en": "Root function"},
+   {"title": "单叶性区域", "en": "Simply connected region"},
+   {"title": "保角", "en": "Angle-preserving"}
+],
+"relations": [
+   {"source": "变换", "target": "实参数β", "type": "需要确定", "description": "In the transformation, even if a is given, there is another real parameter β that needs to be determined."},
+   {"source": "变换", "target": "实轴", "type": "对应关系", "description": "To determine β, either indicate the correspondence between a point on the real axis and a point on the unit circle, or indicate the rotation angle of the transformation at x=a."},
+   {"source": "变换", "target": "同心圆周族", "type": "原像", "description": "From (7.13), it can be seen that the pre-image of a family of concentric circles |w|=k(k<1) is a family of circles in the upper half x-plane with a as the symmetric point."},
+   {"source": "变换", "target": "单位圆", "type": "原像", "description": "According to the preservation of symmetry, the pre-image of a diameter inside the unit circle |w|<1 is a semicircular arc in the upper z-plane passing through a and a."},
+   {"source": "分式线性变换", "target": "单位圆", "type": "共形映射", "description": "Example 7.7 seeks to find a fractional linear transformation that maps the unit circle |z|<1 conformally to the unit circle |w|<1 and maps a point x=a (|a|<1) to w=0."},
+   {"source": "分式线性变换", "target": "对称点", "type": "保对称性", "description": "According to the property of preserving symmetric points of fractional linear transformations, the point a (assuming a≠0) should be transformed into the symmetric point w=0 on the unit circle |w|=1."},
+   {"source": "分式线性变换", "target": "边界点", "type": "保对称性", "description": "The determination of β in the desired transformation also requires additional conditions, as mentioned in Example 7.7."},
+   {"source": "幂函数", "target": "单叶性区域", "type": "保角", "description": "Power functions w=x^n (n>1) are angle-preserving everywhere except at x=0 and x=∞, where they have non-zero derivatives."},
+   {"source": "幂函数", "target": "单叶性区域", "type": "共形映射", "description": "According to Chapter 2, Section 3, the single-valued region of (7.15) is a sector with vertex at the origin and angle less than nπ. Therefore, the power function (7.15) maps the sector in Figure 7.11 conformally to the sector D: 0<argw<na in the w-plane."},
+   {"source": "幂函数", "target": "单叶性区域", "type": "共形映射", "description": "As the inverse transformation of w=z^n, the power function w=x^n maps the sector in the w-plane conformally to the region in the x-plane excluding the origin and the positive real axis (Figure 7.12)."},
+   {"source": "惟一性条件", "target": "边界点", "type": "一对内点对应", "description": "The uniqueness condition for the fractional linear transformation w=L(z) can be in the form of a pair of corresponding interior points and a pair of corresponding boundary points."},
+   {"source": "惟一性条件", "target": "边界点", "type": "一对内点对应", "description": "The uniqueness condition for the fractional linear transformation w=L(z) can also be in the form of a pair of corresponding interior points and a fixed rotation angle at point a."},
+   {"source": "思考题(1)", "target": "上半平面", "type": "共形映射", "description": "Find the fractional linear transformation that maps the upper half-plane Imx>0 conformally to the lower half-plane Imw<0. How should condition (7.12) be modified?"},
+   {"source": "思考题(2)", "target": "上半平面", "type": "共形映射", "description": "Find the fractional linear transformation that maps the upper half-plane Imx>0 conformally to the region outside the unit circle |w|>1. How should condition (7.13) be modified?"},
+   {"source": "思考题(3)", "target": "单位圆", "type": "共形映射", "description": "Find the fractional linear transformation that maps the unit circle |x|<1 conformally to the region outside the unit circle |w|>1. How should condition (7.14) be modified?"}
+]
+}{
+"knowledge_points": [
+   {"title": "割痕", "en": "Cut"},
+   {"title": "上半x平面", "en": "Upper half x-plane"},
+   {"title": "上半w平面", "en": "Upper half w-plane"},
+   {"title": "点", "en": "Point"},
+   {"title": "变换", "en": "Transformation"},
+   {"title": "指数函数", "en": "Exponential function"},
+   {"title": "对数函数", "en": "Logarithmic function"},
+   {"title": "保角", "en": "Conformal"},
+   {"title": "单叶性区域", "en": "Simply connected region"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "带形区域", "en": "Strip region"},
+   {"title": "角形区域", "en": "Angular region"},
+   {"title": "圆弧", "en": "Arc"},
+   {"title": "直线段", "en": "Line segment"},
+   {"title": "标准区域", "en": "Standard region"},
+   {"title": "弓形区域", "en": "Bow-shaped region"},
+   {"title": "月牙形区域", "en": "Crescent-shaped region"},
+   {"title": "机翼剖面函数", "en": "Airfoil profile function"},
+   {"title": "单位圆周", "en": "Unit circle"},
+   {"title": "阻力", "en": "Drag"},
+   {"title": "上升力", "en": "Lift"}
+], 
+"relations": [
+   {"source": "割痕", "target": "上半x平面", "type": "具有", "description": "Rex=a,0≤Imx≤h"},
+   {"source": "上半x平面", "target": "上半w平面", "type": "共形映射成", "description": ""},
+   {"source": "点", "target": "变换", "type": "变为", "description": ""},
+   {"source": "变换", "target": "点", "type": "变为", "description": ""},
+   {"source": "指数函数", "target": "对数函数", "type": "复合", "description": ""},
+   {"source": "指数函数", "target": "保角", "type": "在x平面上是", "description": ""},
+   {"source": "单叶性区域", "target": "带形区域", "type": "是", "description": "平行于实轴宽不超过2π的"},
+   {"source": "指数函数", "target": "单叶性区域", "type": "将", "description": "共形映射成"},
+   {"source": "带形区域", "target": "角形区域", "type": "共形映射成", "description": ""},
+   {"source": "指数函数", "target": "角形区域", "type": "将", "description": "共形映射成"},
+   {"source": "圆弧", "target": "两角形区域", "type": "构成", "description": ""},
+   {"source": "分式线性函数", "target": "幂函数", "type": "借助于", "description": ""},
+   {"source": "分式线性函数", "target": "指数函数", "type": "借助于", "description": ""},
+   {"source": "两角形区域", "target": "标准区域", "type": "共形映射成", "description": ""},
+   {"source": "圆弧", "target": "角形区域", "type": "共形映射成", "description": ""},
+   {"source": "月牙形区域", "target": "上半平面", "type": "共形映射成", "description": ""},
+   {"source": "分式线性变换", "target": "直线", "type": "将", "description": "变成"},
+   {"source": "分式线性变换", "target": "圆周", "type": "将", "description": "变成"},
+   {"source": "机翼剖面函数", "target": "单位圆周", "type": "共形映射成", "description": ""},
+   {"source": "机翼剖面函数", "target": "阻力", "type": "受到", "description": ""},
+   {"source": "机翼剖面函数", "target": "上升力", "type": "受到", "description": ""}
+] 
+}{
+"knowledge_points": [
+   {"title": "z平面", "en": "z plane"},
+   {"title": "圆弧AB外部区域D", "en": "Region D outside the circular arc AB"},
+   {"title": "共形映射", "en": "conformal mapping"},
+   {"title": "5平面", "en": "5 plane"},
+   {"title": "射线arg51=π-a", "en": "ray arg51=π-a"},
+   {"title": "区域D", "en": "Region D"},
+   {"title": "分式线性变换", "en": "fractional linear transformation"},
+   {"title": "w平面", "en": "w plane"},
+   {"title": "圆周K", "en": "circle K"},
+   {"title": "区域G", "en": "Region G"},
+   {"title": "半平面区域Gi:β-π<argw?<β", "en": "half-plane region Gi: β-π<argw?<β"},
+   {"title": "圆心hi", "en": "center hi"},
+   {"title": "切线倾角β", "en": "tangent angle β"},
+   {"title": "茹科夫斯基函数", "en": "Joukowski function"},
+   {"title": "单叶性区域", "en": "univalent region"},
+   {"title": "扩充x平面", "en": "extended x plane"},
+   {"title": "单位圆周外部|x|>1", "en": "outside the unit circle |x|>1"},
+   {"title": "扩充w平面", "en": "extended w plane"},
+   {"title": "割线-1≤Rew≤1,Imw=0", "en": "secant line -1≤Rew≤1, Imw=0"},
+   {"title": "单位圆|η|<1", "en": "unit circle |η|<1"},
+   {"title": "单值反函数", "en": "single-valued inverse function"},
+   {"title": "单值解析分支", "en": "single-valued analytic branch"},
+   {"title": "单位圆周l≈|=1的内部|z|<1及外部|z|>1", "en": "inside |z|<1 and outside |z|>1 of the unit circle l≈|=1"},
+   {"title": "共形映射的黎曼存在与惟一性定理", "en": "Riemann's existence and uniqueness theorem for conformal mappings"},
+   {"title": "单连通区域", "en": "simply connected region"},
+   {"title": "单位圆", "en": "unit circle"}
+], 
+"relations": [
+   {"source": "z平面", "target": "圆弧AB外部区域D", "type": "包含", "description": "z平面包含圆弧AB外部区域D"},
+   {"source": "圆弧AB外部区域D", "target": "共形映射", "type": "映射为", "description": "圆弧AB外部区域D通过共形映射映射为其他区域"},
+   {"source": "共形映射", "target": "5平面", "type": "映射到", "description": "共形映射将一个区域映射到5平面"},
+   {"source": "5平面", "target": "射线arg51=π-a", "type": "去掉", "description": "5平面去掉射线arg51=π-a所成的区域"},
+   {"source": "射线arg51=π-a", "target": "区域D", "type": "成为", "description": "射线arg51=π-a所成的区域成为区域D"},
+   {"source": "分式线性变换", "target": "w平面", "type": "映射到", "description": "分式线性变换将一个区域映射到w平面"},
+   {"source": "w平面", "target": "圆周K", "type": "包含", "description": "w平面包含圆周K"},
+   {"source": "圆周K", "target": "区域G", "type": "外部区域", "description": "圆周K的外部区域是区域G"},
+   {"source": "图7,17(b')", "target": "共形映射", "type": "映射为", "description": "图7,17(b')通过共形映射映射为其他区域"},
+   {"source": "区域G", "target": "半平面区域Gi:β-π<argw?<β", "type": "映射为", "description": "区域G通过共形映射映射为半平面区域Gi: β-π<argw?<β"},
+   {"source": "图7.17(d)", "target": "圆周K", "type": "具有", "description": "图7.17(d)具有圆周K"},
+   {"source": "圆周K", "target": "圆心hi", "type": "具有", "description": "圆周K具有圆心hi"},
+   {"source": "圆周K", "target": "过一a,a两点", "type": "具有", "description": "圆周K过一a,a两点"},
+   {"source": "圆周K", "target": "在a点有切线倾角β", "type": "具有", "description": "圆周K在a点有切线倾角β"},
+   {"source": "茹科夫斯基函数", "target": "单叶性区域", "type": "具有", "description": "茹科夫斯基函数具有单叶性区域"},
+   {"source": "茹科夫斯基函数", "target": "扩充x平面", "type": "映射到", "description": "茹科夫斯基函数将扩充x平面映射到其他区域"},
+   {"source": "扩充x平面", "target": "单位圆周外部|x|>1", "type": "具有", "description": "扩充x平面具有单位圆周外部|x|>1"},
+   {"source": "茹科夫斯基函数", "target": "扩充w平面", "type": "映射到", "description": "茹科夫斯基函数将扩充w平面映射到其他区域"},
+   {"source": "扩充w平面", "target": "割线-1≤Rew≤1,Imw=0", "type": "具有", "description": "扩充w平面具有割线-1≤Rew≤1,Imw=0"},
+   {"source": "茹科夫斯基函数", "target": "单位圆|η|<1", "type": "映射为", "description": "茹科夫斯基函数将单位圆映射为其他区域"},
+   {"source": "单位圆|η|<1", "target": "D", "type": "成为", "description": "单位圆|η|<1成为区域D"},
+   {"source": "茹科夫斯基函数", "target": "单位圆周l≈|=1的内部|z|<1及外部|z|>1", "type": "映射为", "description": "茹科夫斯基函数将单位圆周l≈|=1的内部|z|<1及外部|z|>1映射为其他区域"},
+   {"source": "茹科夫斯基函数", "target": "区域D", "type": "具有", "description": "茹科夫斯基函数具有区域D"},
+   {"source": "区域D", "target": "单值反函数", "type": "映射为", "description": "区域D通过单值反函数映射为其他区域"},
+   {"source": "区域D", "target": "单位圆周l≈|=1的内部|z|<1及外部|z|>1", "type": "共形映射", "description": "区域D通过共形映射映射为单位圆周l≈|=1的内部|z|<1及外部|z|>1"},
+   {"source": "共形映射的黎曼存在与惟一性定理", "target": "单连通区域D", "type": "共形映射成", "description": "单连通区域D能共形映射成其他区域"},
+   {"source": "单连通区域D", "target": "单位圆", "type": "共形映射成", "description": "单连通区域D能共形映射成单位圆"}
+] 
+}{
+"knowledge_points": [
+   {"title": "惟一性条件", "en": "Uniqueness condition"},
+   {"title": "单连通区域", "en": "Simply connected domain"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "边界点", "en": "Boundary point"},
+   {"title": "施瓦茨引理", "en": "Schwarz's lemma"},
+   {"title": "黎曼定理", "en": "Riemann's theorem"},
+   {"title": "单叶解析函数", "en": "Analytic function"},
+   {"title": "单位圆", "en": "Unit circle"},
+   {"title": "映射的存在性", "en": "Existence of mapping"}
+],
+"relations": [
+   {"source": "惟一性条件", "target": "单连通区域", "type": "几何意义是", "description": "指定a∈D变成单位圆的圆心,而在点a的旋转角argf'(a)=0"},
+   {"source": "惟一性条件", "target": "单连通区域", "type": "一般情形", "description": "可表示成f(a)=b,argf'(a)=a"},
+   {"source": "惟一性条件", "target": "单连通区域", "type": "边界均是周线的情形", "description": "可表示成f(a)=b,f(ξ)=η"},
+   {"source": "惟一性条件", "target": "单连通区域", "type": "边界点的位置确定", "description": "可用一个实参数来确定"},
+   {"source": "施瓦茨引理", "target": "黎曼定理", "type": "证明", "description": "利用施瓦茨引理来证明黎曼定理的惟一性部分"},
+   {"source": "单叶解析函数", "target": "映射的存在性", "type": "假设", "description": "设单叶解析函数w?=f?(x)也适合条件(7.19),并把单连通区域D共形映射成单位圆|w?|<1"},
+   {"source": "映射的存在性", "target": "单连通区域", "type": "存在性", "description": "存在满足指定条件的映射"},
+   {"source": "映射的存在性", "target": "单连通区域", "type": "映射的性质", "description": "满足条件的映射将D映射为单位圆|w|<1"}
+]
+}{
+"knowledge_points": [
+   {"title": "单叶解析函数", "en": "Analytic function"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "单位圆", "en": "Unit circle"},
+   {"title": "黎曼存在与惟一性定理", "en": "Riemann existence and uniqueness theorem"},
+   {"title": "复合函数", "en": "Composite function"},
+   {"title": "刘维尔定理", "en": "Liouville's theorem"},
+   {"title": "边界对应定理", "en": "Boundary correspondence theorem"},
+   {"title": "辐角原理", "en": "Argument principle"}
+],
+"relations": [
+   {"source": "单叶解析函数", "target": "共形映射", "type": "把","description":"将单连通区域共形映射成另一个区域"},
+   {"source": "单叶解析函数", "target": "单位圆", "type": "把","description":"将单连通区域共形映射成单位圆"},
+   {"source": "黎曼存在与惟一性定理", "target": "单叶解析函数", "type": "是","description":"保证单叶解析函数的存在和唯一性"},
+   {"source": "复合函数", "target": "单叶解析函数", "type": "是","description":"由单叶解析函数构成的函数"},
+   {"source": "刘维尔定理", "target": "复合函数", "type": "是","description":"复合函数是常数"},
+   {"source": "非常数的解析函数", "target": "单叶性", "type": "具有","description":"非常数的解析函数是单叶的"},
+   {"source": "边界对应定理", "target": "单连通区域", "type": "将","description":"将单连通区域共形映射成另一个区域"},
+   {"source": "边界对应定理", "target": "边界", "type": "将","description":"将边界映射成另一个边界"},
+   {"source": "边界对应定理", "target": "连续", "type": "在","description":"在共形映射的边界上连续"},
+   {"source": "边界对应定理", "target": "双值", "type": "将","description":"将边界上的点映射成另一个边界上的点，并且是双值的"},
+   {"source": "边界对应定理", "target": "连续", "type": "将","description":"将边界上的点连续地映射成另一个边界上的点"},
+   {"source": "边界对应定理", "target": "边界对应定理", "type": "是","description":"边界对应定理的逆定理"},
+   {"source": "边界对应定理", "target": "解析函数", "type": "判断","description":"判断解析函数的单叶性的充分条件"},
+   {"source": "辐角原理", "target": "边界对应定理", "type": "应用","description":"应用辐角原理来证明边界对应定理"},
+   {"source": "辐角原理", "target": "集合等式", "type": "证明","description":"用辐角原理证明集合等式"},
+   {"source": "辐角原理", "target": "共形映射", "type": "证明","description":"用辐角原理证明共形映射"},
+   {"source": "辐角原理", "target": "边界对应定理", "type": "证明","description":"用辐角原理证明边界对应定理"}
+]
+}{
+"knowledge_points": [
+   {"title": "解析延拓", "en": "Analytic continuation"},
+   {"title": "幂级数延拓", "en": "Power series extension"},
+   {"title": "完全解析函数", "en": "Holomorphic function"},
+   {"title": "黎曼面", "en": "Riemann surface"},
+   {"title": "解析函数元素", "en": "Analytic function element"},
+   {"title": "相交区域的解析延拓原理", "en": "Principle of analytic continuation in intersecting regions"},
+   {"title": "互为直接解析延拓", "en": "Mutual direct analytic continuation"}
+],
+"relations": [
+   {"source": "解析延拓", "target": "幂级数延拓", "type": "包含", "description": "解析延拓可以通过幂级数延拓实现"},
+   {"source": "解析延拓", "target": "对称原理", "type": "包含", "description": "解析延拓可以通过对称原理实现"},
+   {"source": "解析延拓", "target": "完全解析函数", "type": "包含", "description": "解析延拓可以得到完全解析函数"},
+   {"source": "解析延拓", "target": "黎曼面", "type": "包含", "description": "解析延拓可以得到黎曼面"},
+   {"source": "解析延拓", "target": "解析函数元素", "type": "包含", "description": "解析延拓是解析函数元素的一种特殊情况"},
+   {"source": "相交区域的解析延拓原理", "target": "解析延拓", "type": "实现", "description": "相交区域的解析延拓原理可以实现解析延拓"},
+   {"source": "互为直接解析延拓", "target": "解析函数元素", "type": "实现", "description": "互为直接解析延拓是解析函数元素的一种实现方式"}
+]
+}{
+"knowledge_points": [
+   {"title": "解析函数元素集", "en": "Set of analytic function elements"},
+   {"title": "解析延拓", "en": "Analytic continuation"},
+   {"title": "幂级数法", "en": "Power series method"},
+   {"title": "收敛半径", "en": "Radius of convergence"},
+   {"title": "奇点", "en": "Singularity"}
+], 
+"relations": [
+   {"source": "解析函数元素集", "target": "解析延拓", "type": "包含","description":"解析函数元素集包含解析延拓"},
+   {"source": "解析延拓", "target": "解析函数元素", "type": "直接解析延拓","description":"解析延拓是解析函数元素的直接延拓"},
+   {"source": "解析函数元素", "target": "解析延拓", "type": "直接解析延拓","description":"解析函数元素是解析延拓的直接延拓"},
+   {"source": "解析函数元素", "target": "解析延拓", "type": "间接解析延拓","description":"解析函数元素是解析延拓的间接延拓"},
+   {"source": "解析延拓", "target": "解析函数元素", "type": "间接解析延拓","description":"解析延拓是解析函数元素的间接延拓"},
+   {"source": "解析函数元素", "target": "幂级数法", "type": "使用","description":"解析函数元素使用幂级数法"},
+   {"source": "幂级数法", "target": "解析延拓", "type": "求解析延拓","description":"幂级数法用于求解析延拓"},
+   {"source": "解析函数元素", "target": "收敛半径", "type": "具有","description":"解析函数元素具有收敛半径"},
+   {"source": "收敛半径", "target": "解析函数元素", "type": "定义","description":"收敛半径是解析函数元素的定义"},
+   {"source": "解析延拓", "target": "奇点", "type": "包含","description":"解析延拓包含奇点"}
+] 
+}{
+"knowledge_points": [
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "幂级数", "en": "Power series"},
+   {"title": "收敛圆", "en": "Convergence circle"},
+   {"title": "奇点", "en": "Singularity"},
+   {"title": "解析延拓", "en": "Analytic extension"},
+   {"title": "对称原理", "en": "Symmetry principle"},
+   {"title": "有理函数", "en": "Rational function"},
+   {"title": "极点", "en": "Pole"}
+], 
+"relations": [
+   {"source": "解析函数", "target": "幂级数", "type": "包含","description":"解析函数可以用幂级数展开"},
+   {"source": "解析函数", "target": "收敛圆", "type": "存在于","description":"解析函数的收敛圆内定义"},
+   {"source": "解析函数", "target": "奇点", "type": "存在于","description":"解析函数至少有一个奇点"},
+   {"source": "解析函数", "target": "解析延拓", "type": "可以进行","description":"解析函数可以沿任意方向进行解析延拓"},
+   {"source": "解析函数", "target": "对称原理", "type": "适用于","description":"解析函数的对称原理可以用于解析延拓"},
+   {"source": "有理函数", "target": "奇点", "type": "存在于","description":"有理函数的奇点是它的极点"},
+   {"source": "有理函数", "target": "解析延拓", "type": "可以进行","description":"有理函数可以沿任意不穿过极点的曲线进行解析延拓"}
+] 
+}{
+"knowledge_points": [
+   {"title": "潘勒韦连续延拓原理", "en": "Painlevé continuous extension principle"},
+   {"title": "解析函数元素", "en": "analytic function element"},
+   {"title": "透弧直接解析延拓", "en": "direct analytic extension through arc"},
+   {"title": "黎曼-施瓦茨对称原理", "en": "Riemann-Schwarz symmetry principle"},
+   {"title": "共形映射", "en": "conformal mapping"}
+],
+"relations": [
+   {"source": "潘勒韦连续延拓原理", "target": "解析函数元素", "type": "满足", "description": "两个解析函数元素满足潘勒韦连续延拓原理"},
+   {"source": "透弧直接解析延拓", "target": "解析函数元素", "type": "互为", "description": "满足定理8.2条件的两个解析函数元素互为透弧直接解析延拓"},
+   {"source": "黎曼-施瓦茨对称原理", "target": "解析函数元素", "type": "透过弧", "description": "D'内的解析函数元素是D内解析函数元素透过弧S的直接解析延拓"},
+   {"source": "黎曼-施瓦茨对称原理", "target": "共形映射", "type": "引入", "description": "对称原理引入共形映射"}
+]
+}{
+"knowledge_points": [
+   {"title": "G", "en": "G"},
+   {"title": "G*", "en": "G*"},
+   {"title": "w平面", "en": "w plane"},
+   {"title": "上半平面", "en": "upper half-plane"},
+   {"title": "下半平面", "en": "lower half-plane"},
+   {"title": "u轴", "en": "u-axis"},
+   {"title": "线段T", "en": "line segment T"},
+   {"title": "w=f(x)", "en": "w=f(x)"},
+   {"title": "D", "en": "D"},
+   {"title": "S", "en": "S"},
+   {"title": "连续", "en": "continuous"},
+   {"title": "共形映射", "en": "conformal mapping"},
+   {"title": "函数w=F(z)", "en": "function w=F(z)"},
+   {"title": "D*", "en": "D*"},
+   {"title": "GG", "en": "GG"},
+   {"title": "T", "en": "T"},
+   {"title": "G'", "en": "G'"},
+   {"title": "定理8.3", "en": "Theorem 8.3"},
+   {"title": "单叶解析", "en": "analytic and one-to-one"},
+   {"title": "弧S", "en": "arc S"},
+   {"title": "直接解析延拓", "en": "direct analytic continuation"},
+   {"title": "定理8.5", "en": "Theorem 8.5"},
+   {"title": "d", "en": "d"},
+   {"title": "圆弧", "en": "arc"},
+   {"title": "直线段", "en": "line segment"},
+   {"title": "s", "en": "s"},
+   {"title": "g", "en": "g"},
+   {"title": "g'", "en": "g'"},
+   {"title": "w=f?(z)", "en": "w=f?(z)"},
+   {"title": "ξ", "en": "ξ"},
+   {"title": "平面", "en": "plane"},
+   {"title": "实轴", "en": "real axis"},
+   {"title": "线段S", "en": "line segment S"},
+   {"title": "线段T", "en": "line segment T"},
+   {"title": "D'", "en": "D'"},
+   {"title": "函数w=fi(5)", "en": "function w=fi(5)"},
+   {"title": "G*", "en": "G*"},
+   {"title": "变量x与w", "en": "variables x and w"},
+   {"title": "g'", "en": "g'"},
+   {"title": "对称原理", "en": "symmetry principle"}
+], 
+"relations": [
+   {"source": "G", "target": "G*", "type": "关于对称", "description": "关于u轴对称"},
+   {"source": "G", "target": "上半平面", "type": "包含", "description": "在上半平面"},
+   {"source": "G*", "target": "下半平面", "type": "包含", "description": "在下半平面"},
+   {"source": "G", "target": "线段T", "type": "边界包含", "description": "边界都包含u轴上一条线段T"},
+   {"source": "w=f(x)", "target": "D", "type": "共形映射", "description": "将D共形映射成G"},
+   {"source": "w=f(x)", "target": "S", "type": "一一变换", "description": "将S一一变换成T=f(S)"},
+   {"source": "w=F(z)", "target": "D+S+D*", "type": "单叶解析", "description": "在区域D+S+D*内单叶解析"},
+   {"source": "w=F(z)", "target": "G+T+G'", "type": "共形映射", "description": "将区域D+S+D*共形映射成GG+T+G'"},
+   {"source": "w=F(z)", "target": "D", "type": "相等", "description": "在D内,F(z)=f(z)"},
+   {"source": "w=F(z)", "target": "D'", "type": "相等", "description": "在D'内,F(x)=f(Z)"},
+   {"source": "w=F(z)", "target": "D+S+D'", "type": "单叶解析", "description": "在D+S+D'内单叶解析"},
+   {"source": "w=F(z)", "target": "G+T+G*", "type": "共形映射", "description": "将D+S+D*共形映射成G+T+G*"},
+   {"source": "定理8.5", "target": "d", "type": "包含", "description": "d是z平面上关于圆弧或直线段s对称的区域"},
+   {"source": "定理8.5", "target": "d'", "type": "包含", "description": "d'是z平面上关于圆弧或直线段s对称的区域"},
+   {"source": "定理8.5", "target": "g", "type": "包含", "description": "g是w平面上关于圆弧或直线段t对称的区域"},
+   {"source": "定理8.5", "target": "g'", "type": "包含", "description": "g'是w平面上关于圆弧或直线段t对称的区域"},
+   {"source": "w=f?(z)", "target": "d", "type": "单叶解析", "description": "w=f?(z)在d内单叶解析"},
+   {"source": "w=f?(z)", "target": "d+s", "type": "连续", "description": "w=f?(z)在d+s上连续"},
+   {"source": "w=f?(z)", "target": "d", "type": "共形映射", "description": "将d共形映射成g"},
+   {"source": "w=f?(z)", "target": "s", "type": "一一变换", "description": "把s一一地变换成t=fi(s)"},
+   {"source": "w=F(z)", "target": "d+s+d'", "type": "单叶解析", "description": "w=F(z)在区域d+s+d'内单叶解析"},
+   {"source": "w=F(z)", "target": "g+t+g'", "type": "共形映射", "description": "将区域d+s+d'共形映射成g+t+g'"},
+   {"source": "w=F(z)", "target": "d", "type": "相等", "description": "在d内F(z)=f?(z)"},
+   {"source": "w=F(z)", "target": "d'", "type": "相等", "description": "在d'内F(x)=f?(x)"},
+   {"source": "w=fi(5)", "target": "D'", "type": "共形映射", "description": "(D',fi(5)}是(D,fi(5)}透过弧S的直接解析延拓"},
+   {"source": "w=fi(5)", "target": "G*", "type": "共形映射", "description": "w=fi(5)将D'共形映射成G*"},
+   {"source": "w=fi(5)", "target": "D+S+D*", "type": "单叶解析", "description": "函数在D+S+D*内单叶解析"},
+   {"source": "w=fi(5)", "target": "G+T+G*", "type": "共形映射", "description": "函数将D+S+D*共形射成G+T+G*"},
+   {"source": "w=fi(5)", "target": "d'", "type": "单叶解析", "description": "函数它在d'内单叶解析"},
+   {"source": "w=fi(5)", "target": "g'", "type": "共形映射", "description": "函数将d'共形映射成g'"},
+   {"source": "w=f?(z)", "target": "g'", "type": "单叶解析", "description": "函数它在d'内单叶解析"},
+   {"source": "w=f?(z)", "target": "g", "type": "共形映射", "description": "函数将d'共形映射成g关于t对称"}
+] 
+}{
+"knowledge_points": [
+   {"title": "上半平面", "en": "Upper half-plane"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "割缝", "en": "Slit"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "解析延拓", "en": "Analytic continuation"},
+   {"title": "完全解析函数", "en": "Entire function"},
+   {"title": "自然边界", "en": "Natural boundary"},
+   {"title": "奇点", "en": "Singularity"}
+],
+"relations": [
+   {"source": "上半平面", "target": "共形映射", "type": "包含", "description": "上半平面可以通过共形映射映射到其他区域"},
+   {"source": "上半平面", "target": "割缝", "type": "包含", "description": "上半平面中有一条割缝"},
+   {"source": "割缝", "target": "共形映射", "type": "作用于", "description": "割缝可以通过共形映射映射到其他区域"},
+   {"source": "解析函数", "target": "解析延拓", "type": "包含", "description": "解析函数可以通过解析延拓扩展其定义区域"},
+   {"source": "解析延拓", "target": "完全解析函数", "type": "组成", "description": "解析延拓可以组成完全解析函数"},
+   {"source": "完全解析函数", "target": "自然边界", "type": "具有", "description": "完全解析函数具有自然边界"},
+   {"source": "自然边界", "target": "奇点", "type": "组成", "description": "自然边界由奇点组成"}
+]
+}{
+"knowledge_points": [
+   {"title": "单值性定理", "en": "Uniqueness Theorem"},
+   {"title": "完全解析函数", "en": "Holomorphic function"},
+   {"title": "解析延拓", "en": "Analytic continuation"},
+   {"title": "多值函数", "en": "Multivalued function"},
+   {"title": "单连通区域", "en": "Simply connected domain"},
+   {"title": "周线", "en": "Closed curve"},
+   {"title": "圆心", "en": "Center of a circle"},
+   {"title": "泰勒级数", "en": "Taylor series"},
+   {"title": "弦", "en": "Chord"},
+   {"title": "多边形", "en": "Polygon"},
+   {"title": "三角形", "en": "Triangle"},
+   {"title": "序列", "en": "Sequence"},
+   {"title": "边界点", "en": "Boundary point"},
+   {"title": "支点", "en": "Branch point"},
+   {"title": "多值解析函数", "en": "Multivalued analytic function"},
+   {"title": "单值解析分支", "en": "Single-valued analytic branch"},
+   {"title": "多值性奇点", "en": "Multivalued singularity"},
+   {"title": "可去奇点", "en": "Removable singularity"},
+   {"title": "极点", "en": "Pole"},
+   {"title": "本质奇点", "en": "Essential singularity"},
+   {"title": "非孤立的奇点", "en": "Non-isolated singularity"}
+], 
+"relations": [
+   {"source": "单值性定理", "target": "完全解析函数", "type": "是", "description": "单值性定理是关于完全解析函数的性质"},
+   {"source": "单值性定理", "target": "单连通区域", "type": "在", "description": "单值性定理适用于单连通区域"},
+   {"source": "单值性定理", "target": "解析延拓", "type": "涉及", "description": "单值性定理涉及到解析延拓的概念"},
+   {"source": "单值性定理", "target": "多值函数", "type": "判断", "description": "单值性定理用于判断函数是否为多值函数"},
+   {"source": "单值性定理", "target": "周线", "type": "连接", "description": "单值性定理中涉及到连接两点的周线"},
+   {"source": "单值性定理", "target": "圆心", "type": "在", "description": "单值性定理中涉及到圆心的概念"},
+   {"source": "单值性定理", "target": "泰勒级数", "type": "表示成", "description": "单值性定理中将函数表示成泰勒级数"},
+   {"source": "单值性定理", "target": "弦", "type": "用", "description": "单值性定理中使用弦来代替曲线"},
+   {"source": "单值性定理", "target": "多边形", "type": "由", "description": "单值性定理中的折线由多边形组成"},
+   {"source": "单值性定理", "target": "三角形", "type": "由", "description": "单值性定理中的折线由三角形组成"},
+   {"source": "单值性定理", "target": "序列", "type": "得到", "description": "单值性定理中通过序列得到三角形"},
+   {"source": "单值性定理", "target": "边界点", "type": "在", "description": "单值性定理中涉及到边界点"},
+   {"source": "单值性定理", "target": "支点", "type": "是", "description": "单值性定理中的多值函数具有支点"},
+   {"source": "多值解析函数", "target": "支点", "type": "具有", "description": "多值解析函数具有支点"},
+   {"source": "多值解析函数", "target": "单值解析分支", "type": "可以有", "description": "多值解析函数可以有单值解析分支"},
+   {"source": "多值解析函数", "target": "多值性奇点", "type": "是", "description": "多值解析函数是多值性奇点"},
+   {"source": "多值解析函数", "target": "可去奇点", "type": "可以是", "description": "多值解析函数的支点可以是可去奇点"},
+   {"source": "多值解析函数", "target": "极点", "type": "可以是", "description": "多值解析函数的支点可以是极点"},
+   {"source": "多值解析函数", "target": "本质奇点", "type": "可以是", "description": "多值解析函数的支点可以是本质奇点"},
+   {"source": "多值解析函数", "target": "非孤立的奇点", "type": "可以是", "description": "多值解析函数的支点可以是非孤立的奇点"}
+] 
+}{
+"knowledge_points": [
+   {"title": "多值解析函数", "en": "Multivalued analytic function"},
+   {"title": "黎曼面", "en": "Riemann surface"},
+   {"title": "支点", "en": "Branch point"},
+   {"title": "支割线", "en": "Branch cut"},
+   {"title": "单值解析函数", "en": "Single-valued analytic function"}
+], 
+"relations": [
+   {"source": "多值解析函数", "target": "黎曼面", "type": "具有","description":"多值解析函数具有黎曼面的性质"},
+   {"source": "黎曼面", "target": "支点", "type": "具有","description":"黎曼面上存在支点"},
+   {"source": "黎曼面", "target": "支割线", "type": "具有","description":"黎曼面上存在支割线"},
+   {"source": "黎曼面", "target": "单值解析函数", "type": "可以成为","description":"黎曼面上的多值解析函数可以成为单值解析函数"}
+] 
+}{
+"knowledge_points": [
+   {"title": "单值解析", "en": "Single-valued analytic"},
+   {"title": "连续延拓", "en": "Continuous extension"},
+   {"title": "黎曼面", "en": "Riemann surface"},
+   {"title": "支点", "en": "Branch point"},
+   {"title": "解析点", "en": "Analytic point"},
+   {"title": "泰勒级数", "en": "Taylor series"}
+], 
+"relations": [
+   {"source": "单值解析", "target": "连续延拓", "type": "包含", "description": "单值解析函数可以通过连续延拓得到多值函数"},
+   {"source": "连续延拓", "target": "黎曼面", "type": "构成", "description": "连续延拓可以构成黎曼面"},
+   {"source": "黎曼面", "target": "支点", "type": "包含", "description": "黎曼面上存在支点"},
+   {"source": "黎曼面", "target": "解析点", "type": "包含", "description": "黎曼面上存在解析点"},
+   {"source": "解析点", "target": "泰勒级数", "type": "应用", "description": "解析点附近的函数可以展开为泰勒级数"}
+] 
+}{
+"knowledge_points": [
+   {"title": "多角形区域", "en": "Polygonal region"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "克里斯托费尔-施瓦茨变换", "en": "Christoffel-Schwarz transformation"},
+   {"title": "上半平面", "en": "Upper half-plane"},
+   {"title": "实轴", "en": "Real axis"},
+   {"title": "顶点", "en": "Vertices"},
+   {"title": "解析式", "en": "Analytical expression"},
+   {"title": "对称原理", "en": "Symmetry principle"},
+   {"title": "解析延拓", "en": "Analytic continuation"},
+   {"title": "单值解析分支", "en": "Single-valued analytic branch"},
+   {"title": "平移", "en": "Translation"},
+   {"title": "旋转", "en": "Rotation"}
+], 
+"relations": [
+   {"source": "多角形区域", "target": "共形映射", "type": "包含", "description": "多角形区域可以通过共形映射进行变换"},
+   {"source": "共形映射", "target": "上半平面", "type": "映射到", "description": "共形映射可以将上半平面映射到其他区域"},
+   {"source": "克里斯托费尔-施瓦茨变换", "target": "多角形区域", "type": "共形映射", "description": "克里斯托费尔-施瓦茨变换可以将上半平面共形映射成预先给定的一个多角形区域"},
+   {"source": "克里斯托费尔-施瓦茨变换", "target": "实轴", "type": "对应于", "description": "克里斯托费尔-施瓦茨变换将实轴上的点映射到多角形区域的顶点"},
+   {"source": "解析式", "target": "多角形区域", "type": "描述", "description": "解析式可以描述多角形区域"},
+   {"source": "对称原理", "target": "解析延拓", "type": "应用", "description": "对称原理可以应用于解析延拓"},
+   {"source": "解析延拓", "target": "上半平面", "type": "共形映射", "description": "解析延拓可以将下半平面共形映射为与多角形区域关于对称线段对称的多角形"},
+   {"source": "解析延拓", "target": "解析式", "type": "得到", "description": "解析延拓可以得到解析式"},
+   {"source": "单值解析分支", "target": "解析延拓", "type": "关联", "description": "单值解析分支与解析延拓有简单的关系"},
+   {"source": "平移", "target": "旋转", "type": "组合", "description": "平移和旋转可以组合成对称变换"}
+] 
+}{
+"knowledge_points": [
+   {"title": "分式线性变换", "en": "Fractional linear transformation"},
+   {"title": "保圆周性", "en": "Preservation of circles"},
+   {"title": "交角", "en": "Angle of intersection"},
+   {"title": "反演变换", "en": "Inversion transformation"},
+   {"title": "圆弧", "en": "Arc"},
+   {"title": "保角", "en": "Preservation of angles"},
+   {"title": "退化情形", "en": "Degenerate case"},
+   {"title": "顶点", "en": "Vertex"},
+   {"title": "无穷远点", "en": "Infinity point"},
+   {"title": "像", "en": "Image"},
+   {"title": "共形映射", "en": "Conformal mapping"},
+   {"title": "克里斯托费尔-施瓦茨积分", "en": "Christoffel-Schwarz integral"},
+   {"title": "多角形", "en": "Polygon"}
+], 
+"relations": [
+   {"source": "分式线性变换", "target": "保圆周性", "type": "相关","description":"分式线性变换可以保持圆周的性质"},
+   {"source": "分式线性变换", "target": "保角", "type": "相关","description":"分式线性变换可以保持角度的大小"},
+   {"source": "交角", "target": "无穷远点", "type": "相关","description":"两条直线在无穷远点的交角等于它们在有限点的交角反号"},
+   {"source": "反演变换", "target": "圆弧", "type": "相关","description":"反演变换后得到的像曲线为圆弧"},
+   {"source": "圆弧", "target": "交角", "type": "相关","description":"圆弧在两交点处的交角必互为相反数"},
+   {"source": "退化情形", "target": "分式线性变换", "type": "相关","description":"退化情形可以通过分式线性变换来处理"},
+   {"source": "退化情形", "target": "顶点", "type": "相关","description":"退化情形中的多角形有一个顶点是无穷远点的像"},
+   {"source": "共形映射", "target": "顶点", "type": "相关","description":"共形映射可以将多角形的顶点映射到其他点"},
+   {"source": "克里斯托费尔-施瓦茨积分", "target": "退化情形", "type": "相关","description":"克里斯托费尔-施瓦茨积分公式在退化情形中仍然有效"},
+   {"source": "多角形", "target": "顶点", "type": "相关","description":"多角形由顶点组成"}
+] 
+}{
+"knowledge_points": [
+   {"title": "调和函数", "en": "Harmonic function"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "柯西积分公式", "en": "Cauchy's integral formula"},
+   {"title": "泊松积分公式", "en": "Poisson's integral formula"},
+   {"title": "平均值定理", "en": "Mean value theorem"},
+   {"title": "极值原理", "en": "Extreme value principle"},
+   {"title": "狄利克雷问题", "en": "Dirichlet problem"}
+],
+"relations": [
+   {"source": "调和函数", "target": "解析函数", "type": "类似性质", "description": "调和函数与解析函数有某些类似的性质"},
+   {"source": "解析函数", "target": "柯西积分公式", "type": "性质相类似", "description": "解析函数有柯西积分公式，调和函数有类似的泊松积分公式"},
+   {"source": "调和函数", "target": "平均值定理", "type": "类似结果", "description": "调和函数有类似于解析函数的平均值定理"},
+   {"source": "调和函数", "target": "极值原理", "type": "类似结果", "description": "调和函数有类似于解析函数的极值原理"},
+   {"source": "单位圆内和上半平面内狄利克雷问题的解", "target": "泊松积分公式", "type": "应用", "description": "单位圆内和上半平面内狄利克雷问题的解可以使用泊松积分公式"}
+]
+}{
+"knowledge_points": [
+   {"title": "调和函数", "en": "Harmonic function"},
+   {"title": "解析函数", "en": "Analytic function"},
+   {"title": "狄利克雷问题", "en": "Dirichlet problem"},
+   {"title": "拉普拉斯方程", "en": "Laplace's equation"},
+   {"title": "边值问题", "en": "Boundary value problem"},
+   {"title": "第一边值问题", "en": "First boundary value problem"},
+   {"title": "惟一性定理", "en": "Uniqueness theorem"},
+   {"title": "单位圆", "en": "Unit circle"},
+   {"title": "泊松积分", "en": "Poisson's integral"},
+   {"title": "施瓦茨积分", "en": "Schwarz integral"}
+], 
+"relations": [
+   {"source": "调和函数", "target": "解析函数", "type": "类似性质","description":"调和函数和解析函数都是特定类型的函数"},
+   {"source": "狄利克雷问题", "target": "拉普拉斯方程", "type": "包含关系","description":"狄利克雷问题是拉普拉斯方程的一种特定形式"},
+   {"source": "边值问题", "target": "狄利克雷问题", "type": "包含关系","description":"狄利克雷问题是边值问题的一种特定形式"},
+   {"source": "第一边值问题", "target": "狄利克雷问题", "type": "包含关系","description":"狄利克雷问题是第一边值问题的一种特定形式"},
+   {"source": "惟一性定理", "target": "狄利克雷问题", "type": "定理","description":"惟一性定理说明狄利克雷问题的解是唯一的"},
+   {"source": "单位圆", "target": "狄利克雷问题", "type": "特定区域","description":"狄利克雷问题可以在单位圆内求解"},
+   {"source": "泊松积分", "target": "单位圆", "type": "解的关系","description":"泊松积分是单位圆内狄利克雷问题的解"},
+   {"source": "施瓦茨积分", "target": "泊松积分", "type": "特定积分","description":"施瓦茨积分是泊松积分中的一种类型"}
+] 
+}{
+"knowledge_points": [
+   {"title": "实轴", "en": "real axis"},
+   {"title": "上半平面", "en": "upper half-plane"},
+   {"title": "调和函数", "en": "harmonic function"},
+   {"title": "共形映射", "en": "conformal mapping"},
+   {"title": "单位圆", "en": "unit circle"},
+   {"title": "分式线性变换", "en": "fractional linear transformation"},
+   {"title": "平均值定理", "en": "mean value theorem"},
+   {"title": "泊松积分公式", "en": "Poisson integral formula"},
+   {"title": "狄利克雷问题", "en": "Dirichlet problem"},
+   {"title": "边值问题", "en": "boundary value problem"},
+   {"title": "导体", "en": "conductor"}
+], 
+"relations": [
+   {"source": "实轴", "target": "上半平面", "type": "在", "description": "实轴上的点通过共形映射映射到上半平面"},
+   {"source": "上半平面", "target": "单位圆", "type": "共形映射成", "description": "上半平面通过分式线性变换共形映射成单位圆"},
+   {"source": "实轴", "target": "调和函数", "type": "满足", "description": "实轴上的点对应的调和函数满足平均值定理"},
+   {"source": "单位圆", "target": "泊松积分公式", "type": "应用", "description": "单位圆上的泊松积分公式是解决上半平面狄利克雷问题的工具"},
+   {"source": "泊松积分公式", "target": "狄利克雷问题", "type": "是", "description": "泊松积分公式是解决狄利克雷问题的方法"},
+   {"source": "边值问题", "target": "调和函数", "type": "求解", "description": "边值问题可以通过求解调和函数来得到解"},
+   {"source": "导体", "target": "边值问题", "type": "定义", "description": "导体问题可以看作是一个边值问题"}
+] 
+}
